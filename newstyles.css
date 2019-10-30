@@ -51,44 +51,56 @@
   padding: 4px 10px !important;
 }
 
+/* top bar height fix */
+#yui-gen2,
+#yui-gen12,
+#yui-gen22,
+#yui-gen32 {
+  height: 130px !important;
+}
+
+#yui-gen5,
+#yui-gen15,
+#yui-gen25,
+#yui-gen35,
+#yui-gen8,
+#yui-gen18,
+#yui-gen28,
+#yui-gen38 {
+  top: 130px !important;
+}
+
+/* //top bar height fix */
 /* top */
+#yui-gen1,
+#yui-gen11,
+#yui-gen21,
+#yui-gen31 {
+  height: 130px !important;
+}
+
 #yui-gen1 #header img,
 #yui-gen11 #header img,
 #yui-gen21 #header img,
 #yui-gen31 #header img {
-  height: 55px !important;
-  max-height: 55px !important;
-  margin-left: 310px !important;
-  margin-top: 10px !important;
+  height: 75px !important;
+  max-height: 75px !important;
+  margin-left: 25px !important;
+  margin-top: 15px !important;
 }
 
 #yui-gen1 .operator,
 #yui-gen11 .operator,
 #yui-gen21 .operator,
 #yui-gen31 .operator {
-  top: 0;
+  top: inherit;
+  background: #b4d62b;
+  width: 100%;
   left: 0;
-  color: #000 !important;
-  padding: 10px 25px 15px 15px;
-  z-index: 10;
-}
-
-#yui-gen1 .operator::after,
-#yui-gen11 .operator::after,
-#yui-gen21 .operator::after,
-#yui-gen31 .operator::after {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: -40px;
-  width: 330px;
-  height: 66px;
-  z-index: -2;
-  -webkit-transform: skewX(-21deg);
-          transform: skewX(-21deg);
-  background: #f2f2f2;
-  -webkit-box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.3);
-          box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.3);
+  padding-left: 10px;
+  color: #fff !important;
+  bottom: 0px !important;
+  padding-bottom: 3px;
 }
 
 #yui-gen1 .operator .operatorPanel a,
@@ -115,9 +127,17 @@
 #yui-gen31 .operator .operatorName,
 #yui-gen31 .operator .operatorLabel a,
 #yui-gen31 .operator .operatorLabel {
-  font-size: 15px;
-  color: #000 !important;
+  font-size: 12px !important;
+  color: #fff !important;
   line-height: 16px !important;
+}
+
+#yui-gen1 .operator .operatorPanel tr,
+#yui-gen11 .operator .operatorPanel tr,
+#yui-gen21 .operator .operatorPanel tr,
+#yui-gen31 .operator .operatorPanel tr {
+  display: inline-block;
+  padding-right: 30px;
 }
 
 #yui-gen1 .sellnet,
@@ -126,21 +146,32 @@
 #yui-gen31 .sellnet {
   right: 15px !important;
   left: inherit !important;
+  top: 96px;
 }
 
 #yui-gen1 .sellnet .inplaceStyle,
 #yui-gen11 .sellnet .inplaceStyle,
 #yui-gen21 .sellnet .inplaceStyle,
 #yui-gen31 .sellnet .inplaceStyle {
-  background-color: #fff;
-  color: #000;
+  color: #fff;
+  background: none !important;
+}
+
+#yui-gen1 .sellnet .operatorLabel,
+#yui-gen11 .sellnet .operatorLabel,
+#yui-gen21 .sellnet .operatorLabel,
+#yui-gen31 .sellnet .operatorLabel {
+  color: #fff !important;
 }
 
 #yui-gen1 .yui-layout-bd,
 #yui-gen11 .yui-layout-bd,
 #yui-gen21 .yui-layout-bd,
 #yui-gen31 .yui-layout-bd {
-  background: #fff !important;
+  background: url(../../../../../../../../../img/header_ilp.jpg) !important;
+  background-position: top left !important;
+  background-repeat: no-repeat !important;
+  background-size: auto !important;
   border: 0 !important;
   width: 100% !important;
   height: 100% !important;
@@ -150,14 +181,14 @@
 #yui-gen11 .menu,
 #yui-gen21 .menu,
 #yui-gen31 .menu {
-  top: 5px !important;
+  top: 75px !important;
 }
 
 #yui-gen1 .menu .operatorLabel,
 #yui-gen11 .menu .operatorLabel,
 #yui-gen21 .menu .operatorLabel,
 #yui-gen31 .menu .operatorLabel {
-  color: #000;
+  color: #fff !important;
 }
 
 #yui-gen1 .menu li,
@@ -206,7 +237,7 @@
   margin-left: 0 !important;
   -webkit-box-shadow: 2px 2px 5px -2px rgba(0, 0, 0, 0.2);
           box-shadow: 2px 2px 5px -2px rgba(0, 0, 0, 0.2);
-  border: 1px solid #ccc;
+  border: 0;
 }
 
 #yui-gen1 .menu li a:hover,
@@ -383,7 +414,6 @@
 #yui-gen18,
 #yui-gen28,
 #yui-gen38 {
-  top: 92px !important;
   /* input exception */
   /* kalkulacja - ZAPIS OPERACJI */
   /* //kalkulacja - zapis operacji */
@@ -1692,6 +1722,13 @@
 
 /* //popup */
 /* bottom */
+#yui-gen3,
+#yui-gen13,
+#yui-gen23,
+#yui-gen33 {
+  z-index: 1000;
+}
+
 #yui-gen3 #bottom1,
 #yui-gen13 #bottom1,
 #yui-gen23 #bottom1,
