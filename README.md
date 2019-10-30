@@ -1,3 +1,3 @@
 # IMPULS Leasing skin for webLSP
 
-by [Krzystof Waliński](krzysztof-walinski.pl)
+by [Krzystof Waliński](http://krzysztof-walinski.pl)
