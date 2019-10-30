@@ -1,0 +1,1463 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css?family=Lato:400,700&display=swap&subset=latin-ext");
+* {
+  font-family: 'Lato' !important;
+}
+
+/* top */
+#yui-gen1 #header img,
+#yui-gen11 #header img,
+#yui-gen21 #header img {
+  height: 55px !important;
+  max-height: 55px !important;
+  margin-left: 310px !important;
+  margin-top: 10px !important;
+}
+
+#yui-gen1 .operator,
+#yui-gen11 .operator,
+#yui-gen21 .operator {
+  top: 0;
+  left: 0;
+  color: #000 !important;
+  padding: 10px 25px 15px 15px;
+  z-index: 10;
+}
+
+#yui-gen1 .operator::after,
+#yui-gen11 .operator::after,
+#yui-gen21 .operator::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -40px;
+  width: 330px;
+  height: 66px;
+  z-index: -2;
+  -webkit-transform: skewX(-21deg);
+          transform: skewX(-21deg);
+  background: #f2f2f2;
+  -webkit-box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.3);
+          box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.3);
+}
+
+#yui-gen1 .operator .operatorPanel a,
+#yui-gen1 .operator .operatorPanel,
+#yui-gen1 .operator .operatorName a,
+#yui-gen1 .operator .operatorName,
+#yui-gen1 .operator .operatorLabel a,
+#yui-gen1 .operator .operatorLabel,
+#yui-gen11 .operator .operatorPanel a,
+#yui-gen11 .operator .operatorPanel,
+#yui-gen11 .operator .operatorName a,
+#yui-gen11 .operator .operatorName,
+#yui-gen11 .operator .operatorLabel a,
+#yui-gen11 .operator .operatorLabel,
+#yui-gen21 .operator .operatorPanel a,
+#yui-gen21 .operator .operatorPanel,
+#yui-gen21 .operator .operatorName a,
+#yui-gen21 .operator .operatorName,
+#yui-gen21 .operator .operatorLabel a,
+#yui-gen21 .operator .operatorLabel {
+  font-size: 15px;
+  color: #000 !important;
+  line-height: 16px !important;
+}
+
+#yui-gen1 .sellnet,
+#yui-gen11 .sellnet,
+#yui-gen21 .sellnet {
+  right: 15px !important;
+  left: inherit !important;
+}
+
+#yui-gen1 .sellnet .inplaceStyle,
+#yui-gen11 .sellnet .inplaceStyle,
+#yui-gen21 .sellnet .inplaceStyle {
+  background-color: #fff;
+  color: #000;
+}
+
+#yui-gen1 .yui-layout-bd,
+#yui-gen11 .yui-layout-bd,
+#yui-gen21 .yui-layout-bd {
+  background: #fff !important;
+  border: 0 !important;
+  width: 100% !important;
+  height: 100% !important;
+}
+
+#yui-gen1 .menu,
+#yui-gen11 .menu,
+#yui-gen21 .menu {
+  top: 5px !important;
+}
+
+#yui-gen1 .menu .operatorLabel,
+#yui-gen11 .menu .operatorLabel,
+#yui-gen21 .menu .operatorLabel {
+  color: #000;
+}
+
+#yui-gen1 .menu li,
+#yui-gen11 .menu li,
+#yui-gen21 .menu li {
+  height: 24px !important;
+  line-height: 24px !important;
+  background: #f2f2f2;
+  margin-right: 5px;
+  border-radius: 3px;
+}
+
+#yui-gen1 .menu li:last-child a,
+#yui-gen11 .menu li:last-child a,
+#yui-gen21 .menu li:last-child a {
+  background: #444 !important;
+  color: #b4d62b !important;
+  border: 0;
+}
+
+#yui-gen1 .menu li:last-child a:hover,
+#yui-gen11 .menu li:last-child a:hover,
+#yui-gen21 .menu li:last-child a:hover {
+  color: #fff !important;
+  -webkit-transform: translateY(0);
+          transform: translateY(0);
+}
+
+#yui-gen1 .menu li:last-child a:visited,
+#yui-gen11 .menu li:last-child a:visited,
+#yui-gen21 .menu li:last-child a:visited {
+  color: #fff !important;
+}
+
+#yui-gen1 .menu li a,
+#yui-gen11 .menu li a,
+#yui-gen21 .menu li a {
+  font-size: 14px !important;
+  color: #000 !important;
+  border-radius: 3px;
+  margin-left: 0 !important;
+  -webkit-box-shadow: 2px 2px 5px -2px rgba(0, 0, 0, 0.2);
+          box-shadow: 2px 2px 5px -2px rgba(0, 0, 0, 0.2);
+  border: 1px solid #ccc;
+}
+
+#yui-gen1 .menu li a:hover,
+#yui-gen11 .menu li a:hover,
+#yui-gen21 .menu li a:hover {
+  color: #444 !important;
+  background: #eee;
+  -webkit-transform: translateY(-1px);
+          transform: translateY(-1px);
+  -webkit-box-shadow: 3px 2px 6px -2px rgba(0, 0, 0, 0.2);
+          box-shadow: 3px 2px 6px -2px rgba(0, 0, 0, 0.2);
+}
+
+#yui-gen1 .menu li a:visited,
+#yui-gen11 .menu li a:visited,
+#yui-gen21 .menu li a:visited {
+  color: #444 !important;
+}
+
+/* side menu */
+#yui-gen5 .rich-toolbar,
+#yui-gen15 .rich-toolbar,
+#yui-gen25 .rich-toolbar {
+  background: #eee !important;
+  color: #000;
+  border-bottom: 2px solid #ddd;
+  border-left: 0 !important;
+  border-right: 0 !important;
+  border-top: 0 !important;
+}
+
+#yui-gen5 .yui-layout-bd-noft,
+#yui-gen15 .yui-layout-bd-noft,
+#yui-gen25 .yui-layout-bd-noft {
+  top: 32px !important;
+}
+
+#yui-gen5 .yui-layout-clip,
+#yui-gen15 .yui-layout-clip,
+#yui-gen25 .yui-layout-clip {
+  background: #eee !important;
+}
+
+#yui-gen5 .rich-tree a,
+#yui-gen15 .rich-tree a,
+#yui-gen25 .rich-tree a {
+  font-size: 12px !important;
+  font-family: 'Lato';
+  color: #000 !important;
+  line-height: 25px !important;
+}
+
+#yui-gen5 .rich-tree-h-ic-img,
+#yui-gen15 .rich-tree-h-ic-img,
+#yui-gen25 .rich-tree-h-ic-img {
+  -webkit-filter: hue-rotate(27deg);
+          filter: hue-rotate(27deg);
+}
+
+#yui-gen5 .selectedTreeMenuNode,
+#yui-gen15 .selectedTreeMenuNode,
+#yui-gen25 .selectedTreeMenuNode {
+  font-weight: 800;
+  background-color: #eee;
+  border: 2px solid #b4d62b;
+  padding-left: 10px;
+  border-radius: 5px;
+  -webkit-box-shadow: 0 0 5px 1px rgba(0, 0, 0, 0.1);
+          box-shadow: 0 0 5px 1px rgba(0, 0, 0, 0.1);
+}
+
+#yui-gen5 #left1,
+#yui-gen15 #left1,
+#yui-gen25 #left1 {
+  background: -webkit-gradient(linear, left top, left bottom, from(#fafafa), to(rgba(255, 255, 255, 0)));
+  background: linear-gradient(to bottom, #fafafa 0%, rgba(255, 255, 255, 0) 100%);
+}
+
+#yui-gen5 #left1 a,
+#yui-gen15 #left1 a,
+#yui-gen25 #left1 a {
+  -webkit-transition: all 150ms ease-in-out;
+  transition: all 150ms ease-in-out;
+}
+
+#yui-gen5 .rich-tree-node-text a:hover,
+#yui-gen15 .rich-tree-node-text a:hover,
+#yui-gen25 .rich-tree-node-text a:hover {
+  text-decoration: none;
+  background-color: #eee;
+  color: #57626a;
+  padding: 5px 10px;
+  border-radius: 3px;
+  -webkit-transition: all 150ms ease-in-out;
+  transition: all 150ms ease-in-out;
+}
+
+#yui-gen5 .yui-layout-bd,
+#yui-gen15 .yui-layout-bd,
+#yui-gen25 .yui-layout-bd {
+  border: 0 !important;
+}
+
+#yui-gen5 .collapse,
+#yui-gen15 .collapse,
+#yui-gen25 .collapse {
+  background: #ddd !important;
+  background-image: none !important;
+  border: 1px solid #ccc;
+  border-radius: 1px;
+  height: 14px !important;
+  width: 14px !important;
+  top: 7px !important;
+  right: 4px !important;
+}
+
+#yui-gen5 .collapse::before,
+#yui-gen15 .collapse::before,
+#yui-gen25 .collapse::before {
+  content: '';
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 4px 6px 4px 0;
+  border-color: transparent #999 transparent transparent;
+  margin: 3px 4px;
+  display: block;
+}
+
+.yui-layout-clip-left {
+  background: #ddd !important;
+  border-color: #ccc !important;
+}
+
+.yui-layout-clip-left .collapse {
+  border: 1px solid #ccc !important;
+  -webkit-transform: rotate(180deg);
+          transform: rotate(180deg);
+  right: 3px !important;
+  background: #fff !important;
+  border-radius: 1px;
+  height: 14px !important;
+  width: 14px !important;
+  top: 7px !important;
+}
+
+.yui-layout-clip-left .collapse::before {
+  content: '';
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 4px 6px 4px 0;
+  border-color: transparent #999 transparent transparent;
+  margin: 3px 4px;
+  display: block;
+}
+
+/* content */
+#yui-gen8,
+#yui-gen18,
+#yui-gen28 {
+  top: 92px !important;
+  /* kalkulacja - ZAPIS OPERACJI */
+  /* //kalkulacja - zapis operacji */
+  /* rich panele - harmonijka (kalkulacje, nowa kalkulacja, kontrahent) */
+  /* -wybor produktu finansowego */
+  /* //-wybor produktu finansowego */
+  /* main content TABS */
+}
+
+#yui-gen8 .viewsourcelooklink,
+#yui-gen18 .viewsourcelooklink,
+#yui-gen28 .viewsourcelooklink {
+  padding: 3px 10px;
+  font-size: 14px;
+  cursor: pointer;
+  color: #555 !important;
+  border: 2px solid #b4d62b;
+  border-radius: 20px;
+}
+
+#yui-gen8 textarea,
+#yui-gen8 input,
+#yui-gen8 select,
+#yui-gen18 textarea,
+#yui-gen18 input,
+#yui-gen18 select,
+#yui-gen28 textarea,
+#yui-gen28 input,
+#yui-gen28 select {
+  background-image: none !important;
+}
+
+#yui-gen8 input:focus,
+#yui-gen8 textarea:focus,
+#yui-gen8 select:focus,
+#yui-gen18 input:focus,
+#yui-gen18 textarea:focus,
+#yui-gen18 select:focus,
+#yui-gen28 input:focus,
+#yui-gen28 textarea:focus,
+#yui-gen28 select:focus {
+  outline-color: #b4d62b;
+  background: rgba(0, 0, 0, 0.01);
+}
+
+#yui-gen8 input[value='Przygotuj kalkulację'],
+#yui-gen18 input[value='Przygotuj kalkulację'],
+#yui-gen28 input[value='Przygotuj kalkulację'] {
+  font-size: 18px;
+  background: #b4d62b;
+  padding: 7px 30px 9px;
+  border: 0;
+  color: #fff;
+  font-weight: 500;
+  margin: 0 10px 5px;
+  border-radius: 5px;
+  cursor: pointer;
+  -webkit-box-shadow: 0px 6px 7px -4px rgba(0, 0, 0, 0.6);
+          box-shadow: 0px 6px 7px -4px rgba(0, 0, 0, 0.6);
+  -webkit-transition: 200ms;
+  transition: 200ms;
+}
+
+#yui-gen8 input[value='Przygotuj kalkulację']:hover,
+#yui-gen18 input[value='Przygotuj kalkulację']:hover,
+#yui-gen28 input[value='Przygotuj kalkulację']:hover {
+  -webkit-transition: 200ms;
+  transition: 200ms;
+  -webkit-transform: translateY(-2px);
+          transform: translateY(-2px);
+  -webkit-box-shadow: 2px 6px 7px -4px rgba(0, 0, 0, 0.6);
+          box-shadow: 2px 6px 7px -4px rgba(0, 0, 0, 0.6);
+}
+
+#yui-gen8 .rich-toolbar,
+#yui-gen18 .rich-toolbar,
+#yui-gen28 .rich-toolbar {
+  background: #eee !important;
+  color: #000;
+  height: 50px !important;
+  border-bottom: 2px solid #ddd;
+  border-top: 0 !important;
+  border-left: 0 !important;
+  border-right: 0 !important;
+  margin-bottom: 10px;
+}
+
+#yui-gen8 .rich-toolbar-item,
+#yui-gen18 .rich-toolbar-item,
+#yui-gen28 .rich-toolbar-item {
+  font-size: 18px !important;
+  color: #000 !important;
+}
+
+#yui-gen8 .komunikat,
+#yui-gen18 .komunikat,
+#yui-gen28 .komunikat {
+  padding-left: 15px;
+  text-transform: uppercase;
+  font-size: 17px;
+}
+
+#yui-gen8 .yui-layout-bd-nohd,
+#yui-gen18 .yui-layout-bd-nohd,
+#yui-gen28 .yui-layout-bd-nohd {
+  border-top: 0 !important;
+}
+
+#yui-gen8 .yui-layout-bd,
+#yui-gen18 .yui-layout-bd,
+#yui-gen28 .yui-layout-bd {
+  border-top: 0 !important;
+  border-right: 0 !important;
+  border-bottom: 0 !important;
+  border-left: 1px solid #ddd !important;
+}
+
+#yui-gen8 #panelWorkFlowLink input[type='text'],
+#yui-gen8 #panelWorkFlowLink select,
+#yui-gen18 #panelWorkFlowLink input[type='text'],
+#yui-gen18 #panelWorkFlowLink select,
+#yui-gen28 #panelWorkFlowLink input[type='text'],
+#yui-gen28 #panelWorkFlowLink select {
+  font-size: 14px;
+  height: 26px;
+  border-radius: 3px;
+  border: 1px solid #ddd;
+  margin-bottom: 3px;
+  min-width: 250px;
+  padding-left: 5px;
+}
+
+#yui-gen8 #panelWorkFlowLink textarea,
+#yui-gen18 #panelWorkFlowLink textarea,
+#yui-gen28 #panelWorkFlowLink textarea {
+  font-size: 14px;
+  min-height: 66px;
+  border-radius: 3px;
+  border: 1px solid #ddd;
+  margin-bottom: 3px;
+  min-width: 250px;
+  padding-left: 5px;
+}
+
+#yui-gen8 fieldset,
+#yui-gen18 fieldset,
+#yui-gen28 fieldset {
+  border-radius: 5px;
+  margin: 10px;
+  max-width: 100%;
+}
+
+#yui-gen8 fieldset:nth-child(2),
+#yui-gen18 fieldset:nth-child(2),
+#yui-gen28 fieldset:nth-child(2) {
+  background: #fafafa;
+}
+
+#yui-gen8 fieldset a,
+#yui-gen8 fieldset p,
+#yui-gen18 fieldset a,
+#yui-gen18 fieldset p,
+#yui-gen28 fieldset a,
+#yui-gen28 fieldset p {
+  font-size: 15px;
+  line-height: 25px;
+}
+
+#yui-gen8 fieldset .rich-stglpanel-body .rich-tab-bottom-line,
+#yui-gen18 fieldset .rich-stglpanel-body .rich-tab-bottom-line,
+#yui-gen28 fieldset .rich-stglpanel-body .rich-tab-bottom-line {
+  text-align: left;
+}
+
+#yui-gen8 fieldset .rich-stglpanel-body .rich-tab-header,
+#yui-gen18 fieldset .rich-stglpanel-body .rich-tab-header,
+#yui-gen28 fieldset .rich-stglpanel-body .rich-tab-header {
+  font-size: 15px;
+  padding: 9px 14px 11px;
+  background: #efefef !important;
+  border: 0;
+  cursor: pointer;
+}
+
+#yui-gen8 fieldset .rich-stglpanel-body .rich-tab-active,
+#yui-gen18 fieldset .rich-stglpanel-body .rich-tab-active,
+#yui-gen28 fieldset .rich-stglpanel-body .rich-tab-active {
+  background: #fff !important;
+  padding-top: 10px !important;
+  border-top: 4px solid #b4d62b !important;
+  font-weight: 600;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+#yui-gen8 fieldset .rich-stglpanel-body .rich-tabpanel-content #basePanel,
+#yui-gen18 fieldset .rich-stglpanel-body .rich-tabpanel-content #basePanel,
+#yui-gen28 fieldset .rich-stglpanel-body .rich-tabpanel-content #basePanel {
+  width: 100%;
+}
+
+#yui-gen8 fieldset .rich-stglpanel-body .rich-tabpanel-content #basePanel tr td table,
+#yui-gen18 fieldset .rich-stglpanel-body .rich-tabpanel-content #basePanel tr td table,
+#yui-gen28 fieldset .rich-stglpanel-body .rich-tabpanel-content #basePanel tr td table {
+  width: 100%;
+}
+
+#yui-gen8 fieldset .rich-stglpanel-body .rich-tabpanel-content #basePanel tr td table td:first-child,
+#yui-gen18 fieldset .rich-stglpanel-body .rich-tabpanel-content #basePanel tr td table td:first-child,
+#yui-gen28 fieldset .rich-stglpanel-body .rich-tabpanel-content #basePanel tr td table td:first-child {
+  width: 40%;
+}
+
+#yui-gen8 fieldset .rich-stglpanel-body .rich-tabpanel-content #basePanel tr td table td:first-child input,
+#yui-gen8 fieldset .rich-stglpanel-body .rich-tabpanel-content #basePanel tr td table td:first-child textarea,
+#yui-gen18 fieldset .rich-stglpanel-body .rich-tabpanel-content #basePanel tr td table td:first-child input,
+#yui-gen18 fieldset .rich-stglpanel-body .rich-tabpanel-content #basePanel tr td table td:first-child textarea,
+#yui-gen28 fieldset .rich-stglpanel-body .rich-tabpanel-content #basePanel tr td table td:first-child input,
+#yui-gen28 fieldset .rich-stglpanel-body .rich-tabpanel-content #basePanel tr td table td:first-child textarea {
+  width: 100%;
+}
+
+#yui-gen8 fieldset .rich-stglpanel-body .rich-tabpanel-content #basePanel tr td table td:nth-child(2) input,
+#yui-gen8 fieldset .rich-stglpanel-body .rich-tabpanel-content #basePanel tr td table td:nth-child(3) input,
+#yui-gen18 fieldset .rich-stglpanel-body .rich-tabpanel-content #basePanel tr td table td:nth-child(2) input,
+#yui-gen18 fieldset .rich-stglpanel-body .rich-tabpanel-content #basePanel tr td table td:nth-child(3) input,
+#yui-gen28 fieldset .rich-stglpanel-body .rich-tabpanel-content #basePanel tr td table td:nth-child(2) input,
+#yui-gen28 fieldset .rich-stglpanel-body .rich-tabpanel-content #basePanel tr td table td:nth-child(3) input {
+  width: 40px;
+  margin-left: 30px !important;
+}
+
+#yui-gen8 fieldset .rich-stglpanel-body .rich-tabpanel-content #basePanel tr:nth-child(odd),
+#yui-gen18 fieldset .rich-stglpanel-body .rich-tabpanel-content #basePanel tr:nth-child(odd),
+#yui-gen28 fieldset .rich-stglpanel-body .rich-tabpanel-content #basePanel tr:nth-child(odd) {
+  background: #fafafa !important;
+}
+
+#yui-gen8 fieldset .rich-stglpanel-body .rich-tabpanel-content textarea#field_long,
+#yui-gen18 fieldset .rich-stglpanel-body .rich-tabpanel-content textarea#field_long,
+#yui-gen28 fieldset .rich-stglpanel-body .rich-tabpanel-content textarea#field_long {
+  width: 100%;
+}
+
+#yui-gen8 fieldset .rich-stglpanel-body .rich-tabpanel-content label,
+#yui-gen18 fieldset .rich-stglpanel-body .rich-tabpanel-content label,
+#yui-gen28 fieldset .rich-stglpanel-body .rich-tabpanel-content label {
+  font-size: 14px;
+  line-height: 30px;
+  padding-left: 10px;
+}
+
+#yui-gen8 fieldset .rich-stglpanel-body .rich-tabpanel-content input,
+#yui-gen8 fieldset .rich-stglpanel-body .rich-tabpanel-content select,
+#yui-gen8 fieldset .rich-stglpanel-body .rich-tabpanel-content textarea,
+#yui-gen18 fieldset .rich-stglpanel-body .rich-tabpanel-content input,
+#yui-gen18 fieldset .rich-stglpanel-body .rich-tabpanel-content select,
+#yui-gen18 fieldset .rich-stglpanel-body .rich-tabpanel-content textarea,
+#yui-gen28 fieldset .rich-stglpanel-body .rich-tabpanel-content input,
+#yui-gen28 fieldset .rich-stglpanel-body .rich-tabpanel-content select,
+#yui-gen28 fieldset .rich-stglpanel-body .rich-tabpanel-content textarea {
+  height: 30px !important;
+  padding-left: 5px !important;
+  border-radius: 3px;
+  -webkit-box-shadow: none !important;
+          box-shadow: none !important;
+  border: 1px solid #ccc !important;
+  margin: 5px !important;
+  font-size: 14px !important;
+}
+
+#yui-gen8 fieldset .rich-stglpanel-body .rich-tabpanel-content input:focus,
+#yui-gen8 fieldset .rich-stglpanel-body .rich-tabpanel-content textarea:focus,
+#yui-gen8 fieldset .rich-stglpanel-body .rich-tabpanel-content select:focus,
+#yui-gen18 fieldset .rich-stglpanel-body .rich-tabpanel-content input:focus,
+#yui-gen18 fieldset .rich-stglpanel-body .rich-tabpanel-content textarea:focus,
+#yui-gen18 fieldset .rich-stglpanel-body .rich-tabpanel-content select:focus,
+#yui-gen28 fieldset .rich-stglpanel-body .rich-tabpanel-content input:focus,
+#yui-gen28 fieldset .rich-stglpanel-body .rich-tabpanel-content textarea:focus,
+#yui-gen28 fieldset .rich-stglpanel-body .rich-tabpanel-content select:focus {
+  outline-color: #b4d62b;
+  background: rgba(0, 0, 0, 0.01);
+}
+
+#yui-gen8 fieldset .rich-stglpanel-body .rich-tabpanel-content input,
+#yui-gen18 fieldset .rich-stglpanel-body .rich-tabpanel-content input,
+#yui-gen28 fieldset .rich-stglpanel-body .rich-tabpanel-content input {
+  width: 40%;
+}
+
+#yui-gen8 fieldset .rich-stglpanel-body .rich-tabpanel-content select,
+#yui-gen18 fieldset .rich-stglpanel-body .rich-tabpanel-content select,
+#yui-gen28 fieldset .rich-stglpanel-body .rich-tabpanel-content select {
+  width: 40.7%;
+}
+
+#yui-gen8 legend,
+#yui-gen18 legend,
+#yui-gen28 legend {
+  font-size: 14px;
+  font-weight: 700;
+}
+
+#yui-gen8 .top-anuluj-button,
+#yui-gen8 #workflowToolBar2 #WorkFlowCommandButtonAbort2,
+#yui-gen8 #WorkFlowCommandButtonBack2,
+#yui-gen8 .buttonAbort,
+#yui-gen18 .top-anuluj-button,
+#yui-gen18 #workflowToolBar2 #WorkFlowCommandButtonAbort2,
+#yui-gen18 #WorkFlowCommandButtonBack2,
+#yui-gen18 .buttonAbort,
+#yui-gen28 .top-anuluj-button,
+#yui-gen28 #workflowToolBar2 #WorkFlowCommandButtonAbort2,
+#yui-gen28 #WorkFlowCommandButtonBack2,
+#yui-gen28 .buttonAbort {
+  font-size: 15px !important;
+  padding: 6px 20px;
+  outline: 0;
+  border: 0;
+  margin: 0 10px;
+  background: #bbb !important;
+  color: #fff !important;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+#yui-gen8 .top-anuluj-button:hover,
+#yui-gen8 #workflowToolBar2 #WorkFlowCommandButtonAbort2:hover,
+#yui-gen8 #WorkFlowCommandButtonBack2:hover,
+#yui-gen8 .buttonAbort:hover,
+#yui-gen18 .top-anuluj-button:hover,
+#yui-gen18 #workflowToolBar2 #WorkFlowCommandButtonAbort2:hover,
+#yui-gen18 #WorkFlowCommandButtonBack2:hover,
+#yui-gen18 .buttonAbort:hover,
+#yui-gen28 .top-anuluj-button:hover,
+#yui-gen28 #workflowToolBar2 #WorkFlowCommandButtonAbort2:hover,
+#yui-gen28 #WorkFlowCommandButtonBack2:hover,
+#yui-gen28 .buttonAbort:hover {
+  opacity: 0.8;
+}
+
+#yui-gen8 .top-zapisz-button,
+#yui-gen8 #workflowToolBar2 #WorkFlowCommandButtonNext2,
+#yui-gen8 input[value='Zapisz'],
+#yui-gen18 .top-zapisz-button,
+#yui-gen18 #workflowToolBar2 #WorkFlowCommandButtonNext2,
+#yui-gen18 input[value='Zapisz'],
+#yui-gen28 .top-zapisz-button,
+#yui-gen28 #workflowToolBar2 #WorkFlowCommandButtonNext2,
+#yui-gen28 input[value='Zapisz'] {
+  font-size: 17px !important;
+  padding: 6px 50px;
+  outline: 0;
+  border: 0;
+  margin: 0 10px;
+  background: #b4d62b !important;
+  color: #fff !important;
+  border-radius: 3px;
+  font-weight: 700;
+  cursor: pointer;
+  -webkit-transition: all 100ms ease-in-out;
+  transition: all 100ms ease-in-out;
+  -webkit-box-shadow: 0px 6px 7px -4px rgba(0, 0, 0, 0.6);
+          box-shadow: 0px 6px 7px -4px rgba(0, 0, 0, 0.6);
+}
+
+#yui-gen8 .top-zapisz-button:hover,
+#yui-gen8 #workflowToolBar2 #WorkFlowCommandButtonNext2:hover,
+#yui-gen8 input[value='Zapisz']:hover,
+#yui-gen18 .top-zapisz-button:hover,
+#yui-gen18 #workflowToolBar2 #WorkFlowCommandButtonNext2:hover,
+#yui-gen18 input[value='Zapisz']:hover,
+#yui-gen28 .top-zapisz-button:hover,
+#yui-gen28 #workflowToolBar2 #WorkFlowCommandButtonNext2:hover,
+#yui-gen28 input[value='Zapisz']:hover {
+  background: #000 !important;
+  color: #b4d62b !important;
+  -webkit-transition: all 300ms ease-in-out;
+  transition: all 300ms ease-in-out;
+  -webkit-transform: translateY(-2px);
+          transform: translateY(-2px);
+  -webkit-box-shadow: 0 8px 10px -4px rgba(0, 0, 0, 0.6);
+          box-shadow: 0 8px 10px -4px rgba(0, 0, 0, 0.6);
+}
+
+#yui-gen8 #BilbordShowForm span,
+#yui-gen18 #BilbordShowForm span,
+#yui-gen28 #BilbordShowForm span {
+  font-size: 16px;
+  margin-top: 20px !important;
+  display: block;
+  color: #444;
+}
+
+#yui-gen8 #WorkFlowForm .rich-panel,
+#yui-gen18 #WorkFlowForm .rich-panel,
+#yui-gen28 #WorkFlowForm .rich-panel {
+  border-radius: 4px;
+}
+
+#yui-gen8 #WorkFlowForm .rich-panel-header,
+#yui-gen18 #WorkFlowForm .rich-panel-header,
+#yui-gen28 #WorkFlowForm .rich-panel-header {
+  font-size: 14px;
+  line-height: 32px;
+  background-image: none !important;
+  background-color: #fafafa;
+  text-align: center;
+  border-radius: 5px 5px 0 0;
+}
+
+#yui-gen8 #WorkFlowForm a[id^='LEASING_PRODUCT_'],
+#yui-gen18 #WorkFlowForm a[id^='LEASING_PRODUCT_'],
+#yui-gen28 #WorkFlowForm a[id^='LEASING_PRODUCT_'] {
+  line-height: 35px !important;
+  font-size: 16px !important;
+}
+
+#yui-gen8 #WorkFlowForm .rich-table-subheadercell,
+#yui-gen18 #WorkFlowForm .rich-table-subheadercell,
+#yui-gen28 #WorkFlowForm .rich-table-subheadercell {
+  background: #eee;
+  font-size: 16px;
+  line-height: 27px;
+  font-weight: 500;
+}
+
+#yui-gen8 #WorkFlowForm .rich-table-cell,
+#yui-gen18 #WorkFlowForm .rich-table-cell,
+#yui-gen28 #WorkFlowForm .rich-table-cell {
+  font-size: 14px;
+  line-height: 34px;
+  padding-left: 13px;
+}
+
+#yui-gen8 #WorkFlowForm .rich-table-cell input,
+#yui-gen8 #WorkFlowForm .rich-table-cell select,
+#yui-gen8 #WorkFlowForm .rich-table-cell textarea,
+#yui-gen18 #WorkFlowForm .rich-table-cell input,
+#yui-gen18 #WorkFlowForm .rich-table-cell select,
+#yui-gen18 #WorkFlowForm .rich-table-cell textarea,
+#yui-gen28 #WorkFlowForm .rich-table-cell input,
+#yui-gen28 #WorkFlowForm .rich-table-cell select,
+#yui-gen28 #WorkFlowForm .rich-table-cell textarea {
+  font-size: 14px;
+  padding-left: 10px;
+}
+
+#yui-gen8 #WorkFlowForm .rich-table-cell input:focus,
+#yui-gen8 #WorkFlowForm .rich-table-cell textarea:focus,
+#yui-gen18 #WorkFlowForm .rich-table-cell input:focus,
+#yui-gen18 #WorkFlowForm .rich-table-cell textarea:focus,
+#yui-gen28 #WorkFlowForm .rich-table-cell input:focus,
+#yui-gen28 #WorkFlowForm .rich-table-cell textarea:focus {
+  border: 1px #b4d62b inset;
+  background: #fff;
+}
+
+#yui-gen8 #WorkFlowForm #btnNewDfeContractObject,
+#yui-gen18 #WorkFlowForm #btnNewDfeContractObject,
+#yui-gen28 #WorkFlowForm #btnNewDfeContractObject {
+  font-size: 16px;
+  padding: 5px 30px 7px;
+  margin: 10px;
+  background-image: none;
+  background-color: #000;
+  color: #fff;
+  border: 0;
+  border-radius: 4px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+#yui-gen8 #WorkFlowForm #btnNewDfeContractObject:hover,
+#yui-gen18 #WorkFlowForm #btnNewDfeContractObject:hover,
+#yui-gen28 #WorkFlowForm #btnNewDfeContractObject:hover {
+  background: #555;
+}
+
+#yui-gen8 .rich-panel,
+#yui-gen18 .rich-panel,
+#yui-gen28 .rich-panel {
+  /* nowa kalkulacja - finansowanie */
+  /* // nowa kalkulacja - finansowanie */
+}
+
+#yui-gen8 .rich-panel .rich-stglpanel,
+#yui-gen18 .rich-panel .rich-stglpanel,
+#yui-gen28 .rich-panel .rich-stglpanel {
+  margin-bottom: 8px;
+  border-radius: 5px;
+  border: 1px solid #eee;
+}
+
+#yui-gen8 .rich-panel .rich-stglpanel p,
+#yui-gen8 .rich-panel .rich-stglpanel a,
+#yui-gen8 .rich-panel .rich-stglpanel td,
+#yui-gen18 .rich-panel .rich-stglpanel p,
+#yui-gen18 .rich-panel .rich-stglpanel a,
+#yui-gen18 .rich-panel .rich-stglpanel td,
+#yui-gen28 .rich-panel .rich-stglpanel p,
+#yui-gen28 .rich-panel .rich-stglpanel a,
+#yui-gen28 .rich-panel .rich-stglpanel td {
+  font-size: 14px;
+}
+
+#yui-gen8 .rich-panel .rich-stglpanel .rich-stglpanel-body,
+#yui-gen18 .rich-panel .rich-stglpanel .rich-stglpanel-body,
+#yui-gen28 .rich-panel .rich-stglpanel .rich-stglpanel-body {
+  padding: 20px 10px !important;
+}
+
+#yui-gen8 .rich-panel .rich-stglpanel .rich-stglpanel-body #panelKontrahent_body input,
+#yui-gen8 .rich-panel .rich-stglpanel .rich-stglpanel-body #panelKontrahent_body textarea,
+#yui-gen8 .rich-panel .rich-stglpanel .rich-stglpanel-body #panelKontrahent_body select,
+#yui-gen18 .rich-panel .rich-stglpanel .rich-stglpanel-body #panelKontrahent_body input,
+#yui-gen18 .rich-panel .rich-stglpanel .rich-stglpanel-body #panelKontrahent_body textarea,
+#yui-gen18 .rich-panel .rich-stglpanel .rich-stglpanel-body #panelKontrahent_body select,
+#yui-gen28 .rich-panel .rich-stglpanel .rich-stglpanel-body #panelKontrahent_body input,
+#yui-gen28 .rich-panel .rich-stglpanel .rich-stglpanel-body #panelKontrahent_body textarea,
+#yui-gen28 .rich-panel .rich-stglpanel .rich-stglpanel-body #panelKontrahent_body select {
+  height: 26px !important;
+  padding-left: 5px !important;
+  border-radius: 3px;
+  -webkit-box-shadow: none !important;
+          box-shadow: none !important;
+  border: 1px solid #ccc !important;
+  margin: 1px !important;
+  font-size: 14px !important;
+  background-image: none !important;
+}
+
+#yui-gen8 .rich-panel .rich-stglpanel .rich-stglpanel-header,
+#yui-gen18 .rich-panel .rich-stglpanel .rich-stglpanel-header,
+#yui-gen28 .rich-panel .rich-stglpanel .rich-stglpanel-header {
+  background: #999 !important;
+  color: #fff !important;
+  background-image: none;
+  border: 0;
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 34px;
+  padding-left: 15px;
+}
+
+#yui-gen8 .rich-panel .rich-stglpanel .rich-stglpanel-header .rich-stglpanel-marker,
+#yui-gen18 .rich-panel .rich-stglpanel .rich-stglpanel-header .rich-stglpanel-marker,
+#yui-gen28 .rich-panel .rich-stglpanel .rich-stglpanel-header .rich-stglpanel-marker {
+  font-size: 42px;
+  margin-right: 10px;
+  margin-top: 1px;
+  -webkit-transform: rotate(90deg);
+          transform: rotate(90deg);
+}
+
+#yui-gen8 .rich-panel .rich-stglpanel input#printScheduleButton,
+#yui-gen18 .rich-panel .rich-stglpanel input#printScheduleButton,
+#yui-gen28 .rich-panel .rich-stglpanel input#printScheduleButton {
+  border: 0;
+  font-size: 18px;
+  padding: 5px 30px 7px;
+  border-radius: 5px;
+  background: #b4d62b;
+  color: #fff;
+  display: block;
+  margin: 0 auto 20px;
+  cursor: pointer;
+}
+
+#yui-gen8 .rich-panel .rich-stglpanel input#printScheduleButton:hover,
+#yui-gen18 .rich-panel .rich-stglpanel input#printScheduleButton:hover,
+#yui-gen28 .rich-panel .rich-stglpanel input#printScheduleButton:hover {
+  background: #000 !important;
+  color: #b4d62b !important;
+  -webkit-transition: all 300ms ease-in-out;
+  transition: all 300ms ease-in-out;
+  -webkit-transform: translateY(-2px);
+          transform: translateY(-2px);
+  -webkit-box-shadow: 0 8px 10px -4px rgba(0, 0, 0, 0.6);
+          box-shadow: 0 8px 10px -4px rgba(0, 0, 0, 0.6);
+}
+
+#yui-gen8 .rich-panel #dfecontarctButtonsForm input[value='Kopiuj wniosek'],
+#yui-gen18 .rich-panel #dfecontarctButtonsForm input[value='Kopiuj wniosek'],
+#yui-gen28 .rich-panel #dfecontarctButtonsForm input[value='Kopiuj wniosek'] {
+  font-size: 18px;
+  background: #b4d62b;
+  padding: 7px 30px 9px;
+  border: 0;
+  color: #fff;
+  font-weight: 500;
+  margin: 0 10px 5px;
+  border-radius: 5px;
+  cursor: pointer;
+  -webkit-box-shadow: 0px 6px 7px -4px rgba(0, 0, 0, 0.6);
+          box-shadow: 0px 6px 7px -4px rgba(0, 0, 0, 0.6);
+  -webkit-transition: 200ms;
+  transition: 200ms;
+}
+
+#yui-gen8 .rich-panel #dfecontarctButtonsForm input[value='Kopiuj wniosek']:hover,
+#yui-gen18 .rich-panel #dfecontarctButtonsForm input[value='Kopiuj wniosek']:hover,
+#yui-gen28 .rich-panel #dfecontarctButtonsForm input[value='Kopiuj wniosek']:hover {
+  -webkit-transition: 200ms;
+  transition: 200ms;
+  -webkit-transform: translateY(-2px);
+          transform: translateY(-2px);
+  -webkit-box-shadow: 2px 6px 7px -4px rgba(0, 0, 0, 0.6);
+          box-shadow: 2px 6px 7px -4px rgba(0, 0, 0, 0.6);
+}
+
+#yui-gen8 .rich-panel #dfecontarctButtonsForm input[value='Anuluj'],
+#yui-gen18 .rich-panel #dfecontarctButtonsForm input[value='Anuluj'],
+#yui-gen28 .rich-panel #dfecontarctButtonsForm input[value='Anuluj'] {
+  font-size: 15px !important;
+  padding: 6px 20px;
+  outline: 0;
+  border: 0;
+  margin: 0 10px;
+  background: #bbb !important;
+  color: #fff !important;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+#yui-gen8 .rich-panel #dfecontarctButtonsForm input[value='Anuluj']:hover,
+#yui-gen18 .rich-panel #dfecontarctButtonsForm input[value='Anuluj']:hover,
+#yui-gen28 .rich-panel #dfecontarctButtonsForm input[value='Anuluj']:hover {
+  opacity: 0.8;
+}
+
+#yui-gen8 .rich-panel #j_id5826_body table,
+#yui-gen18 .rich-panel #j_id5826_body table,
+#yui-gen28 .rich-panel #j_id5826_body table {
+  margin-top: 15px !important;
+}
+
+#yui-gen8 .rich-panel #j_id5826_body input[type='text'],
+#yui-gen8 .rich-panel #j_id5826_body select,
+#yui-gen18 .rich-panel #j_id5826_body input[type='text'],
+#yui-gen18 .rich-panel #j_id5826_body select,
+#yui-gen28 .rich-panel #j_id5826_body input[type='text'],
+#yui-gen28 .rich-panel #j_id5826_body select {
+  font-size: 14px;
+  height: 26px;
+  border-radius: 3px;
+  border: 1px solid #ddd;
+  margin-bottom: 3px;
+  min-width: 250px;
+  padding-left: 5px;
+}
+
+#yui-gen8 .rich-panel #j_id5826_body input[type='button'],
+#yui-gen8 .rich-panel #j_id5826_body input[type='submit'],
+#yui-gen18 .rich-panel #j_id5826_body input[type='button'],
+#yui-gen18 .rich-panel #j_id5826_body input[type='submit'],
+#yui-gen28 .rich-panel #j_id5826_body input[type='button'],
+#yui-gen28 .rich-panel #j_id5826_body input[type='submit'] {
+  font-size: 14px;
+  background: #fff;
+  border: 1px solid #ddd;
+  font-weight: 500;
+  padding: 5px 20px;
+  cursor: pointer;
+  -webkit-transition: 200ms;
+  transition: 200ms;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+#yui-gen8 .rich-panel #j_id5826_body input[type='button']:hover,
+#yui-gen8 .rich-panel #j_id5826_body input[type='submit']:hover,
+#yui-gen18 .rich-panel #j_id5826_body input[type='button']:hover,
+#yui-gen18 .rich-panel #j_id5826_body input[type='submit']:hover,
+#yui-gen28 .rich-panel #j_id5826_body input[type='button']:hover,
+#yui-gen28 .rich-panel #j_id5826_body input[type='submit']:hover {
+  border-color: #b4d62b;
+  -webkit-transition: 200ms;
+  transition: 200ms;
+}
+
+#yui-gen8 .rich-panel #j_id5826_body .viewsourcepanel,
+#yui-gen18 .rich-panel #j_id5826_body .viewsourcepanel,
+#yui-gen28 .rich-panel #j_id5826_body .viewsourcepanel {
+  background-color: rgba(180, 214, 43, 0.2) !important;
+}
+
+#yui-gen8 .rich-panel #j_id5826_body .viewsourcehidelink,
+#yui-gen18 .rich-panel #j_id5826_body .viewsourcehidelink,
+#yui-gen28 .rich-panel #j_id5826_body .viewsourcehidelink {
+  background: #ddd !important;
+  color: #000 !important;
+}
+
+#yui-gen8 .fixedWorkflowBarOtherElements,
+#yui-gen18 .fixedWorkflowBarOtherElements,
+#yui-gen28 .fixedWorkflowBarOtherElements {
+  min-height: 530px;
+}
+
+#yui-gen8 div#j_id363,
+#yui-gen18 div#j_id363,
+#yui-gen28 div#j_id363 {
+  position: absolute;
+  left: 40px;
+  top: 80px;
+}
+
+#yui-gen8 div#j_id376,
+#yui-gen18 div#j_id376,
+#yui-gen28 div#j_id376 {
+  position: absolute;
+  top: 80px;
+  left: 580px;
+}
+
+#yui-gen8 div#j_id387,
+#yui-gen18 div#j_id387,
+#yui-gen28 div#j_id387 {
+  position: absolute;
+  top: 325px;
+  left: 40px;
+}
+
+#yui-gen8 div#j_id402,
+#yui-gen18 div#j_id402,
+#yui-gen28 div#j_id402 {
+  position: absolute;
+  left: 580px;
+  top: 325px;
+}
+
+#yui-gen8 div#j_id363:hover,
+#yui-gen8 div#j_id376:hover,
+#yui-gen8 div#j_id387:hover,
+#yui-gen8 div#j_id402:hover,
+#yui-gen18 div#j_id363:hover,
+#yui-gen18 div#j_id376:hover,
+#yui-gen18 div#j_id387:hover,
+#yui-gen18 div#j_id402:hover,
+#yui-gen28 div#j_id363:hover,
+#yui-gen28 div#j_id376:hover,
+#yui-gen28 div#j_id387:hover,
+#yui-gen28 div#j_id402:hover {
+  border-color: #b4d62b;
+}
+
+#yui-gen8 .rich-datascr-act,
+#yui-gen18 .rich-datascr-act,
+#yui-gen28 .rich-datascr-act {
+  border-top-color: #b4d62b;
+  color: #000;
+  font-size: 14px !important;
+}
+
+#yui-gen8 input[type='checkbox'],
+#yui-gen18 input[type='checkbox'],
+#yui-gen28 input[type='checkbox'] {
+  min-width: 20px !important;
+  width: 20px !important;
+  display: inline-table !important;
+  vertical-align: middle !important;
+}
+
+#yui-gen8 .rich-datalist .rich-list-item input[type='checkbox'],
+#yui-gen18 .rich-datalist .rich-list-item input[type='checkbox'],
+#yui-gen28 .rich-datalist .rich-list-item input[type='checkbox'] {
+  margin-right: 10px !important;
+}
+
+#yui-gen8 .rich-panel-body,
+#yui-gen18 .rich-panel-body,
+#yui-gen28 .rich-panel-body {
+  font-size: 14px !important;
+}
+
+#yui-gen8 .rich-tab-bottom-line,
+#yui-gen18 .rich-tab-bottom-line,
+#yui-gen28 .rich-tab-bottom-line {
+  text-align: left;
+}
+
+#yui-gen8 .rich-tab-header,
+#yui-gen18 .rich-tab-header,
+#yui-gen28 .rich-tab-header {
+  font-size: 15px;
+  padding: 9px 14px 11px;
+  background: #efefef !important;
+  border: 0;
+  cursor: pointer;
+  white-space: nowrap;
+}
+
+#yui-gen8 .rich-tab-active,
+#yui-gen18 .rich-tab-active,
+#yui-gen28 .rich-tab-active {
+  background: #fff !important;
+  padding-top: 10px !important;
+  border-top: 4px solid #b4d62b !important;
+  font-weight: 600;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+#yui-gen8 .rich-tabpanel-content .rich-table td,
+#yui-gen18 .rich-tabpanel-content .rich-table td,
+#yui-gen28 .rich-tabpanel-content .rich-table td {
+  font-size: 12px;
+  line-height: 18px;
+}
+
+#yui-gen8 .rich-tabpanel-content .rich-table-subheader span,
+#yui-gen8 .rich-tabpanel-content .rich-table-subheader div,
+#yui-gen18 .rich-tabpanel-content .rich-table-subheader span,
+#yui-gen18 .rich-tabpanel-content .rich-table-subheader div,
+#yui-gen28 .rich-tabpanel-content .rich-table-subheader span,
+#yui-gen28 .rich-tabpanel-content .rich-table-subheader div {
+  text-transform: uppercase;
+  font-size: 13px;
+  line-height: 20px;
+}
+
+#yui-gen8 .rich-tabpanel-content textarea#field_long,
+#yui-gen18 .rich-tabpanel-content textarea#field_long,
+#yui-gen28 .rich-tabpanel-content textarea#field_long {
+  width: 100%;
+}
+
+#yui-gen8 .rich-tabpanel-content label,
+#yui-gen18 .rich-tabpanel-content label,
+#yui-gen28 .rich-tabpanel-content label {
+  font-size: 14px;
+  line-height: 14px;
+  text-align: left;
+}
+
+#yui-gen8 .rich-tabpanel-content input,
+#yui-gen8 .rich-tabpanel-content select,
+#yui-gen8 .rich-tabpanel-content textarea,
+#yui-gen18 .rich-tabpanel-content input,
+#yui-gen18 .rich-tabpanel-content select,
+#yui-gen18 .rich-tabpanel-content textarea,
+#yui-gen28 .rich-tabpanel-content input,
+#yui-gen28 .rich-tabpanel-content select,
+#yui-gen28 .rich-tabpanel-content textarea {
+  height: 26px !important;
+  padding-left: 5px !important;
+  border-radius: 3px;
+  -webkit-box-shadow: none !important;
+          box-shadow: none !important;
+  border: 1px solid #ccc !important;
+  margin: 1px !important;
+  font-size: 14px !important;
+  background-image: none !important;
+}
+
+#yui-gen8 .rich-tabpanel-content input:focus,
+#yui-gen8 .rich-tabpanel-content textarea:focus,
+#yui-gen8 .rich-tabpanel-content select:focus,
+#yui-gen18 .rich-tabpanel-content input:focus,
+#yui-gen18 .rich-tabpanel-content textarea:focus,
+#yui-gen18 .rich-tabpanel-content select:focus,
+#yui-gen28 .rich-tabpanel-content input:focus,
+#yui-gen28 .rich-tabpanel-content textarea:focus,
+#yui-gen28 .rich-tabpanel-content select:focus {
+  outline-color: #b4d62b;
+  background: rgba(0, 0, 0, 0.01);
+}
+
+#yui-gen8 .rich-tabpanel-content > table input,
+#yui-gen18 .rich-tabpanel-content > table input,
+#yui-gen28 .rich-tabpanel-content > table input {
+  width: 98%;
+}
+
+#yui-gen8 .rich-tabpanel-content > table input:nth-child(1),
+#yui-gen18 .rich-tabpanel-content > table input:nth-child(1),
+#yui-gen28 .rich-tabpanel-content > table input:nth-child(1) {
+  min-width: 120px;
+}
+
+#yui-gen8 .rich-tabpanel-content > table input[value='...'],
+#yui-gen18 .rich-tabpanel-content > table input[value='...'],
+#yui-gen28 .rich-tabpanel-content > table input[value='...'] {
+  width: 40px !important;
+  max-width: 40px !important;
+  min-width: 40px !important;
+}
+
+#yui-gen8 .rich-tabpanel-content > table textarea,
+#yui-gen18 .rich-tabpanel-content > table textarea,
+#yui-gen28 .rich-tabpanel-content > table textarea {
+  width: 95%;
+}
+
+#yui-gen8 .rich-tabpanel-content > table select,
+#yui-gen18 .rich-tabpanel-content > table select,
+#yui-gen28 .rich-tabpanel-content > table select {
+  width: 99.5%;
+}
+
+/* POPUP */
+.rich-modalpanel .rich-mp-container {
+  max-height: 100vh;
+}
+
+.rich-modalpanel .rich-mp-container .rich-mpnl-content {
+  background-color: #fff;
+  border-color: #fff;
+  border: 0;
+  padding: 5px;
+  border-radius: 5px;
+  -webkit-box-shadow: 3px 3px 13px 1px rgba(0, 0, 0, 0.3);
+          box-shadow: 3px 3px 13px 1px rgba(0, 0, 0, 0.3);
+}
+
+.rich-modalpanel .rich-mp-container .rich-mpnl-shadow {
+  display: none;
+}
+
+.rich-modalpanel .rich-mp-container .rich-mpnl-header {
+  background: none;
+  border: 0;
+}
+
+.rich-modalpanel .rich-mp-container .rich-mpnl-header-cell .rich-toolbar {
+  background-image: none;
+  background: #eee;
+  border: 0;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.rich-modalpanel .rich-mp-container .rich-toolbar-item {
+  font-size: 15px;
+  line-height: 22px;
+}
+
+.rich-modalpanel .rich-mp-container .rich-toolbar {
+  background: 0;
+  padding: 15px 0 0;
+  border-top: 1px dashed #ddd;
+  border-bottom: 0;
+  border-right: 0;
+  border-left: 0;
+}
+
+.rich-modalpanel .rich-mp-container .rich-tab-bottom-line {
+  text-align: left;
+}
+
+.rich-modalpanel .rich-mp-container .rich-tab-header {
+  font-size: 15px;
+  padding: 9px 14px 11px;
+  background: #efefef !important;
+  border: 0;
+  cursor: pointer;
+}
+
+.rich-modalpanel .rich-mp-container .rich-tab-active {
+  background: #fff !important;
+  padding-top: 10px !important;
+  padding-left: 30px;
+  padding-right: 30px;
+  border-top: 4px solid #b4d62b !important;
+  font-weight: 600;
+}
+
+.rich-modalpanel .rich-mp-container .rich-tabpanel-content textarea#field_long {
+  width: 100%;
+}
+
+.rich-modalpanel .rich-mp-container .rich-tabpanel-content label {
+  font-size: 14px;
+  line-height: 14px;
+  text-align: left;
+}
+
+.rich-modalpanel .rich-mp-container .rich-tabpanel-content input,
+.rich-modalpanel .rich-mp-container .rich-tabpanel-content select,
+.rich-modalpanel .rich-mp-container .rich-tabpanel-content textarea {
+  height: 26px !important;
+  padding-left: 5px !important;
+  border-radius: 3px;
+  -webkit-box-shadow: none !important;
+          box-shadow: none !important;
+  border: 1px solid #ccc !important;
+  margin: 1px !important;
+  font-size: 14px !important;
+  background-image: none !important;
+}
+
+.rich-modalpanel .rich-mp-container .rich-tabpanel-content input:focus,
+.rich-modalpanel .rich-mp-container .rich-tabpanel-content textarea:focus,
+.rich-modalpanel .rich-mp-container .rich-tabpanel-content select:focus {
+  outline-color: #b4d62b;
+  background: rgba(0, 0, 0, 0.01);
+}
+
+.rich-modalpanel .rich-mp-container .rich-tabpanel-content > table input {
+  width: 98%;
+}
+
+.rich-modalpanel .rich-mp-container .rich-tabpanel-content > table input:nth-child(1) {
+  min-width: 120px;
+}
+
+.rich-modalpanel .rich-mp-container .rich-tabpanel-content > table input[value='...'] {
+  width: 40px !important;
+  max-width: 40px !important;
+  min-width: 40px !important;
+}
+
+.rich-modalpanel .rich-mp-container .rich-tabpanel-content > table textarea {
+  width: 95%;
+}
+
+.rich-modalpanel .rich-mp-container .rich-tabpanel-content > table select {
+  width: 99.5%;
+}
+
+.rich-modalpanel input[value='Zatwierdź'] {
+  font-size: 18px;
+  background: #b4d62b;
+  padding: 7px 30px 9px;
+  border: 0;
+  color: #fff;
+  font-weight: 500;
+  margin: 0 10px 5px;
+  border-radius: 5px;
+  cursor: pointer;
+  -webkit-box-shadow: 0px 6px 7px -4px rgba(0, 0, 0, 0.6);
+          box-shadow: 0px 6px 7px -4px rgba(0, 0, 0, 0.6);
+  -webkit-transition: 200ms;
+  transition: 200ms;
+}
+
+.rich-modalpanel input[value='Zatwierdź']:hover {
+  -webkit-transition: 200ms;
+  transition: 200ms;
+  -webkit-transform: translateY(-2px);
+          transform: translateY(-2px);
+  -webkit-box-shadow: 2px 6px 7px -4px rgba(0, 0, 0, 0.6);
+          box-shadow: 2px 6px 7px -4px rgba(0, 0, 0, 0.6);
+}
+
+.rich-modalpanel input[value='Anuluj'] {
+  font-size: 15px !important;
+  padding: 6px 20px;
+  outline: 0;
+  border: 0;
+  margin: 0 10px;
+  background: #bbb !important;
+  color: #fff !important;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.rich-modalpanel input[value='Anuluj']:hover {
+  opacity: 0.8;
+}
+
+.rich-modalpanel input[value='Przelicz'] {
+  font-size: 14px;
+  background: #fff;
+  border: 1px solid #ddd;
+  font-weight: 500;
+  padding: 5px 20px;
+  cursor: pointer;
+  -webkit-transition: 200ms;
+  transition: 200ms;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.rich-modalpanel input[value='Przelicz']:hover {
+  border-color: #b4d62b;
+  -webkit-transition: 200ms;
+  transition: 200ms;
+}
+
+.rich-modalpanel input[type='text'],
+.rich-modalpanel select {
+  height: 26px !important;
+  padding-left: 5px !important;
+  border-radius: 3px;
+  -webkit-box-shadow: none !important;
+          box-shadow: none !important;
+  border: 1px solid #ccc !important;
+  margin: 1px !important;
+  font-size: 14px !important;
+  background-image: none !important;
+}
+
+.rich-modalpanel .hidelink {
+  margin-right: 16px;
+  margin-top: 16px;
+  width: 17px;
+}
+
+.rich-modalpanel label {
+  font-size: 14px;
+  line-height: 22px;
+}
+
+/* //popup */
+/* bottom */
+#yui-gen3 #bottom1,
+#yui-gen13 #bottom1,
+#yui-gen23 #bottom1 {
+  background: #fff !important;
+  color: #444 !important;
+}
+
+#yui-gen3 .yui-layout-bd-nohd,
+#yui-gen13 .yui-layout-bd-nohd,
+#yui-gen23 .yui-layout-bd-nohd {
+  border-top: 1px solid #ddd;
+  border-right: 0;
+  border-bottom: 0;
+  border-left: 0;
+}
+
+/* misc */
+#waitModalPanel .rich-mpnl-mask-div {
+  background: #000 !important;
+}
+
+#waitModalPanel .rich-mpnl-shadow {
+  display: none !important;
+}
+
+#waitModalPanel .rich-mpnl-content {
+  background-color: rgba(255, 255, 255, 0.99) !important;
+  border: none !important;
+  border-radius: 5px;
+}
+
+#waitModalPanel .rich-mpnl-header {
+  background: #fff !important;
+  border: 0 !important;
+  text-align: center !important;
+  font-size: 20px !important;
+  font-weight: 100 !important;
+  padding: 30px !important;
+}
+
+#waitModalPanel #waitModalForm {
+  padding-bottom: 30px !important;
+  font-size: 16px !important;
+  font-weight: 300 !important;
+}
+
+#waitModalPanel #waitModalForm img {
+  margin-bottom: 30px !important;
+  max-width: 80px !important;
+}
+/*# sourceMappingURL=newstyles.css.map */

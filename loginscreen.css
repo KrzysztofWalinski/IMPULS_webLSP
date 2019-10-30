@@ -1,0 +1,229 @@
+body {
+	background-color: #eee !important;
+	font-family: 'Lato' !important;
+}
+
+#all {
+	background-image: url(/weblsp-client/img/login/login_bg.jpg);
+	background-repeat: no-repeat;
+	background-position-y: top;
+	background-position-x: center;
+	background-size: cover;
+}
+
+#main {
+	background: #fff;
+	border-radius: 10px;
+	width: 600px !important;
+	height: 350px !important;
+	-webkit-box-shadow: 0 5px 10px 1px rgba(0, 0, 0, 0.5);
+	box-shadow: 0 5px 10px 1px rgba(0, 0, 0, 0.5);
+}
+
+#logoImage,
+#logo2Image {
+	max-width: 250px;
+}
+
+#logo,
+#logo2 {
+	max-width: 250px;
+	top: 30px !important;
+	width: 250px;
+	background-image: none !important;
+}
+
+#logo {
+	left: 0 !important;
+}
+
+#logo2 {
+	right: 0 !important;
+	padding-right: 10px !important;
+}
+
+#bottom {
+	position: absolute;
+	right: 10px;
+	top: 330px !important;
+}
+
+#bottom span {
+	color: #000 !important;
+}
+
+#bottom form {
+	left: inherit !important;
+	right: 0 !important;
+}
+
+#bottom span span {
+	line-height: 20px;
+}
+
+select {
+	background-image: none !important;
+	background-color: #e5e5e5 !important;
+	height: 22px !important;
+	border-radius: 3px;
+	box-shadow: none;
+	outline: 0 !important;
+	border: 0 !important;
+	margin-right: 20px !important;
+}
+
+#middle {
+	top: 40% !important;
+	height: auto !important;
+}
+
+#usernameLabel,
+#passwordLabel {
+	color: #aaa !important;
+	font-weight: 100 !important;
+	font-size: 14px !important;
+}
+
+form td {
+	width: 50%;
+}
+
+input.submit {
+	position: absolute;
+	left: 0;
+	top: 40%;
+}
+
+#j_username,
+#j_password,
+input.greenInput {
+	background-color: #eee !important;
+	background-image: none;
+	border-color: #ddd !important;
+	border-style: solid;
+	width: 100% !important;
+	margin-right: 0 !important;
+	padding: 10px !important;
+	font-size: 14px !important;
+	margin-top: 5px !important;
+	border-radius: 5px !important;
+	max-width: 220px !important;
+}
+
+div#remindPasswordLinkDiv {
+	width: 98%;
+	text-align: right;
+}
+
+a#remindPasswordLink {
+	color: #999;
+	line-height: 20px !important;
+	font-weight: 300;
+	font-size: 11px;
+}
+
+input.submit {
+	position: absolute !important;
+	left: 30%;
+	top: 43%;
+	background: #b4d62b !important;
+	color: #fff !important;
+	float: none !important;
+	text-shadow: none !important;
+	text-indent: inherit !important;
+	letter-spacing: 0 !important;
+	font-size: 18px !important;
+	font-weight: 500 !important;
+	font-family: 'Lato';
+	margin-left: 0 !important;
+	width: 200px !important;
+	border-radius: 5px !important;
+	height: 36px !important;
+	transition: 150ms;
+	cursor: pointer;
+}
+
+input.submit:hover,
+input.submit:active {
+	background: #ddd;
+	color: #231f20;
+	transition: 300ms;
+	left: 30% !important;
+	color: #444 !important;
+	background: #eee;
+	-webkit-transform: translateY(-2px);
+	transform: translateY(-2px);
+	-webkit-box-shadow: 3px 2px 6px -2px rgba(0, 0, 0, 0.2);
+	box-shadow: 3px 2px 6px -2px rgba(0, 0, 0, 0.2);
+}
+
+input:focus {
+	border: 1px solid #b4d62b;
+	outline: 1px solid #b4d62b;
+}
+
+a.submit,
+a.submitBack {
+	position: absolute !important;
+	color: #fff !important;
+	float: none !important;
+	text-shadow: none !important;
+	text-indent: inherit !important;
+	letter-spacing: 0 !important;
+	font-size: 16px !important;
+	font-weight: 500 !important;
+	font-family: 'Lato';
+	margin-left: 0 !important;
+	width: 160px !important;
+	border-radius: 5px !important;
+	height: 26px !important;
+	transition: 150ms;
+	cursor: pointer;
+	line-height: 10px !important;
+}
+
+a.submit,
+a.submit:active {
+	right: 130px;
+	background: #b4d62b !important;
+	top: 20px;
+	left: inherit !important;
+}
+
+a.submitBack,
+a.submitBack:active {
+	right: -40px;
+	background: #aaa !important;
+	top: 20px;
+}
+
+.error {
+	position: absolute;
+	top: -320px;
+	border-radius: 5px;
+}
+
+label {
+	color: #000;
+	margin-right: 20px;
+}
+
+.section span {
+	color: #000;
+}
+
+#j_id19 > span {
+	min-width: 137px !important;
+}
+
+#middle img {
+	display: none;
+}
+
+#bottom img {
+	margin-top: -35px !important;
+}
+
+.appListLink:hover {
+	color: #000 !important;
+}
