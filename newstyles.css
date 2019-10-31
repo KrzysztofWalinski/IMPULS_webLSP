@@ -140,13 +140,20 @@
   padding-right: 30px;
 }
 
+#yui-gen1 .operator .operatorPanel tr span,
+#yui-gen11 .operator .operatorPanel tr span,
+#yui-gen21 .operator .operatorPanel tr span,
+#yui-gen31 .operator .operatorPanel tr span {
+  font-size: 11px !important;
+}
+
 #yui-gen1 .sellnet,
 #yui-gen11 .sellnet,
 #yui-gen21 .sellnet,
 #yui-gen31 .sellnet {
   right: 15px !important;
   left: inherit !important;
-  top: 96px;
+  top: 98px;
 }
 
 #yui-gen1 .sellnet .inplaceStyle,
@@ -197,34 +204,8 @@
 #yui-gen31 .menu li {
   height: 24px !important;
   line-height: 24px !important;
-  background: #f2f2f2;
   margin-right: 5px;
   border-radius: 3px;
-}
-
-#yui-gen1 .menu li:last-child a,
-#yui-gen11 .menu li:last-child a,
-#yui-gen21 .menu li:last-child a,
-#yui-gen31 .menu li:last-child a {
-  background: #444 !important;
-  color: #b4d62b !important;
-  border: 0;
-}
-
-#yui-gen1 .menu li:last-child a:hover,
-#yui-gen11 .menu li:last-child a:hover,
-#yui-gen21 .menu li:last-child a:hover,
-#yui-gen31 .menu li:last-child a:hover {
-  color: #fff !important;
-  -webkit-transform: translateY(0);
-          transform: translateY(0);
-}
-
-#yui-gen1 .menu li:last-child a:visited,
-#yui-gen11 .menu li:last-child a:visited,
-#yui-gen21 .menu li:last-child a:visited,
-#yui-gen31 .menu li:last-child a:visited {
-  color: #fff !important;
 }
 
 #yui-gen1 .menu li a,
@@ -238,25 +219,42 @@
   -webkit-box-shadow: 2px 2px 5px -2px rgba(0, 0, 0, 0.2);
           box-shadow: 2px 2px 5px -2px rgba(0, 0, 0, 0.2);
   border: 0;
-}
-
-#yui-gen1 .menu li a:hover,
-#yui-gen11 .menu li a:hover,
-#yui-gen21 .menu li a:hover,
-#yui-gen31 .menu li a:hover {
-  color: #444 !important;
-  background: #eee;
-  -webkit-transform: translateY(-1px);
-          transform: translateY(-1px);
-  -webkit-box-shadow: 3px 2px 6px -2px rgba(0, 0, 0, 0.2);
-          box-shadow: 3px 2px 6px -2px rgba(0, 0, 0, 0.2);
+  background: rgba(255, 255, 255, 0.75);
 }
 
 #yui-gen1 .menu li a:visited,
 #yui-gen11 .menu li a:visited,
 #yui-gen21 .menu li a:visited,
 #yui-gen31 .menu li a:visited {
-  color: #444 !important;
+  color: inherit !important;
+}
+
+#yui-gen1 .menu li a:hover,
+#yui-gen11 .menu li a:hover,
+#yui-gen21 .menu li a:hover,
+#yui-gen31 .menu li a:hover {
+  color: #fff !important;
+  background: rgba(0, 0, 0, 0.5);
+  -webkit-box-shadow: 3px 2px 6px -2px rgba(0, 0, 0, 0.2);
+          box-shadow: 3px 2px 6px -2px rgba(0, 0, 0, 0.2);
+  border-bottom: 2px solid #b4d62b;
+}
+
+#yui-gen1 .menu li:last-child a,
+#yui-gen11 .menu li:last-child a,
+#yui-gen21 .menu li:last-child a,
+#yui-gen31 .menu li:last-child a {
+  background: #000 !important;
+  color: #b4d62b !important;
+  border: 0;
+}
+
+#yui-gen1 .menu li:last-child a:hover,
+#yui-gen11 .menu li:last-child a:hover,
+#yui-gen21 .menu li:last-child a:hover,
+#yui-gen31 .menu li:last-child a:hover {
+  color: #fff !important;
+  border-bottom: 2px solid #b4d62b;
 }
 
 /* side menu */
@@ -421,6 +419,13 @@
   /* -wybor produktu finansowego */
   /* //-wybor produktu finansowego */
   /* main content TABS */
+}
+
+#yui-gen8 #center1,
+#yui-gen18 #center1,
+#yui-gen28 #center1,
+#yui-gen38 #center1 {
+  padding-bottom: 35px;
 }
 
 #yui-gen8 #DfeContractSearchForm,
