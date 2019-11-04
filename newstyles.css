@@ -86,7 +86,7 @@
   height: 75px !important;
   max-height: 75px !important;
   margin-left: 25px !important;
-  margin-top: 15px !important;
+  margin-top: 10px !important;
 }
 
 #yui-gen1 .operator,
@@ -101,6 +101,13 @@
   color: #fff !important;
   bottom: 0px !important;
   padding-bottom: 3px;
+}
+
+#yui-gen1 .operator .operatorPanel,
+#yui-gen11 .operator .operatorPanel,
+#yui-gen21 .operator .operatorPanel,
+#yui-gen31 .operator .operatorPanel {
+  margin-top: 1px !important;
 }
 
 #yui-gen1 .operator .operatorPanel a,
@@ -527,6 +534,24 @@
 #yui-gen28 .rich-spinner-input,
 #yui-gen38 .rich-spinner-input {
   border: 0 !important;
+  width: 35px !important;
+  max-width: 35px !important;
+  min-width: 35px !important;
+  height: 20px !important;
+}
+
+#yui-gen8 .rich-spinner-input:focus,
+#yui-gen18 .rich-spinner-input:focus,
+#yui-gen28 .rich-spinner-input:focus,
+#yui-gen38 .rich-spinner-input:focus {
+  border: 0 !important;
+}
+
+#yui-gen8 td.dr-subtable-cell.rich-subtable-cell,
+#yui-gen18 td.dr-subtable-cell.rich-subtable-cell,
+#yui-gen28 td.dr-subtable-cell.rich-subtable-cell,
+#yui-gen38 td.dr-subtable-cell.rich-subtable-cell {
+  white-space: nowrap;
 }
 
 #yui-gen8 input[value='Przygotuj kalkulację'],
@@ -941,7 +966,7 @@
 #yui-gen18 #WorkFlowForm .rich-panel,
 #yui-gen28 #WorkFlowForm .rich-panel,
 #yui-gen38 #WorkFlowForm .rich-panel {
-  border-radius: 4px;
+  border-radius: 7px 7px 4px 4px;
 }
 
 #yui-gen8 #WorkFlowForm .rich-panel-header,
@@ -1047,7 +1072,7 @@
 #yui-gen18 .rich-panel .rich-stglpanel,
 #yui-gen28 .rich-panel .rich-stglpanel,
 #yui-gen38 .rich-panel .rich-stglpanel {
-  margin-bottom: 8px;
+  margin-bottom: 2px;
   border-radius: 5px;
   border: 1px solid #eee;
 }
@@ -1097,6 +1122,21 @@
   background-image: none !important;
 }
 
+#yui-gen8 .rich-panel .rich-stglpanel .rich-stglpanel-body #panelKontrahent_body input:focus,
+#yui-gen8 .rich-panel .rich-stglpanel .rich-stglpanel-body #panelKontrahent_body textarea:focus,
+#yui-gen8 .rich-panel .rich-stglpanel .rich-stglpanel-body #panelKontrahent_body select:focus,
+#yui-gen18 .rich-panel .rich-stglpanel .rich-stglpanel-body #panelKontrahent_body input:focus,
+#yui-gen18 .rich-panel .rich-stglpanel .rich-stglpanel-body #panelKontrahent_body textarea:focus,
+#yui-gen18 .rich-panel .rich-stglpanel .rich-stglpanel-body #panelKontrahent_body select:focus,
+#yui-gen28 .rich-panel .rich-stglpanel .rich-stglpanel-body #panelKontrahent_body input:focus,
+#yui-gen28 .rich-panel .rich-stglpanel .rich-stglpanel-body #panelKontrahent_body textarea:focus,
+#yui-gen28 .rich-panel .rich-stglpanel .rich-stglpanel-body #panelKontrahent_body select:focus,
+#yui-gen38 .rich-panel .rich-stglpanel .rich-stglpanel-body #panelKontrahent_body input:focus,
+#yui-gen38 .rich-panel .rich-stglpanel .rich-stglpanel-body #panelKontrahent_body textarea:focus,
+#yui-gen38 .rich-panel .rich-stglpanel .rich-stglpanel-body #panelKontrahent_body select:focus {
+  border-color: #b4d62b;
+}
+
 #yui-gen8 .rich-panel .rich-stglpanel .rich-stglpanel-header,
 #yui-gen18 .rich-panel .rich-stglpanel .rich-stglpanel-header,
 #yui-gen28 .rich-panel .rich-stglpanel .rich-stglpanel-header,
@@ -1108,15 +1148,16 @@
   border-radius: 5px;
   font-size: 14px;
   font-weight: 500;
-  line-height: 25px;
+  line-height: 20px;
   padding-left: 15px;
+  padding-bottom: 4px;
 }
 
 #yui-gen8 .rich-panel .rich-stglpanel .rich-stglpanel-header .rich-stglpanel-marker,
 #yui-gen18 .rich-panel .rich-stglpanel .rich-stglpanel-header .rich-stglpanel-marker,
 #yui-gen28 .rich-panel .rich-stglpanel .rich-stglpanel-header .rich-stglpanel-marker,
 #yui-gen38 .rich-panel .rich-stglpanel .rich-stglpanel-header .rich-stglpanel-marker {
-  font-size: 42px;
+  font-size: 34px;
   margin-right: 10px;
   margin-top: 1px;
   -webkit-transform: rotate(90deg);
@@ -1340,6 +1381,56 @@
 #yui-gen38 .fixedWorkflowBarOtherElements tr:nth-child(5) .rich-panel:hover,
 #yui-gen38 .fixedWorkflowBarOtherElements tr:nth-child(7) .rich-panel:hover {
   border-color: #b4d62b;
+}
+
+#yui-gen8 .fixedWorkflowBarOtherElements tr:nth-child(1) .rich-panel:hover .rich-panel-header,
+#yui-gen8 .fixedWorkflowBarOtherElements tr:nth-child(3) .rich-panel:hover .rich-panel-header,
+#yui-gen8 .fixedWorkflowBarOtherElements tr:nth-child(5) .rich-panel:hover .rich-panel-header,
+#yui-gen8 .fixedWorkflowBarOtherElements tr:nth-child(7) .rich-panel:hover .rich-panel-header,
+#yui-gen18 .fixedWorkflowBarOtherElements tr:nth-child(1) .rich-panel:hover .rich-panel-header,
+#yui-gen18 .fixedWorkflowBarOtherElements tr:nth-child(3) .rich-panel:hover .rich-panel-header,
+#yui-gen18 .fixedWorkflowBarOtherElements tr:nth-child(5) .rich-panel:hover .rich-panel-header,
+#yui-gen18 .fixedWorkflowBarOtherElements tr:nth-child(7) .rich-panel:hover .rich-panel-header,
+#yui-gen28 .fixedWorkflowBarOtherElements tr:nth-child(1) .rich-panel:hover .rich-panel-header,
+#yui-gen28 .fixedWorkflowBarOtherElements tr:nth-child(3) .rich-panel:hover .rich-panel-header,
+#yui-gen28 .fixedWorkflowBarOtherElements tr:nth-child(5) .rich-panel:hover .rich-panel-header,
+#yui-gen28 .fixedWorkflowBarOtherElements tr:nth-child(7) .rich-panel:hover .rich-panel-header,
+#yui-gen38 .fixedWorkflowBarOtherElements tr:nth-child(1) .rich-panel:hover .rich-panel-header,
+#yui-gen38 .fixedWorkflowBarOtherElements tr:nth-child(3) .rich-panel:hover .rich-panel-header,
+#yui-gen38 .fixedWorkflowBarOtherElements tr:nth-child(5) .rich-panel:hover .rich-panel-header,
+#yui-gen38 .fixedWorkflowBarOtherElements tr:nth-child(7) .rich-panel:hover .rich-panel-header {
+  background-color: #b4d62d !important;
+  -webkit-transition: 300ms;
+  transition: 300ms;
+}
+
+#yui-gen8 .fixedWorkflowBarOtherElements tr:nth-child(1) .rich-panel-header,
+#yui-gen8 .fixedWorkflowBarOtherElements tr:nth-child(3) .rich-panel-header,
+#yui-gen8 .fixedWorkflowBarOtherElements tr:nth-child(5) .rich-panel-header,
+#yui-gen8 .fixedWorkflowBarOtherElements tr:nth-child(7) .rich-panel-header,
+#yui-gen18 .fixedWorkflowBarOtherElements tr:nth-child(1) .rich-panel-header,
+#yui-gen18 .fixedWorkflowBarOtherElements tr:nth-child(3) .rich-panel-header,
+#yui-gen18 .fixedWorkflowBarOtherElements tr:nth-child(5) .rich-panel-header,
+#yui-gen18 .fixedWorkflowBarOtherElements tr:nth-child(7) .rich-panel-header,
+#yui-gen28 .fixedWorkflowBarOtherElements tr:nth-child(1) .rich-panel-header,
+#yui-gen28 .fixedWorkflowBarOtherElements tr:nth-child(3) .rich-panel-header,
+#yui-gen28 .fixedWorkflowBarOtherElements tr:nth-child(5) .rich-panel-header,
+#yui-gen28 .fixedWorkflowBarOtherElements tr:nth-child(7) .rich-panel-header,
+#yui-gen38 .fixedWorkflowBarOtherElements tr:nth-child(1) .rich-panel-header,
+#yui-gen38 .fixedWorkflowBarOtherElements tr:nth-child(3) .rich-panel-header,
+#yui-gen38 .fixedWorkflowBarOtherElements tr:nth-child(5) .rich-panel-header,
+#yui-gen38 .fixedWorkflowBarOtherElements tr:nth-child(7) .rich-panel-header {
+  font-size: 16px !important;
+  line-height: 32px;
+  background-image: none !important;
+  background-color: rgba(180, 214, 45, 0.3) !important;
+  text-align: center;
+  border-radius: 5px 5px 0 0;
+  color: #000;
+  font-weight: 300;
+  cursor: default;
+  -webkit-transition: 300ms;
+  transition: 300ms;
 }
 
 #yui-gen8 .rich-datascr-act,
