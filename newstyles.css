@@ -704,7 +704,7 @@
   border: 0;
   color: #fff;
   font-weight: 500;
-  margin: 0 10px 25px !important;
+  margin: 5px 10px 25px !important;
   border-radius: 5px;
   cursor: pointer;
   -webkit-box-shadow: 0px 6px 7px -4px rgba(0, 0, 0, 0.6);
@@ -1682,6 +1682,8 @@
 #yui-gen58 .rich-panel #calcSTP input[value='Podgląd harmonogramu'] {
   font-weight: 700 !important;
   border: 1px solid #000 !important;
+  background: #666 !important;
+  color: #fff !important;
 }
 
 #yui-gen8 .rich-panel #calcSTP input[value='Podgląd harmonogramu']:hover,
@@ -1690,8 +1692,8 @@
 #yui-gen38 .rich-panel #calcSTP input[value='Podgląd harmonogramu']:hover,
 #yui-gen48 .rich-panel #calcSTP input[value='Podgląd harmonogramu']:hover,
 #yui-gen58 .rich-panel #calcSTP input[value='Podgląd harmonogramu']:hover {
-  border-color: #b4d62b;
-  color: #fff !important;
+  border-color: #b4d62b !important;
+  color: #b4d62b !important;
 }
 
 #yui-gen8 .fixedWorkflowBarOtherElements,
