@@ -55,7 +55,9 @@
 #yui-gen2,
 #yui-gen12,
 #yui-gen22,
-#yui-gen32 {
+#yui-gen32,
+#yui-gen42,
+#yui-gen52 {
   height: 130px !important;
 }
 
@@ -63,10 +65,14 @@
 #yui-gen15,
 #yui-gen25,
 #yui-gen35,
+#yui-gen45,
+#yui-gen55,
 #yui-gen8,
 #yui-gen18,
 #yui-gen28,
-#yui-gen38 {
+#yui-gen38,
+#yui-gen48,
+#yui-gen58 {
   top: 130px !important;
 }
 
@@ -75,14 +81,18 @@
 #yui-gen1,
 #yui-gen11,
 #yui-gen21,
-#yui-gen31 {
+#yui-gen31,
+#yui-gen41,
+#yui-gen51 {
   height: 130px !important;
 }
 
 #yui-gen1 #header img,
 #yui-gen11 #header img,
 #yui-gen21 #header img,
-#yui-gen31 #header img {
+#yui-gen31 #header img,
+#yui-gen41 #header img,
+#yui-gen51 #header img {
   height: 75px !important;
   max-height: 75px !important;
   margin-left: 25px !important;
@@ -92,7 +102,9 @@
 #yui-gen1 .operator,
 #yui-gen11 .operator,
 #yui-gen21 .operator,
-#yui-gen31 .operator {
+#yui-gen31 .operator,
+#yui-gen41 .operator,
+#yui-gen51 .operator {
   top: inherit;
   background: #b4d62b;
   width: 100%;
@@ -106,7 +118,9 @@
 #yui-gen1 .operator .operatorPanel,
 #yui-gen11 .operator .operatorPanel,
 #yui-gen21 .operator .operatorPanel,
-#yui-gen31 .operator .operatorPanel {
+#yui-gen31 .operator .operatorPanel,
+#yui-gen41 .operator .operatorPanel,
+#yui-gen51 .operator .operatorPanel {
   margin-top: 1px !important;
 }
 
@@ -133,7 +147,19 @@
 #yui-gen31 .operator .operatorName a,
 #yui-gen31 .operator .operatorName,
 #yui-gen31 .operator .operatorLabel a,
-#yui-gen31 .operator .operatorLabel {
+#yui-gen31 .operator .operatorLabel,
+#yui-gen41 .operator .operatorPanel a,
+#yui-gen41 .operator .operatorPanel,
+#yui-gen41 .operator .operatorName a,
+#yui-gen41 .operator .operatorName,
+#yui-gen41 .operator .operatorLabel a,
+#yui-gen41 .operator .operatorLabel,
+#yui-gen51 .operator .operatorPanel a,
+#yui-gen51 .operator .operatorPanel,
+#yui-gen51 .operator .operatorName a,
+#yui-gen51 .operator .operatorName,
+#yui-gen51 .operator .operatorLabel a,
+#yui-gen51 .operator .operatorLabel {
   font-size: 12px !important;
   color: #fff !important;
   line-height: 16px !important;
@@ -142,7 +168,9 @@
 #yui-gen1 .operator .operatorPanel tr,
 #yui-gen11 .operator .operatorPanel tr,
 #yui-gen21 .operator .operatorPanel tr,
-#yui-gen31 .operator .operatorPanel tr {
+#yui-gen31 .operator .operatorPanel tr,
+#yui-gen41 .operator .operatorPanel tr,
+#yui-gen51 .operator .operatorPanel tr {
   display: inline-block;
   padding-right: 30px;
 }
@@ -150,14 +178,18 @@
 #yui-gen1 .operator .operatorPanel tr span,
 #yui-gen11 .operator .operatorPanel tr span,
 #yui-gen21 .operator .operatorPanel tr span,
-#yui-gen31 .operator .operatorPanel tr span {
+#yui-gen31 .operator .operatorPanel tr span,
+#yui-gen41 .operator .operatorPanel tr span,
+#yui-gen51 .operator .operatorPanel tr span {
   font-size: 11px !important;
 }
 
 #yui-gen1 .sellnet,
 #yui-gen11 .sellnet,
 #yui-gen21 .sellnet,
-#yui-gen31 .sellnet {
+#yui-gen31 .sellnet,
+#yui-gen41 .sellnet,
+#yui-gen51 .sellnet {
   right: 15px !important;
   left: inherit !important;
   top: 98px;
@@ -166,7 +198,9 @@
 #yui-gen1 .sellnet .inplaceStyle,
 #yui-gen11 .sellnet .inplaceStyle,
 #yui-gen21 .sellnet .inplaceStyle,
-#yui-gen31 .sellnet .inplaceStyle {
+#yui-gen31 .sellnet .inplaceStyle,
+#yui-gen41 .sellnet .inplaceStyle,
+#yui-gen51 .sellnet .inplaceStyle {
   color: #fff;
   background: none !important;
 }
@@ -174,14 +208,18 @@
 #yui-gen1 .sellnet .operatorLabel,
 #yui-gen11 .sellnet .operatorLabel,
 #yui-gen21 .sellnet .operatorLabel,
-#yui-gen31 .sellnet .operatorLabel {
+#yui-gen31 .sellnet .operatorLabel,
+#yui-gen41 .sellnet .operatorLabel,
+#yui-gen51 .sellnet .operatorLabel {
   color: #fff !important;
 }
 
 #yui-gen1 .yui-layout-bd,
 #yui-gen11 .yui-layout-bd,
 #yui-gen21 .yui-layout-bd,
-#yui-gen31 .yui-layout-bd {
+#yui-gen31 .yui-layout-bd,
+#yui-gen41 .yui-layout-bd,
+#yui-gen51 .yui-layout-bd {
   background: url(../../../../../../../../../img/header_ilp.jpg) !important;
   background-position: top left !important;
   background-repeat: no-repeat !important;
@@ -194,21 +232,27 @@
 #yui-gen1 .menu,
 #yui-gen11 .menu,
 #yui-gen21 .menu,
-#yui-gen31 .menu {
+#yui-gen31 .menu,
+#yui-gen41 .menu,
+#yui-gen51 .menu {
   top: 75px !important;
 }
 
 #yui-gen1 .menu .operatorLabel,
 #yui-gen11 .menu .operatorLabel,
 #yui-gen21 .menu .operatorLabel,
-#yui-gen31 .menu .operatorLabel {
+#yui-gen31 .menu .operatorLabel,
+#yui-gen41 .menu .operatorLabel,
+#yui-gen51 .menu .operatorLabel {
   color: #fff !important;
 }
 
 #yui-gen1 .menu li,
 #yui-gen11 .menu li,
 #yui-gen21 .menu li,
-#yui-gen31 .menu li {
+#yui-gen31 .menu li,
+#yui-gen41 .menu li,
+#yui-gen51 .menu li {
   height: 24px !important;
   line-height: 24px !important;
   margin-right: 5px;
@@ -218,7 +262,9 @@
 #yui-gen1 .menu li a,
 #yui-gen11 .menu li a,
 #yui-gen21 .menu li a,
-#yui-gen31 .menu li a {
+#yui-gen31 .menu li a,
+#yui-gen41 .menu li a,
+#yui-gen51 .menu li a {
   font-size: 14px !important;
   color: #000 !important;
   border-radius: 3px;
@@ -232,14 +278,18 @@
 #yui-gen1 .menu li a:visited,
 #yui-gen11 .menu li a:visited,
 #yui-gen21 .menu li a:visited,
-#yui-gen31 .menu li a:visited {
+#yui-gen31 .menu li a:visited,
+#yui-gen41 .menu li a:visited,
+#yui-gen51 .menu li a:visited {
   color: inherit !important;
 }
 
 #yui-gen1 .menu li a:hover,
 #yui-gen11 .menu li a:hover,
 #yui-gen21 .menu li a:hover,
-#yui-gen31 .menu li a:hover {
+#yui-gen31 .menu li a:hover,
+#yui-gen41 .menu li a:hover,
+#yui-gen51 .menu li a:hover {
   color: #fff !important;
   background: rgba(0, 0, 0, 0.5);
   -webkit-box-shadow: 3px 2px 6px -2px rgba(0, 0, 0, 0.2);
@@ -250,7 +300,9 @@
 #yui-gen1 .menu li:last-child a,
 #yui-gen11 .menu li:last-child a,
 #yui-gen21 .menu li:last-child a,
-#yui-gen31 .menu li:last-child a {
+#yui-gen31 .menu li:last-child a,
+#yui-gen41 .menu li:last-child a,
+#yui-gen51 .menu li:last-child a {
   background: #000 !important;
   color: #b4d62b !important;
   border: 0;
@@ -259,7 +311,9 @@
 #yui-gen1 .menu li:last-child a:hover,
 #yui-gen11 .menu li:last-child a:hover,
 #yui-gen21 .menu li:last-child a:hover,
-#yui-gen31 .menu li:last-child a:hover {
+#yui-gen31 .menu li:last-child a:hover,
+#yui-gen41 .menu li:last-child a:hover,
+#yui-gen51 .menu li:last-child a:hover {
   color: #fff !important;
   border-bottom: 2px solid #b4d62b;
 }
@@ -268,7 +322,9 @@
 #yui-gen5 .rich-toolbar,
 #yui-gen15 .rich-toolbar,
 #yui-gen25 .rich-toolbar,
-#yui-gen35 .rich-toolbar {
+#yui-gen35 .rich-toolbar,
+#yui-gen45 .rich-toolbar,
+#yui-gen55 .rich-toolbar {
   background: #eee !important;
   color: #000;
   border-bottom: 2px solid #ddd;
@@ -280,21 +336,27 @@
 #yui-gen5 .yui-layout-bd-noft,
 #yui-gen15 .yui-layout-bd-noft,
 #yui-gen25 .yui-layout-bd-noft,
-#yui-gen35 .yui-layout-bd-noft {
+#yui-gen35 .yui-layout-bd-noft,
+#yui-gen45 .yui-layout-bd-noft,
+#yui-gen55 .yui-layout-bd-noft {
   top: 32px !important;
 }
 
 #yui-gen5 .yui-layout-clip,
 #yui-gen15 .yui-layout-clip,
 #yui-gen25 .yui-layout-clip,
-#yui-gen35 .yui-layout-clip {
+#yui-gen35 .yui-layout-clip,
+#yui-gen45 .yui-layout-clip,
+#yui-gen55 .yui-layout-clip {
   background: #eee !important;
 }
 
 #yui-gen5 .rich-tree a,
 #yui-gen15 .rich-tree a,
 #yui-gen25 .rich-tree a,
-#yui-gen35 .rich-tree a {
+#yui-gen35 .rich-tree a,
+#yui-gen45 .rich-tree a,
+#yui-gen55 .rich-tree a {
   font-size: 12px !important;
   font-family: 'Lato';
   color: #000 !important;
@@ -304,7 +366,9 @@
 #yui-gen5 .rich-tree-h-ic-img,
 #yui-gen15 .rich-tree-h-ic-img,
 #yui-gen25 .rich-tree-h-ic-img,
-#yui-gen35 .rich-tree-h-ic-img {
+#yui-gen35 .rich-tree-h-ic-img,
+#yui-gen45 .rich-tree-h-ic-img,
+#yui-gen55 .rich-tree-h-ic-img {
   -webkit-filter: hue-rotate(27deg);
           filter: hue-rotate(27deg);
 }
@@ -312,7 +376,9 @@
 #yui-gen5 .selectedTreeMenuNode,
 #yui-gen15 .selectedTreeMenuNode,
 #yui-gen25 .selectedTreeMenuNode,
-#yui-gen35 .selectedTreeMenuNode {
+#yui-gen35 .selectedTreeMenuNode,
+#yui-gen45 .selectedTreeMenuNode,
+#yui-gen55 .selectedTreeMenuNode {
   font-weight: 800;
   background-color: #eee;
   border: 2px solid #b4d62b;
@@ -325,7 +391,9 @@
 #yui-gen5 #left1,
 #yui-gen15 #left1,
 #yui-gen25 #left1,
-#yui-gen35 #left1 {
+#yui-gen35 #left1,
+#yui-gen45 #left1,
+#yui-gen55 #left1 {
   background: -webkit-gradient(linear, left top, left bottom, from(#fafafa), to(rgba(255, 255, 255, 0)));
   background: linear-gradient(to bottom, #fafafa 0%, rgba(255, 255, 255, 0) 100%);
 }
@@ -333,7 +401,9 @@
 #yui-gen5 #left1 a,
 #yui-gen15 #left1 a,
 #yui-gen25 #left1 a,
-#yui-gen35 #left1 a {
+#yui-gen35 #left1 a,
+#yui-gen45 #left1 a,
+#yui-gen55 #left1 a {
   -webkit-transition: all 150ms ease-in-out;
   transition: all 150ms ease-in-out;
 }
@@ -341,7 +411,9 @@
 #yui-gen5 .rich-tree-node-text a:hover,
 #yui-gen15 .rich-tree-node-text a:hover,
 #yui-gen25 .rich-tree-node-text a:hover,
-#yui-gen35 .rich-tree-node-text a:hover {
+#yui-gen35 .rich-tree-node-text a:hover,
+#yui-gen45 .rich-tree-node-text a:hover,
+#yui-gen55 .rich-tree-node-text a:hover {
   text-decoration: none;
   background-color: #eee;
   color: #57626a;
@@ -354,14 +426,18 @@
 #yui-gen5 .yui-layout-bd,
 #yui-gen15 .yui-layout-bd,
 #yui-gen25 .yui-layout-bd,
-#yui-gen35 .yui-layout-bd {
+#yui-gen35 .yui-layout-bd,
+#yui-gen45 .yui-layout-bd,
+#yui-gen55 .yui-layout-bd {
   border: 0 !important;
 }
 
 #yui-gen5 .collapse,
 #yui-gen15 .collapse,
 #yui-gen25 .collapse,
-#yui-gen35 .collapse {
+#yui-gen35 .collapse,
+#yui-gen45 .collapse,
+#yui-gen55 .collapse {
   background: #ddd !important;
   background-image: none !important;
   border: 1px solid #ccc;
@@ -375,7 +451,9 @@
 #yui-gen5 .collapse::before,
 #yui-gen15 .collapse::before,
 #yui-gen25 .collapse::before,
-#yui-gen35 .collapse::before {
+#yui-gen35 .collapse::before,
+#yui-gen45 .collapse::before,
+#yui-gen55 .collapse::before {
   content: '';
   width: 0;
   height: 0;
@@ -418,7 +496,9 @@
 #yui-gen8,
 #yui-gen18,
 #yui-gen28,
-#yui-gen38 {
+#yui-gen38,
+#yui-gen48,
+#yui-gen58 {
   /* input exception */
   /* kalkulacja - ZAPIS OPERACJI */
   /* //kalkulacja - zapis operacji */
@@ -428,24 +508,51 @@
   /* main content TABS */
 }
 
+#yui-gen8 #reportPanel,
+#yui-gen18 #reportPanel,
+#yui-gen28 #reportPanel,
+#yui-gen38 #reportPanel,
+#yui-gen48 #reportPanel,
+#yui-gen58 #reportPanel {
+  border-radius: 3px;
+}
+
+#yui-gen8 #reportPanel #reportPanel_header,
+#yui-gen18 #reportPanel #reportPanel_header,
+#yui-gen28 #reportPanel #reportPanel_header,
+#yui-gen38 #reportPanel #reportPanel_header,
+#yui-gen48 #reportPanel #reportPanel_header,
+#yui-gen58 #reportPanel #reportPanel_header {
+  font-size: 14px;
+  line-height: 16px;
+  padding: 3px 10px 5px;
+  background: #ddd;
+}
+
 #yui-gen8 #center1,
 #yui-gen18 #center1,
 #yui-gen28 #center1,
-#yui-gen38 #center1 {
+#yui-gen38 #center1,
+#yui-gen48 #center1,
+#yui-gen58 #center1 {
   padding-bottom: 35px;
 }
 
 #yui-gen8 #DfeContractSearchForm,
 #yui-gen18 #DfeContractSearchForm,
 #yui-gen28 #DfeContractSearchForm,
-#yui-gen38 #DfeContractSearchForm {
+#yui-gen38 #DfeContractSearchForm,
+#yui-gen48 #DfeContractSearchForm,
+#yui-gen58 #DfeContractSearchForm {
   padding: 5px;
 }
 
 #yui-gen8 #operationsSTP_body #choicePathPanel,
 #yui-gen18 #operationsSTP_body #choicePathPanel,
 #yui-gen28 #operationsSTP_body #choicePathPanel,
-#yui-gen38 #operationsSTP_body #choicePathPanel {
+#yui-gen38 #operationsSTP_body #choicePathPanel,
+#yui-gen48 #operationsSTP_body #choicePathPanel,
+#yui-gen58 #operationsSTP_body #choicePathPanel {
   -webkit-column-count: 2;
           column-count: 2;
 }
@@ -453,19 +560,24 @@
 #yui-gen8 .viewsourcelooklink,
 #yui-gen18 .viewsourcelooklink,
 #yui-gen28 .viewsourcelooklink,
-#yui-gen38 .viewsourcelooklink {
+#yui-gen38 .viewsourcelooklink,
+#yui-gen48 .viewsourcelooklink,
+#yui-gen58 .viewsourcelooklink {
   padding: 3px 10px;
   font-size: 14px;
   cursor: pointer;
   color: #555 !important;
   border: 2px solid #b4d62b;
   border-radius: 20px;
+  color: #fff;
 }
 
 #yui-gen8 .viewsourcepanel,
 #yui-gen18 .viewsourcepanel,
 #yui-gen28 .viewsourcepanel,
-#yui-gen38 .viewsourcepanel {
+#yui-gen38 .viewsourcepanel,
+#yui-gen48 .viewsourcepanel,
+#yui-gen58 .viewsourcepanel {
   background-color: rgba(180, 214, 43, 0.2) !important;
 }
 
@@ -476,7 +588,11 @@
 #yui-gen28 .viewsourcehidelink,
 #yui-gen28 .viewsourceheader,
 #yui-gen38 .viewsourcehidelink,
-#yui-gen38 .viewsourceheader {
+#yui-gen38 .viewsourceheader,
+#yui-gen48 .viewsourcehidelink,
+#yui-gen48 .viewsourceheader,
+#yui-gen58 .viewsourcehidelink,
+#yui-gen58 .viewsourceheader {
   background: #ddd !important;
   color: #000 !important;
 }
@@ -492,7 +608,13 @@
 #yui-gen28 select,
 #yui-gen38 textarea,
 #yui-gen38 input,
-#yui-gen38 select {
+#yui-gen38 select,
+#yui-gen48 textarea,
+#yui-gen48 input,
+#yui-gen48 select,
+#yui-gen58 textarea,
+#yui-gen58 input,
+#yui-gen58 select {
   background-image: none !important;
 }
 
@@ -507,7 +629,13 @@
 #yui-gen28 select:focus,
 #yui-gen38 input:focus,
 #yui-gen38 textarea:focus,
-#yui-gen38 select:focus {
+#yui-gen38 select:focus,
+#yui-gen48 input:focus,
+#yui-gen48 textarea:focus,
+#yui-gen48 select:focus,
+#yui-gen58 input:focus,
+#yui-gen58 textarea:focus,
+#yui-gen58 select:focus {
   outline-color: #b4d62b;
   background: rgba(0, 0, 0, 0.01);
 }
@@ -519,7 +647,11 @@
 #yui-gen28 input[type='text'],
 #yui-gen28 select,
 #yui-gen38 input[type='text'],
-#yui-gen38 select {
+#yui-gen38 select,
+#yui-gen48 input[type='text'],
+#yui-gen48 select,
+#yui-gen58 input[type='text'],
+#yui-gen58 select {
   font-size: 14px;
   height: 26px;
   border-radius: 3px;
@@ -532,7 +664,9 @@
 #yui-gen8 .rich-spinner-input,
 #yui-gen18 .rich-spinner-input,
 #yui-gen28 .rich-spinner-input,
-#yui-gen38 .rich-spinner-input {
+#yui-gen38 .rich-spinner-input,
+#yui-gen48 .rich-spinner-input,
+#yui-gen58 .rich-spinner-input {
   border: 0 !important;
   width: 35px !important;
   max-width: 35px !important;
@@ -543,28 +677,34 @@
 #yui-gen8 .rich-spinner-input:focus,
 #yui-gen18 .rich-spinner-input:focus,
 #yui-gen28 .rich-spinner-input:focus,
-#yui-gen38 .rich-spinner-input:focus {
+#yui-gen38 .rich-spinner-input:focus,
+#yui-gen48 .rich-spinner-input:focus,
+#yui-gen58 .rich-spinner-input:focus {
   border: 0 !important;
 }
 
 #yui-gen8 td.dr-subtable-cell.rich-subtable-cell,
 #yui-gen18 td.dr-subtable-cell.rich-subtable-cell,
 #yui-gen28 td.dr-subtable-cell.rich-subtable-cell,
-#yui-gen38 td.dr-subtable-cell.rich-subtable-cell {
+#yui-gen38 td.dr-subtable-cell.rich-subtable-cell,
+#yui-gen48 td.dr-subtable-cell.rich-subtable-cell,
+#yui-gen58 td.dr-subtable-cell.rich-subtable-cell {
   white-space: nowrap;
 }
 
 #yui-gen8 input[value='Przygotuj kalkulację'],
 #yui-gen18 input[value='Przygotuj kalkulację'],
 #yui-gen28 input[value='Przygotuj kalkulację'],
-#yui-gen38 input[value='Przygotuj kalkulację'] {
+#yui-gen38 input[value='Przygotuj kalkulację'],
+#yui-gen48 input[value='Przygotuj kalkulację'],
+#yui-gen58 input[value='Przygotuj kalkulację'] {
   font-size: 18px;
   background: #b4d62b;
   padding: 7px 30px 9px;
   border: 0;
   color: #fff;
   font-weight: 500;
-  margin: 0 10px 5px;
+  margin: 0 10px 25px !important;
   border-radius: 5px;
   cursor: pointer;
   -webkit-box-shadow: 0px 6px 7px -4px rgba(0, 0, 0, 0.6);
@@ -576,7 +716,9 @@
 #yui-gen8 input[value='Przygotuj kalkulację']:hover,
 #yui-gen18 input[value='Przygotuj kalkulację']:hover,
 #yui-gen28 input[value='Przygotuj kalkulację']:hover,
-#yui-gen38 input[value='Przygotuj kalkulację']:hover {
+#yui-gen38 input[value='Przygotuj kalkulację']:hover,
+#yui-gen48 input[value='Przygotuj kalkulację']:hover,
+#yui-gen58 input[value='Przygotuj kalkulację']:hover {
   -webkit-transition: 200ms;
   transition: 200ms;
   -webkit-transform: translateY(-2px);
@@ -588,7 +730,9 @@
 #yui-gen8 .rich-toolbar,
 #yui-gen18 .rich-toolbar,
 #yui-gen28 .rich-toolbar,
-#yui-gen38 .rich-toolbar {
+#yui-gen38 .rich-toolbar,
+#yui-gen48 .rich-toolbar,
+#yui-gen58 .rich-toolbar {
   background: #eee !important;
   color: #000;
   height: 50px !important;
@@ -602,7 +746,9 @@
 #yui-gen8 .rich-toolbar-item,
 #yui-gen18 .rich-toolbar-item,
 #yui-gen28 .rich-toolbar-item,
-#yui-gen38 .rich-toolbar-item {
+#yui-gen38 .rich-toolbar-item,
+#yui-gen48 .rich-toolbar-item,
+#yui-gen58 .rich-toolbar-item {
   font-size: 18px !important;
   color: #000 !important;
 }
@@ -610,7 +756,9 @@
 #yui-gen8 .komunikat,
 #yui-gen18 .komunikat,
 #yui-gen28 .komunikat,
-#yui-gen38 .komunikat {
+#yui-gen38 .komunikat,
+#yui-gen48 .komunikat,
+#yui-gen58 .komunikat {
   padding-left: 15px;
   text-transform: uppercase;
   font-size: 17px;
@@ -619,14 +767,18 @@
 #yui-gen8 .yui-layout-bd-nohd,
 #yui-gen18 .yui-layout-bd-nohd,
 #yui-gen28 .yui-layout-bd-nohd,
-#yui-gen38 .yui-layout-bd-nohd {
+#yui-gen38 .yui-layout-bd-nohd,
+#yui-gen48 .yui-layout-bd-nohd,
+#yui-gen58 .yui-layout-bd-nohd {
   border-top: 0 !important;
 }
 
 #yui-gen8 .yui-layout-bd,
 #yui-gen18 .yui-layout-bd,
 #yui-gen28 .yui-layout-bd,
-#yui-gen38 .yui-layout-bd {
+#yui-gen38 .yui-layout-bd,
+#yui-gen48 .yui-layout-bd,
+#yui-gen58 .yui-layout-bd {
   border-top: 0 !important;
   border-right: 0 !important;
   border-bottom: 0 !important;
@@ -640,7 +792,11 @@
 #yui-gen28 #panelWorkFlowLink input[type='text'],
 #yui-gen28 #panelWorkFlowLink select,
 #yui-gen38 #panelWorkFlowLink input[type='text'],
-#yui-gen38 #panelWorkFlowLink select {
+#yui-gen38 #panelWorkFlowLink select,
+#yui-gen48 #panelWorkFlowLink input[type='text'],
+#yui-gen48 #panelWorkFlowLink select,
+#yui-gen58 #panelWorkFlowLink input[type='text'],
+#yui-gen58 #panelWorkFlowLink select {
   font-size: 14px;
   height: 26px;
   border-radius: 3px;
@@ -653,7 +809,9 @@
 #yui-gen8 #panelWorkFlowLink textarea,
 #yui-gen18 #panelWorkFlowLink textarea,
 #yui-gen28 #panelWorkFlowLink textarea,
-#yui-gen38 #panelWorkFlowLink textarea {
+#yui-gen38 #panelWorkFlowLink textarea,
+#yui-gen48 #panelWorkFlowLink textarea,
+#yui-gen58 #panelWorkFlowLink textarea {
   font-size: 14px;
   min-height: 66px;
   border-radius: 3px;
@@ -666,7 +824,9 @@
 #yui-gen8 fieldset,
 #yui-gen18 fieldset,
 #yui-gen28 fieldset,
-#yui-gen38 fieldset {
+#yui-gen38 fieldset,
+#yui-gen48 fieldset,
+#yui-gen58 fieldset {
   border-radius: 5px;
   margin: 10px;
   max-width: 100%;
@@ -675,7 +835,9 @@
 #yui-gen8 fieldset:nth-child(2),
 #yui-gen18 fieldset:nth-child(2),
 #yui-gen28 fieldset:nth-child(2),
-#yui-gen38 fieldset:nth-child(2) {
+#yui-gen38 fieldset:nth-child(2),
+#yui-gen48 fieldset:nth-child(2),
+#yui-gen58 fieldset:nth-child(2) {
   background: #fafafa;
 }
 
@@ -686,7 +848,11 @@
 #yui-gen28 fieldset a,
 #yui-gen28 fieldset p,
 #yui-gen38 fieldset a,
-#yui-gen38 fieldset p {
+#yui-gen38 fieldset p,
+#yui-gen48 fieldset a,
+#yui-gen48 fieldset p,
+#yui-gen58 fieldset a,
+#yui-gen58 fieldset p {
   font-size: 15px;
   line-height: 25px;
 }
@@ -694,14 +860,18 @@
 #yui-gen8 fieldset .rich-stglpanel-body .rich-tab-bottom-line,
 #yui-gen18 fieldset .rich-stglpanel-body .rich-tab-bottom-line,
 #yui-gen28 fieldset .rich-stglpanel-body .rich-tab-bottom-line,
-#yui-gen38 fieldset .rich-stglpanel-body .rich-tab-bottom-line {
+#yui-gen38 fieldset .rich-stglpanel-body .rich-tab-bottom-line,
+#yui-gen48 fieldset .rich-stglpanel-body .rich-tab-bottom-line,
+#yui-gen58 fieldset .rich-stglpanel-body .rich-tab-bottom-line {
   text-align: left;
 }
 
 #yui-gen8 fieldset .rich-stglpanel-body .rich-tab-header,
 #yui-gen18 fieldset .rich-stglpanel-body .rich-tab-header,
 #yui-gen28 fieldset .rich-stglpanel-body .rich-tab-header,
-#yui-gen38 fieldset .rich-stglpanel-body .rich-tab-header {
+#yui-gen38 fieldset .rich-stglpanel-body .rich-tab-header,
+#yui-gen48 fieldset .rich-stglpanel-body .rich-tab-header,
+#yui-gen58 fieldset .rich-stglpanel-body .rich-tab-header {
   font-size: 15px;
   padding: 9px 14px 11px;
   background: #efefef !important;
@@ -712,7 +882,9 @@
 #yui-gen8 fieldset .rich-stglpanel-body .rich-tab-active,
 #yui-gen18 fieldset .rich-stglpanel-body .rich-tab-active,
 #yui-gen28 fieldset .rich-stglpanel-body .rich-tab-active,
-#yui-gen38 fieldset .rich-stglpanel-body .rich-tab-active {
+#yui-gen38 fieldset .rich-stglpanel-body .rich-tab-active,
+#yui-gen48 fieldset .rich-stglpanel-body .rich-tab-active,
+#yui-gen58 fieldset .rich-stglpanel-body .rich-tab-active {
   background: #fff !important;
   padding-top: 10px !important;
   border-top: 4px solid #b4d62b !important;
@@ -724,21 +896,27 @@
 #yui-gen8 fieldset .rich-stglpanel-body .rich-tabpanel-content #basePanel,
 #yui-gen18 fieldset .rich-stglpanel-body .rich-tabpanel-content #basePanel,
 #yui-gen28 fieldset .rich-stglpanel-body .rich-tabpanel-content #basePanel,
-#yui-gen38 fieldset .rich-stglpanel-body .rich-tabpanel-content #basePanel {
+#yui-gen38 fieldset .rich-stglpanel-body .rich-tabpanel-content #basePanel,
+#yui-gen48 fieldset .rich-stglpanel-body .rich-tabpanel-content #basePanel,
+#yui-gen58 fieldset .rich-stglpanel-body .rich-tabpanel-content #basePanel {
   width: 100%;
 }
 
 #yui-gen8 fieldset .rich-stglpanel-body .rich-tabpanel-content #basePanel tr td table,
 #yui-gen18 fieldset .rich-stglpanel-body .rich-tabpanel-content #basePanel tr td table,
 #yui-gen28 fieldset .rich-stglpanel-body .rich-tabpanel-content #basePanel tr td table,
-#yui-gen38 fieldset .rich-stglpanel-body .rich-tabpanel-content #basePanel tr td table {
+#yui-gen38 fieldset .rich-stglpanel-body .rich-tabpanel-content #basePanel tr td table,
+#yui-gen48 fieldset .rich-stglpanel-body .rich-tabpanel-content #basePanel tr td table,
+#yui-gen58 fieldset .rich-stglpanel-body .rich-tabpanel-content #basePanel tr td table {
   width: 100%;
 }
 
 #yui-gen8 fieldset .rich-stglpanel-body .rich-tabpanel-content #basePanel tr td table td:first-child,
 #yui-gen18 fieldset .rich-stglpanel-body .rich-tabpanel-content #basePanel tr td table td:first-child,
 #yui-gen28 fieldset .rich-stglpanel-body .rich-tabpanel-content #basePanel tr td table td:first-child,
-#yui-gen38 fieldset .rich-stglpanel-body .rich-tabpanel-content #basePanel tr td table td:first-child {
+#yui-gen38 fieldset .rich-stglpanel-body .rich-tabpanel-content #basePanel tr td table td:first-child,
+#yui-gen48 fieldset .rich-stglpanel-body .rich-tabpanel-content #basePanel tr td table td:first-child,
+#yui-gen58 fieldset .rich-stglpanel-body .rich-tabpanel-content #basePanel tr td table td:first-child {
   width: 40%;
 }
 
@@ -749,7 +927,11 @@
 #yui-gen28 fieldset .rich-stglpanel-body .rich-tabpanel-content #basePanel tr td table td:first-child input,
 #yui-gen28 fieldset .rich-stglpanel-body .rich-tabpanel-content #basePanel tr td table td:first-child textarea,
 #yui-gen38 fieldset .rich-stglpanel-body .rich-tabpanel-content #basePanel tr td table td:first-child input,
-#yui-gen38 fieldset .rich-stglpanel-body .rich-tabpanel-content #basePanel tr td table td:first-child textarea {
+#yui-gen38 fieldset .rich-stglpanel-body .rich-tabpanel-content #basePanel tr td table td:first-child textarea,
+#yui-gen48 fieldset .rich-stglpanel-body .rich-tabpanel-content #basePanel tr td table td:first-child input,
+#yui-gen48 fieldset .rich-stglpanel-body .rich-tabpanel-content #basePanel tr td table td:first-child textarea,
+#yui-gen58 fieldset .rich-stglpanel-body .rich-tabpanel-content #basePanel tr td table td:first-child input,
+#yui-gen58 fieldset .rich-stglpanel-body .rich-tabpanel-content #basePanel tr td table td:first-child textarea {
   width: 100%;
 }
 
@@ -760,7 +942,11 @@
 #yui-gen28 fieldset .rich-stglpanel-body .rich-tabpanel-content #basePanel tr td table td:nth-child(2) input,
 #yui-gen28 fieldset .rich-stglpanel-body .rich-tabpanel-content #basePanel tr td table td:nth-child(3) input,
 #yui-gen38 fieldset .rich-stglpanel-body .rich-tabpanel-content #basePanel tr td table td:nth-child(2) input,
-#yui-gen38 fieldset .rich-stglpanel-body .rich-tabpanel-content #basePanel tr td table td:nth-child(3) input {
+#yui-gen38 fieldset .rich-stglpanel-body .rich-tabpanel-content #basePanel tr td table td:nth-child(3) input,
+#yui-gen48 fieldset .rich-stglpanel-body .rich-tabpanel-content #basePanel tr td table td:nth-child(2) input,
+#yui-gen48 fieldset .rich-stglpanel-body .rich-tabpanel-content #basePanel tr td table td:nth-child(3) input,
+#yui-gen58 fieldset .rich-stglpanel-body .rich-tabpanel-content #basePanel tr td table td:nth-child(2) input,
+#yui-gen58 fieldset .rich-stglpanel-body .rich-tabpanel-content #basePanel tr td table td:nth-child(3) input {
   width: 40px;
   margin-left: 30px !important;
 }
@@ -768,21 +954,27 @@
 #yui-gen8 fieldset .rich-stglpanel-body .rich-tabpanel-content #basePanel tr:nth-child(odd),
 #yui-gen18 fieldset .rich-stglpanel-body .rich-tabpanel-content #basePanel tr:nth-child(odd),
 #yui-gen28 fieldset .rich-stglpanel-body .rich-tabpanel-content #basePanel tr:nth-child(odd),
-#yui-gen38 fieldset .rich-stglpanel-body .rich-tabpanel-content #basePanel tr:nth-child(odd) {
+#yui-gen38 fieldset .rich-stglpanel-body .rich-tabpanel-content #basePanel tr:nth-child(odd),
+#yui-gen48 fieldset .rich-stglpanel-body .rich-tabpanel-content #basePanel tr:nth-child(odd),
+#yui-gen58 fieldset .rich-stglpanel-body .rich-tabpanel-content #basePanel tr:nth-child(odd) {
   background: #fafafa !important;
 }
 
 #yui-gen8 fieldset .rich-stglpanel-body .rich-tabpanel-content textarea#field_long,
 #yui-gen18 fieldset .rich-stglpanel-body .rich-tabpanel-content textarea#field_long,
 #yui-gen28 fieldset .rich-stglpanel-body .rich-tabpanel-content textarea#field_long,
-#yui-gen38 fieldset .rich-stglpanel-body .rich-tabpanel-content textarea#field_long {
+#yui-gen38 fieldset .rich-stglpanel-body .rich-tabpanel-content textarea#field_long,
+#yui-gen48 fieldset .rich-stglpanel-body .rich-tabpanel-content textarea#field_long,
+#yui-gen58 fieldset .rich-stglpanel-body .rich-tabpanel-content textarea#field_long {
   width: 100%;
 }
 
 #yui-gen8 fieldset .rich-stglpanel-body .rich-tabpanel-content label,
 #yui-gen18 fieldset .rich-stglpanel-body .rich-tabpanel-content label,
 #yui-gen28 fieldset .rich-stglpanel-body .rich-tabpanel-content label,
-#yui-gen38 fieldset .rich-stglpanel-body .rich-tabpanel-content label {
+#yui-gen38 fieldset .rich-stglpanel-body .rich-tabpanel-content label,
+#yui-gen48 fieldset .rich-stglpanel-body .rich-tabpanel-content label,
+#yui-gen58 fieldset .rich-stglpanel-body .rich-tabpanel-content label {
   font-size: 14px;
   line-height: 30px;
   padding-left: 10px;
@@ -799,7 +991,13 @@
 #yui-gen28 fieldset .rich-stglpanel-body .rich-tabpanel-content textarea,
 #yui-gen38 fieldset .rich-stglpanel-body .rich-tabpanel-content input,
 #yui-gen38 fieldset .rich-stglpanel-body .rich-tabpanel-content select,
-#yui-gen38 fieldset .rich-stglpanel-body .rich-tabpanel-content textarea {
+#yui-gen38 fieldset .rich-stglpanel-body .rich-tabpanel-content textarea,
+#yui-gen48 fieldset .rich-stglpanel-body .rich-tabpanel-content input,
+#yui-gen48 fieldset .rich-stglpanel-body .rich-tabpanel-content select,
+#yui-gen48 fieldset .rich-stglpanel-body .rich-tabpanel-content textarea,
+#yui-gen58 fieldset .rich-stglpanel-body .rich-tabpanel-content input,
+#yui-gen58 fieldset .rich-stglpanel-body .rich-tabpanel-content select,
+#yui-gen58 fieldset .rich-stglpanel-body .rich-tabpanel-content textarea {
   height: 30px !important;
   padding-left: 5px !important;
   border-radius: 3px;
@@ -821,7 +1019,13 @@
 #yui-gen28 fieldset .rich-stglpanel-body .rich-tabpanel-content select:focus,
 #yui-gen38 fieldset .rich-stglpanel-body .rich-tabpanel-content input:focus,
 #yui-gen38 fieldset .rich-stglpanel-body .rich-tabpanel-content textarea:focus,
-#yui-gen38 fieldset .rich-stglpanel-body .rich-tabpanel-content select:focus {
+#yui-gen38 fieldset .rich-stglpanel-body .rich-tabpanel-content select:focus,
+#yui-gen48 fieldset .rich-stglpanel-body .rich-tabpanel-content input:focus,
+#yui-gen48 fieldset .rich-stglpanel-body .rich-tabpanel-content textarea:focus,
+#yui-gen48 fieldset .rich-stglpanel-body .rich-tabpanel-content select:focus,
+#yui-gen58 fieldset .rich-stglpanel-body .rich-tabpanel-content input:focus,
+#yui-gen58 fieldset .rich-stglpanel-body .rich-tabpanel-content textarea:focus,
+#yui-gen58 fieldset .rich-stglpanel-body .rich-tabpanel-content select:focus {
   outline-color: #b4d62b;
   background: rgba(0, 0, 0, 0.01);
 }
@@ -829,21 +1033,27 @@
 #yui-gen8 fieldset .rich-stglpanel-body .rich-tabpanel-content input,
 #yui-gen18 fieldset .rich-stglpanel-body .rich-tabpanel-content input,
 #yui-gen28 fieldset .rich-stglpanel-body .rich-tabpanel-content input,
-#yui-gen38 fieldset .rich-stglpanel-body .rich-tabpanel-content input {
+#yui-gen38 fieldset .rich-stglpanel-body .rich-tabpanel-content input,
+#yui-gen48 fieldset .rich-stglpanel-body .rich-tabpanel-content input,
+#yui-gen58 fieldset .rich-stglpanel-body .rich-tabpanel-content input {
   width: 40%;
 }
 
 #yui-gen8 fieldset .rich-stglpanel-body .rich-tabpanel-content select,
 #yui-gen18 fieldset .rich-stglpanel-body .rich-tabpanel-content select,
 #yui-gen28 fieldset .rich-stglpanel-body .rich-tabpanel-content select,
-#yui-gen38 fieldset .rich-stglpanel-body .rich-tabpanel-content select {
+#yui-gen38 fieldset .rich-stglpanel-body .rich-tabpanel-content select,
+#yui-gen48 fieldset .rich-stglpanel-body .rich-tabpanel-content select,
+#yui-gen58 fieldset .rich-stglpanel-body .rich-tabpanel-content select {
   width: 40.7%;
 }
 
 #yui-gen8 legend,
 #yui-gen18 legend,
 #yui-gen28 legend,
-#yui-gen38 legend {
+#yui-gen38 legend,
+#yui-gen48 legend,
+#yui-gen58 legend {
   font-size: 14px;
   font-weight: 700;
 }
@@ -863,7 +1073,15 @@
 #yui-gen38 .top-anuluj-button,
 #yui-gen38 #workflowToolBar2 #WorkFlowCommandButtonAbort2,
 #yui-gen38 #WorkFlowCommandButtonBack2,
-#yui-gen38 .buttonAbort {
+#yui-gen38 .buttonAbort,
+#yui-gen48 .top-anuluj-button,
+#yui-gen48 #workflowToolBar2 #WorkFlowCommandButtonAbort2,
+#yui-gen48 #WorkFlowCommandButtonBack2,
+#yui-gen48 .buttonAbort,
+#yui-gen58 .top-anuluj-button,
+#yui-gen58 #workflowToolBar2 #WorkFlowCommandButtonAbort2,
+#yui-gen58 #WorkFlowCommandButtonBack2,
+#yui-gen58 .buttonAbort {
   font-size: 15px !important;
   padding: 6px 20px;
   outline: 0;
@@ -890,7 +1108,15 @@
 #yui-gen38 .top-anuluj-button:hover,
 #yui-gen38 #workflowToolBar2 #WorkFlowCommandButtonAbort2:hover,
 #yui-gen38 #WorkFlowCommandButtonBack2:hover,
-#yui-gen38 .buttonAbort:hover {
+#yui-gen38 .buttonAbort:hover,
+#yui-gen48 .top-anuluj-button:hover,
+#yui-gen48 #workflowToolBar2 #WorkFlowCommandButtonAbort2:hover,
+#yui-gen48 #WorkFlowCommandButtonBack2:hover,
+#yui-gen48 .buttonAbort:hover,
+#yui-gen58 .top-anuluj-button:hover,
+#yui-gen58 #workflowToolBar2 #WorkFlowCommandButtonAbort2:hover,
+#yui-gen58 #WorkFlowCommandButtonBack2:hover,
+#yui-gen58 .buttonAbort:hover {
   opacity: 0.8;
 }
 
@@ -905,7 +1131,13 @@
 #yui-gen28 input[value='Zapisz'],
 #yui-gen38 .top-zapisz-button,
 #yui-gen38 #workflowToolBar2 #WorkFlowCommandButtonNext2,
-#yui-gen38 input[value='Zapisz'] {
+#yui-gen38 input[value='Zapisz'],
+#yui-gen48 .top-zapisz-button,
+#yui-gen48 #workflowToolBar2 #WorkFlowCommandButtonNext2,
+#yui-gen48 input[value='Zapisz'],
+#yui-gen58 .top-zapisz-button,
+#yui-gen58 #workflowToolBar2 #WorkFlowCommandButtonNext2,
+#yui-gen58 input[value='Zapisz'] {
   font-size: 17px !important;
   padding: 6px 50px;
   outline: 0;
@@ -933,7 +1165,13 @@
 #yui-gen28 input[value='Zapisz']:hover,
 #yui-gen38 .top-zapisz-button:hover,
 #yui-gen38 #workflowToolBar2 #WorkFlowCommandButtonNext2:hover,
-#yui-gen38 input[value='Zapisz']:hover {
+#yui-gen38 input[value='Zapisz']:hover,
+#yui-gen48 .top-zapisz-button:hover,
+#yui-gen48 #workflowToolBar2 #WorkFlowCommandButtonNext2:hover,
+#yui-gen48 input[value='Zapisz']:hover,
+#yui-gen58 .top-zapisz-button:hover,
+#yui-gen58 #workflowToolBar2 #WorkFlowCommandButtonNext2:hover,
+#yui-gen58 input[value='Zapisz']:hover {
   background: #000 !important;
   color: #b4d62b !important;
   -webkit-transition: all 300ms ease-in-out;
@@ -947,7 +1185,9 @@
 #yui-gen8 #BilbordShowForm span,
 #yui-gen18 #BilbordShowForm span,
 #yui-gen28 #BilbordShowForm span,
-#yui-gen38 #BilbordShowForm span {
+#yui-gen38 #BilbordShowForm span,
+#yui-gen48 #BilbordShowForm span,
+#yui-gen58 #BilbordShowForm span {
   font-size: 16px;
   margin-top: 20px !important;
   display: block;
@@ -957,22 +1197,57 @@
 #yui-gen8 #BilbordShowForm #messagesList span,
 #yui-gen18 #BilbordShowForm #messagesList span,
 #yui-gen28 #BilbordShowForm #messagesList span,
-#yui-gen38 #BilbordShowForm #messagesList span {
+#yui-gen38 #BilbordShowForm #messagesList span,
+#yui-gen48 #BilbordShowForm #messagesList span,
+#yui-gen58 #BilbordShowForm #messagesList span {
   margin-top: 0 !important;
   line-height: 26px;
+}
+
+#yui-gen8 #WorkFlowForm .nipSearch,
+#yui-gen18 #WorkFlowForm .nipSearch,
+#yui-gen28 #WorkFlowForm .nipSearch,
+#yui-gen38 #WorkFlowForm .nipSearch,
+#yui-gen48 #WorkFlowForm .nipSearch,
+#yui-gen58 #WorkFlowForm .nipSearch {
+  border: 0;
+  padding: 2px 8px 3px !important;
+  border: 1px solid #b4d62b;
+  color: #000 !important;
+  background: #fff !important;
+  background-image: none;
+  border-radius: 3px;
+  position: absolute;
+  margin-top: -30px;
+  margin-left: 203px;
+  cursor: pointer;
+  display: block;
+}
+
+#yui-gen8 #WorkFlowForm .nipSearch:hover,
+#yui-gen18 #WorkFlowForm .nipSearch:hover,
+#yui-gen28 #WorkFlowForm .nipSearch:hover,
+#yui-gen38 #WorkFlowForm .nipSearch:hover,
+#yui-gen48 #WorkFlowForm .nipSearch:hover,
+#yui-gen58 #WorkFlowForm .nipSearch:hover {
+  background: #b4d62b !important;
 }
 
 #yui-gen8 #WorkFlowForm .rich-panel,
 #yui-gen18 #WorkFlowForm .rich-panel,
 #yui-gen28 #WorkFlowForm .rich-panel,
-#yui-gen38 #WorkFlowForm .rich-panel {
+#yui-gen38 #WorkFlowForm .rich-panel,
+#yui-gen48 #WorkFlowForm .rich-panel,
+#yui-gen58 #WorkFlowForm .rich-panel {
   border-radius: 7px 7px 4px 4px;
 }
 
 #yui-gen8 #WorkFlowForm .rich-panel-header,
 #yui-gen18 #WorkFlowForm .rich-panel-header,
 #yui-gen28 #WorkFlowForm .rich-panel-header,
-#yui-gen38 #WorkFlowForm .rich-panel-header {
+#yui-gen38 #WorkFlowForm .rich-panel-header,
+#yui-gen48 #WorkFlowForm .rich-panel-header,
+#yui-gen58 #WorkFlowForm .rich-panel-header {
   font-size: 14px;
   line-height: 32px;
   background-image: none !important;
@@ -984,7 +1259,9 @@
 #yui-gen8 #WorkFlowForm a[id^='LEASING_PRODUCT_'],
 #yui-gen18 #WorkFlowForm a[id^='LEASING_PRODUCT_'],
 #yui-gen28 #WorkFlowForm a[id^='LEASING_PRODUCT_'],
-#yui-gen38 #WorkFlowForm a[id^='LEASING_PRODUCT_'] {
+#yui-gen38 #WorkFlowForm a[id^='LEASING_PRODUCT_'],
+#yui-gen48 #WorkFlowForm a[id^='LEASING_PRODUCT_'],
+#yui-gen58 #WorkFlowForm a[id^='LEASING_PRODUCT_'] {
   line-height: 35px !important;
   font-size: 16px !important;
 }
@@ -992,7 +1269,9 @@
 #yui-gen8 #WorkFlowForm .rich-table-subheadercell,
 #yui-gen18 #WorkFlowForm .rich-table-subheadercell,
 #yui-gen28 #WorkFlowForm .rich-table-subheadercell,
-#yui-gen38 #WorkFlowForm .rich-table-subheadercell {
+#yui-gen38 #WorkFlowForm .rich-table-subheadercell,
+#yui-gen48 #WorkFlowForm .rich-table-subheadercell,
+#yui-gen58 #WorkFlowForm .rich-table-subheadercell {
   background: #eee;
   font-size: 16px;
   line-height: 27px;
@@ -1002,9 +1281,11 @@
 #yui-gen8 #WorkFlowForm .rich-table-cell,
 #yui-gen18 #WorkFlowForm .rich-table-cell,
 #yui-gen28 #WorkFlowForm .rich-table-cell,
-#yui-gen38 #WorkFlowForm .rich-table-cell {
+#yui-gen38 #WorkFlowForm .rich-table-cell,
+#yui-gen48 #WorkFlowForm .rich-table-cell,
+#yui-gen58 #WorkFlowForm .rich-table-cell {
   font-size: 14px;
-  line-height: 34px;
+  line-height: 16px;
   padding-left: 13px;
 }
 
@@ -1019,7 +1300,13 @@
 #yui-gen28 #WorkFlowForm .rich-table-cell textarea,
 #yui-gen38 #WorkFlowForm .rich-table-cell input,
 #yui-gen38 #WorkFlowForm .rich-table-cell select,
-#yui-gen38 #WorkFlowForm .rich-table-cell textarea {
+#yui-gen38 #WorkFlowForm .rich-table-cell textarea,
+#yui-gen48 #WorkFlowForm .rich-table-cell input,
+#yui-gen48 #WorkFlowForm .rich-table-cell select,
+#yui-gen48 #WorkFlowForm .rich-table-cell textarea,
+#yui-gen58 #WorkFlowForm .rich-table-cell input,
+#yui-gen58 #WorkFlowForm .rich-table-cell select,
+#yui-gen58 #WorkFlowForm .rich-table-cell textarea {
   font-size: 14px;
   padding-left: 10px;
 }
@@ -1031,7 +1318,11 @@
 #yui-gen28 #WorkFlowForm .rich-table-cell input:focus,
 #yui-gen28 #WorkFlowForm .rich-table-cell textarea:focus,
 #yui-gen38 #WorkFlowForm .rich-table-cell input:focus,
-#yui-gen38 #WorkFlowForm .rich-table-cell textarea:focus {
+#yui-gen38 #WorkFlowForm .rich-table-cell textarea:focus,
+#yui-gen48 #WorkFlowForm .rich-table-cell input:focus,
+#yui-gen48 #WorkFlowForm .rich-table-cell textarea:focus,
+#yui-gen58 #WorkFlowForm .rich-table-cell input:focus,
+#yui-gen58 #WorkFlowForm .rich-table-cell textarea:focus {
   border: 1px #b4d62b inset;
   background: #fff;
 }
@@ -1039,7 +1330,9 @@
 #yui-gen8 #WorkFlowForm #btnNewDfeContractObject,
 #yui-gen18 #WorkFlowForm #btnNewDfeContractObject,
 #yui-gen28 #WorkFlowForm #btnNewDfeContractObject,
-#yui-gen38 #WorkFlowForm #btnNewDfeContractObject {
+#yui-gen38 #WorkFlowForm #btnNewDfeContractObject,
+#yui-gen48 #WorkFlowForm #btnNewDfeContractObject,
+#yui-gen58 #WorkFlowForm #btnNewDfeContractObject {
   font-size: 16px;
   padding: 5px 30px 7px;
   margin: 10px;
@@ -1055,7 +1348,9 @@
 #yui-gen8 #WorkFlowForm #btnNewDfeContractObject:hover,
 #yui-gen18 #WorkFlowForm #btnNewDfeContractObject:hover,
 #yui-gen28 #WorkFlowForm #btnNewDfeContractObject:hover,
-#yui-gen38 #WorkFlowForm #btnNewDfeContractObject:hover {
+#yui-gen38 #WorkFlowForm #btnNewDfeContractObject:hover,
+#yui-gen48 #WorkFlowForm #btnNewDfeContractObject:hover,
+#yui-gen58 #WorkFlowForm #btnNewDfeContractObject:hover {
   background: #b4d62b;
   color: #fff;
 }
@@ -1063,7 +1358,9 @@
 #yui-gen8 .rich-panel,
 #yui-gen18 .rich-panel,
 #yui-gen28 .rich-panel,
-#yui-gen38 .rich-panel {
+#yui-gen38 .rich-panel,
+#yui-gen48 .rich-panel,
+#yui-gen58 .rich-panel {
   /* nowa kalkulacja - finansowanie */
   /* // nowa kalkulacja - finansowanie */
 }
@@ -1071,7 +1368,9 @@
 #yui-gen8 .rich-panel .rich-stglpanel,
 #yui-gen18 .rich-panel .rich-stglpanel,
 #yui-gen28 .rich-panel .rich-stglpanel,
-#yui-gen38 .rich-panel .rich-stglpanel {
+#yui-gen38 .rich-panel .rich-stglpanel,
+#yui-gen48 .rich-panel .rich-stglpanel,
+#yui-gen58 .rich-panel .rich-stglpanel {
   margin-bottom: 2px;
   border-radius: 5px;
   border: 1px solid #eee;
@@ -1088,14 +1387,22 @@
 #yui-gen28 .rich-panel .rich-stglpanel td,
 #yui-gen38 .rich-panel .rich-stglpanel p,
 #yui-gen38 .rich-panel .rich-stglpanel a,
-#yui-gen38 .rich-panel .rich-stglpanel td {
+#yui-gen38 .rich-panel .rich-stglpanel td,
+#yui-gen48 .rich-panel .rich-stglpanel p,
+#yui-gen48 .rich-panel .rich-stglpanel a,
+#yui-gen48 .rich-panel .rich-stglpanel td,
+#yui-gen58 .rich-panel .rich-stglpanel p,
+#yui-gen58 .rich-panel .rich-stglpanel a,
+#yui-gen58 .rich-panel .rich-stglpanel td {
   font-size: 14px;
 }
 
 #yui-gen8 .rich-panel .rich-stglpanel .rich-stglpanel-body,
 #yui-gen18 .rich-panel .rich-stglpanel .rich-stglpanel-body,
 #yui-gen28 .rich-panel .rich-stglpanel .rich-stglpanel-body,
-#yui-gen38 .rich-panel .rich-stglpanel .rich-stglpanel-body {
+#yui-gen38 .rich-panel .rich-stglpanel .rich-stglpanel-body,
+#yui-gen48 .rich-panel .rich-stglpanel .rich-stglpanel-body,
+#yui-gen58 .rich-panel .rich-stglpanel .rich-stglpanel-body {
   padding: 20px 10px !important;
 }
 
@@ -1110,7 +1417,13 @@
 #yui-gen28 .rich-panel .rich-stglpanel .rich-stglpanel-body #panelKontrahent_body select,
 #yui-gen38 .rich-panel .rich-stglpanel .rich-stglpanel-body #panelKontrahent_body input,
 #yui-gen38 .rich-panel .rich-stglpanel .rich-stglpanel-body #panelKontrahent_body textarea,
-#yui-gen38 .rich-panel .rich-stglpanel .rich-stglpanel-body #panelKontrahent_body select {
+#yui-gen38 .rich-panel .rich-stglpanel .rich-stglpanel-body #panelKontrahent_body select,
+#yui-gen48 .rich-panel .rich-stglpanel .rich-stglpanel-body #panelKontrahent_body input,
+#yui-gen48 .rich-panel .rich-stglpanel .rich-stglpanel-body #panelKontrahent_body textarea,
+#yui-gen48 .rich-panel .rich-stglpanel .rich-stglpanel-body #panelKontrahent_body select,
+#yui-gen58 .rich-panel .rich-stglpanel .rich-stglpanel-body #panelKontrahent_body input,
+#yui-gen58 .rich-panel .rich-stglpanel .rich-stglpanel-body #panelKontrahent_body textarea,
+#yui-gen58 .rich-panel .rich-stglpanel .rich-stglpanel-body #panelKontrahent_body select {
   height: 26px !important;
   padding-left: 5px !important;
   border-radius: 3px;
@@ -1133,14 +1446,22 @@
 #yui-gen28 .rich-panel .rich-stglpanel .rich-stglpanel-body #panelKontrahent_body select:focus,
 #yui-gen38 .rich-panel .rich-stglpanel .rich-stglpanel-body #panelKontrahent_body input:focus,
 #yui-gen38 .rich-panel .rich-stglpanel .rich-stglpanel-body #panelKontrahent_body textarea:focus,
-#yui-gen38 .rich-panel .rich-stglpanel .rich-stglpanel-body #panelKontrahent_body select:focus {
+#yui-gen38 .rich-panel .rich-stglpanel .rich-stglpanel-body #panelKontrahent_body select:focus,
+#yui-gen48 .rich-panel .rich-stglpanel .rich-stglpanel-body #panelKontrahent_body input:focus,
+#yui-gen48 .rich-panel .rich-stglpanel .rich-stglpanel-body #panelKontrahent_body textarea:focus,
+#yui-gen48 .rich-panel .rich-stglpanel .rich-stglpanel-body #panelKontrahent_body select:focus,
+#yui-gen58 .rich-panel .rich-stglpanel .rich-stglpanel-body #panelKontrahent_body input:focus,
+#yui-gen58 .rich-panel .rich-stglpanel .rich-stglpanel-body #panelKontrahent_body textarea:focus,
+#yui-gen58 .rich-panel .rich-stglpanel .rich-stglpanel-body #panelKontrahent_body select:focus {
   border-color: #b4d62b;
 }
 
 #yui-gen8 .rich-panel .rich-stglpanel .rich-stglpanel-header,
 #yui-gen18 .rich-panel .rich-stglpanel .rich-stglpanel-header,
 #yui-gen28 .rich-panel .rich-stglpanel .rich-stglpanel-header,
-#yui-gen38 .rich-panel .rich-stglpanel .rich-stglpanel-header {
+#yui-gen38 .rich-panel .rich-stglpanel .rich-stglpanel-header,
+#yui-gen48 .rich-panel .rich-stglpanel .rich-stglpanel-header,
+#yui-gen58 .rich-panel .rich-stglpanel .rich-stglpanel-header {
   background: #999 !important;
   color: #fff !important;
   background-image: none;
@@ -1156,7 +1477,9 @@
 #yui-gen8 .rich-panel .rich-stglpanel .rich-stglpanel-header .rich-stglpanel-marker,
 #yui-gen18 .rich-panel .rich-stglpanel .rich-stglpanel-header .rich-stglpanel-marker,
 #yui-gen28 .rich-panel .rich-stglpanel .rich-stglpanel-header .rich-stglpanel-marker,
-#yui-gen38 .rich-panel .rich-stglpanel .rich-stglpanel-header .rich-stglpanel-marker {
+#yui-gen38 .rich-panel .rich-stglpanel .rich-stglpanel-header .rich-stglpanel-marker,
+#yui-gen48 .rich-panel .rich-stglpanel .rich-stglpanel-header .rich-stglpanel-marker,
+#yui-gen58 .rich-panel .rich-stglpanel .rich-stglpanel-header .rich-stglpanel-marker {
   font-size: 34px;
   margin-right: 10px;
   margin-top: 1px;
@@ -1167,7 +1490,9 @@
 #yui-gen8 .rich-panel .rich-stglpanel input#printScheduleButton,
 #yui-gen18 .rich-panel .rich-stglpanel input#printScheduleButton,
 #yui-gen28 .rich-panel .rich-stglpanel input#printScheduleButton,
-#yui-gen38 .rich-panel .rich-stglpanel input#printScheduleButton {
+#yui-gen38 .rich-panel .rich-stglpanel input#printScheduleButton,
+#yui-gen48 .rich-panel .rich-stglpanel input#printScheduleButton,
+#yui-gen58 .rich-panel .rich-stglpanel input#printScheduleButton {
   border: 0;
   font-size: 18px;
   padding: 5px 30px 7px;
@@ -1182,7 +1507,9 @@
 #yui-gen8 .rich-panel .rich-stglpanel input#printScheduleButton:hover,
 #yui-gen18 .rich-panel .rich-stglpanel input#printScheduleButton:hover,
 #yui-gen28 .rich-panel .rich-stglpanel input#printScheduleButton:hover,
-#yui-gen38 .rich-panel .rich-stglpanel input#printScheduleButton:hover {
+#yui-gen38 .rich-panel .rich-stglpanel input#printScheduleButton:hover,
+#yui-gen48 .rich-panel .rich-stglpanel input#printScheduleButton:hover,
+#yui-gen58 .rich-panel .rich-stglpanel input#printScheduleButton:hover {
   background: #000 !important;
   color: #b4d62b !important;
   -webkit-transition: all 300ms ease-in-out;
@@ -1196,7 +1523,9 @@
 #yui-gen8 .rich-panel #dfecontarctButtonsForm input[value='Kopiuj wniosek'],
 #yui-gen18 .rich-panel #dfecontarctButtonsForm input[value='Kopiuj wniosek'],
 #yui-gen28 .rich-panel #dfecontarctButtonsForm input[value='Kopiuj wniosek'],
-#yui-gen38 .rich-panel #dfecontarctButtonsForm input[value='Kopiuj wniosek'] {
+#yui-gen38 .rich-panel #dfecontarctButtonsForm input[value='Kopiuj wniosek'],
+#yui-gen48 .rich-panel #dfecontarctButtonsForm input[value='Kopiuj wniosek'],
+#yui-gen58 .rich-panel #dfecontarctButtonsForm input[value='Kopiuj wniosek'] {
   font-size: 18px;
   background: #b4d62b;
   padding: 7px 30px 9px;
@@ -1215,7 +1544,9 @@
 #yui-gen8 .rich-panel #dfecontarctButtonsForm input[value='Kopiuj wniosek']:hover,
 #yui-gen18 .rich-panel #dfecontarctButtonsForm input[value='Kopiuj wniosek']:hover,
 #yui-gen28 .rich-panel #dfecontarctButtonsForm input[value='Kopiuj wniosek']:hover,
-#yui-gen38 .rich-panel #dfecontarctButtonsForm input[value='Kopiuj wniosek']:hover {
+#yui-gen38 .rich-panel #dfecontarctButtonsForm input[value='Kopiuj wniosek']:hover,
+#yui-gen48 .rich-panel #dfecontarctButtonsForm input[value='Kopiuj wniosek']:hover,
+#yui-gen58 .rich-panel #dfecontarctButtonsForm input[value='Kopiuj wniosek']:hover {
   -webkit-transition: 200ms;
   transition: 200ms;
   -webkit-transform: translateY(-2px);
@@ -1227,7 +1558,9 @@
 #yui-gen8 .rich-panel #dfecontarctButtonsForm input[value='Anuluj'],
 #yui-gen18 .rich-panel #dfecontarctButtonsForm input[value='Anuluj'],
 #yui-gen28 .rich-panel #dfecontarctButtonsForm input[value='Anuluj'],
-#yui-gen38 .rich-panel #dfecontarctButtonsForm input[value='Anuluj'] {
+#yui-gen38 .rich-panel #dfecontarctButtonsForm input[value='Anuluj'],
+#yui-gen48 .rich-panel #dfecontarctButtonsForm input[value='Anuluj'],
+#yui-gen58 .rich-panel #dfecontarctButtonsForm input[value='Anuluj'] {
   font-size: 15px !important;
   padding: 6px 20px;
   outline: 0;
@@ -1242,14 +1575,18 @@
 #yui-gen8 .rich-panel #dfecontarctButtonsForm input[value='Anuluj']:hover,
 #yui-gen18 .rich-panel #dfecontarctButtonsForm input[value='Anuluj']:hover,
 #yui-gen28 .rich-panel #dfecontarctButtonsForm input[value='Anuluj']:hover,
-#yui-gen38 .rich-panel #dfecontarctButtonsForm input[value='Anuluj']:hover {
+#yui-gen38 .rich-panel #dfecontarctButtonsForm input[value='Anuluj']:hover,
+#yui-gen48 .rich-panel #dfecontarctButtonsForm input[value='Anuluj']:hover,
+#yui-gen58 .rich-panel #dfecontarctButtonsForm input[value='Anuluj']:hover {
   opacity: 0.8;
 }
 
 #yui-gen8 .rich-panel #calcSTP table,
 #yui-gen18 .rich-panel #calcSTP table,
 #yui-gen28 .rich-panel #calcSTP table,
-#yui-gen38 .rich-panel #calcSTP table {
+#yui-gen38 .rich-panel #calcSTP table,
+#yui-gen48 .rich-panel #calcSTP table,
+#yui-gen58 .rich-panel #calcSTP table {
   margin-top: 15px !important;
 }
 
@@ -1260,7 +1597,11 @@
 #yui-gen28 .rich-panel #calcSTP input[type='text'],
 #yui-gen28 .rich-panel #calcSTP select,
 #yui-gen38 .rich-panel #calcSTP input[type='text'],
-#yui-gen38 .rich-panel #calcSTP select {
+#yui-gen38 .rich-panel #calcSTP select,
+#yui-gen48 .rich-panel #calcSTP input[type='text'],
+#yui-gen48 .rich-panel #calcSTP select,
+#yui-gen58 .rich-panel #calcSTP input[type='text'],
+#yui-gen58 .rich-panel #calcSTP select {
   font-size: 14px;
   height: 26px;
   border-radius: 3px;
@@ -1277,7 +1618,11 @@
 #yui-gen28 .rich-panel #calcSTP input[type='button'],
 #yui-gen28 .rich-panel #calcSTP input[type='submit'],
 #yui-gen38 .rich-panel #calcSTP input[type='button'],
-#yui-gen38 .rich-panel #calcSTP input[type='submit'] {
+#yui-gen38 .rich-panel #calcSTP input[type='submit'],
+#yui-gen48 .rich-panel #calcSTP input[type='button'],
+#yui-gen48 .rich-panel #calcSTP input[type='submit'],
+#yui-gen58 .rich-panel #calcSTP input[type='button'],
+#yui-gen58 .rich-panel #calcSTP input[type='submit'] {
   font-size: 14px;
   background: #fff;
   border: 1px solid #ddd;
@@ -1298,7 +1643,11 @@
 #yui-gen28 .rich-panel #calcSTP input[type='button']:hover,
 #yui-gen28 .rich-panel #calcSTP input[type='submit']:hover,
 #yui-gen38 .rich-panel #calcSTP input[type='button']:hover,
-#yui-gen38 .rich-panel #calcSTP input[type='submit']:hover {
+#yui-gen38 .rich-panel #calcSTP input[type='submit']:hover,
+#yui-gen48 .rich-panel #calcSTP input[type='button']:hover,
+#yui-gen48 .rich-panel #calcSTP input[type='submit']:hover,
+#yui-gen58 .rich-panel #calcSTP input[type='button']:hover,
+#yui-gen58 .rich-panel #calcSTP input[type='submit']:hover {
   border-color: #b4d62b;
   -webkit-transition: 200ms;
   transition: 200ms;
@@ -1307,7 +1656,9 @@
 #yui-gen8 .rich-panel #calcSTP input[value='Przelicz'],
 #yui-gen18 .rich-panel #calcSTP input[value='Przelicz'],
 #yui-gen28 .rich-panel #calcSTP input[value='Przelicz'],
-#yui-gen38 .rich-panel #calcSTP input[value='Przelicz'] {
+#yui-gen38 .rich-panel #calcSTP input[value='Przelicz'],
+#yui-gen48 .rich-panel #calcSTP input[value='Przelicz'],
+#yui-gen58 .rich-panel #calcSTP input[value='Przelicz'] {
   background: #b4d62b !important;
   font-weight: 700 !important;
 }
@@ -1315,23 +1666,49 @@
 #yui-gen8 .rich-panel #calcSTP input[value='Przelicz']:hover,
 #yui-gen18 .rich-panel #calcSTP input[value='Przelicz']:hover,
 #yui-gen28 .rich-panel #calcSTP input[value='Przelicz']:hover,
-#yui-gen38 .rich-panel #calcSTP input[value='Przelicz']:hover {
+#yui-gen38 .rich-panel #calcSTP input[value='Przelicz']:hover,
+#yui-gen48 .rich-panel #calcSTP input[value='Przelicz']:hover,
+#yui-gen58 .rich-panel #calcSTP input[value='Przelicz']:hover {
   background: #666 !important;
   color: #fff;
   border-color: #fff;
 }
 
+#yui-gen8 .rich-panel #calcSTP input[value='Podgląd harmonogramu'],
+#yui-gen18 .rich-panel #calcSTP input[value='Podgląd harmonogramu'],
+#yui-gen28 .rich-panel #calcSTP input[value='Podgląd harmonogramu'],
+#yui-gen38 .rich-panel #calcSTP input[value='Podgląd harmonogramu'],
+#yui-gen48 .rich-panel #calcSTP input[value='Podgląd harmonogramu'],
+#yui-gen58 .rich-panel #calcSTP input[value='Podgląd harmonogramu'] {
+  font-weight: 700 !important;
+  border: 1px solid #000 !important;
+}
+
+#yui-gen8 .rich-panel #calcSTP input[value='Podgląd harmonogramu']:hover,
+#yui-gen18 .rich-panel #calcSTP input[value='Podgląd harmonogramu']:hover,
+#yui-gen28 .rich-panel #calcSTP input[value='Podgląd harmonogramu']:hover,
+#yui-gen38 .rich-panel #calcSTP input[value='Podgląd harmonogramu']:hover,
+#yui-gen48 .rich-panel #calcSTP input[value='Podgląd harmonogramu']:hover,
+#yui-gen58 .rich-panel #calcSTP input[value='Podgląd harmonogramu']:hover {
+  border-color: #b4d62b;
+  color: #fff !important;
+}
+
 #yui-gen8 .fixedWorkflowBarOtherElements,
 #yui-gen18 .fixedWorkflowBarOtherElements,
 #yui-gen28 .fixedWorkflowBarOtherElements,
-#yui-gen38 .fixedWorkflowBarOtherElements {
+#yui-gen38 .fixedWorkflowBarOtherElements,
+#yui-gen48 .fixedWorkflowBarOtherElements,
+#yui-gen58 .fixedWorkflowBarOtherElements {
   min-height: 530px;
 }
 
 #yui-gen8 .fixedWorkflowBarOtherElements tr:nth-child(1) .rich-panel,
 #yui-gen18 .fixedWorkflowBarOtherElements tr:nth-child(1) .rich-panel,
 #yui-gen28 .fixedWorkflowBarOtherElements tr:nth-child(1) .rich-panel,
-#yui-gen38 .fixedWorkflowBarOtherElements tr:nth-child(1) .rich-panel {
+#yui-gen38 .fixedWorkflowBarOtherElements tr:nth-child(1) .rich-panel,
+#yui-gen48 .fixedWorkflowBarOtherElements tr:nth-child(1) .rich-panel,
+#yui-gen58 .fixedWorkflowBarOtherElements tr:nth-child(1) .rich-panel {
   position: absolute;
   left: 40px;
   top: 80px;
@@ -1340,7 +1717,9 @@
 #yui-gen8 .fixedWorkflowBarOtherElements tr:nth-child(3) .rich-panel,
 #yui-gen18 .fixedWorkflowBarOtherElements tr:nth-child(3) .rich-panel,
 #yui-gen28 .fixedWorkflowBarOtherElements tr:nth-child(3) .rich-panel,
-#yui-gen38 .fixedWorkflowBarOtherElements tr:nth-child(3) .rich-panel {
+#yui-gen38 .fixedWorkflowBarOtherElements tr:nth-child(3) .rich-panel,
+#yui-gen48 .fixedWorkflowBarOtherElements tr:nth-child(3) .rich-panel,
+#yui-gen58 .fixedWorkflowBarOtherElements tr:nth-child(3) .rich-panel {
   position: absolute;
   top: 80px;
   left: 580px;
@@ -1349,7 +1728,9 @@
 #yui-gen8 .fixedWorkflowBarOtherElements tr:nth-child(5) .rich-panel,
 #yui-gen18 .fixedWorkflowBarOtherElements tr:nth-child(5) .rich-panel,
 #yui-gen28 .fixedWorkflowBarOtherElements tr:nth-child(5) .rich-panel,
-#yui-gen38 .fixedWorkflowBarOtherElements tr:nth-child(5) .rich-panel {
+#yui-gen38 .fixedWorkflowBarOtherElements tr:nth-child(5) .rich-panel,
+#yui-gen48 .fixedWorkflowBarOtherElements tr:nth-child(5) .rich-panel,
+#yui-gen58 .fixedWorkflowBarOtherElements tr:nth-child(5) .rich-panel {
   position: absolute;
   top: 325px;
   left: 40px;
@@ -1358,7 +1739,9 @@
 #yui-gen8 .fixedWorkflowBarOtherElements tr:nth-child(7) .rich-panel,
 #yui-gen18 .fixedWorkflowBarOtherElements tr:nth-child(7) .rich-panel,
 #yui-gen28 .fixedWorkflowBarOtherElements tr:nth-child(7) .rich-panel,
-#yui-gen38 .fixedWorkflowBarOtherElements tr:nth-child(7) .rich-panel {
+#yui-gen38 .fixedWorkflowBarOtherElements tr:nth-child(7) .rich-panel,
+#yui-gen48 .fixedWorkflowBarOtherElements tr:nth-child(7) .rich-panel,
+#yui-gen58 .fixedWorkflowBarOtherElements tr:nth-child(7) .rich-panel {
   position: absolute;
   left: 580px;
   top: 325px;
@@ -1379,7 +1762,15 @@
 #yui-gen38 .fixedWorkflowBarOtherElements tr:nth-child(1) .rich-panel:hover,
 #yui-gen38 .fixedWorkflowBarOtherElements tr:nth-child(3) .rich-panel:hover,
 #yui-gen38 .fixedWorkflowBarOtherElements tr:nth-child(5) .rich-panel:hover,
-#yui-gen38 .fixedWorkflowBarOtherElements tr:nth-child(7) .rich-panel:hover {
+#yui-gen38 .fixedWorkflowBarOtherElements tr:nth-child(7) .rich-panel:hover,
+#yui-gen48 .fixedWorkflowBarOtherElements tr:nth-child(1) .rich-panel:hover,
+#yui-gen48 .fixedWorkflowBarOtherElements tr:nth-child(3) .rich-panel:hover,
+#yui-gen48 .fixedWorkflowBarOtherElements tr:nth-child(5) .rich-panel:hover,
+#yui-gen48 .fixedWorkflowBarOtherElements tr:nth-child(7) .rich-panel:hover,
+#yui-gen58 .fixedWorkflowBarOtherElements tr:nth-child(1) .rich-panel:hover,
+#yui-gen58 .fixedWorkflowBarOtherElements tr:nth-child(3) .rich-panel:hover,
+#yui-gen58 .fixedWorkflowBarOtherElements tr:nth-child(5) .rich-panel:hover,
+#yui-gen58 .fixedWorkflowBarOtherElements tr:nth-child(7) .rich-panel:hover {
   border-color: #b4d62b;
 }
 
@@ -1398,7 +1789,15 @@
 #yui-gen38 .fixedWorkflowBarOtherElements tr:nth-child(1) .rich-panel:hover .rich-panel-header,
 #yui-gen38 .fixedWorkflowBarOtherElements tr:nth-child(3) .rich-panel:hover .rich-panel-header,
 #yui-gen38 .fixedWorkflowBarOtherElements tr:nth-child(5) .rich-panel:hover .rich-panel-header,
-#yui-gen38 .fixedWorkflowBarOtherElements tr:nth-child(7) .rich-panel:hover .rich-panel-header {
+#yui-gen38 .fixedWorkflowBarOtherElements tr:nth-child(7) .rich-panel:hover .rich-panel-header,
+#yui-gen48 .fixedWorkflowBarOtherElements tr:nth-child(1) .rich-panel:hover .rich-panel-header,
+#yui-gen48 .fixedWorkflowBarOtherElements tr:nth-child(3) .rich-panel:hover .rich-panel-header,
+#yui-gen48 .fixedWorkflowBarOtherElements tr:nth-child(5) .rich-panel:hover .rich-panel-header,
+#yui-gen48 .fixedWorkflowBarOtherElements tr:nth-child(7) .rich-panel:hover .rich-panel-header,
+#yui-gen58 .fixedWorkflowBarOtherElements tr:nth-child(1) .rich-panel:hover .rich-panel-header,
+#yui-gen58 .fixedWorkflowBarOtherElements tr:nth-child(3) .rich-panel:hover .rich-panel-header,
+#yui-gen58 .fixedWorkflowBarOtherElements tr:nth-child(5) .rich-panel:hover .rich-panel-header,
+#yui-gen58 .fixedWorkflowBarOtherElements tr:nth-child(7) .rich-panel:hover .rich-panel-header {
   background-color: #b4d62d !important;
   -webkit-transition: 300ms;
   transition: 300ms;
@@ -1419,7 +1818,15 @@
 #yui-gen38 .fixedWorkflowBarOtherElements tr:nth-child(1) .rich-panel-header,
 #yui-gen38 .fixedWorkflowBarOtherElements tr:nth-child(3) .rich-panel-header,
 #yui-gen38 .fixedWorkflowBarOtherElements tr:nth-child(5) .rich-panel-header,
-#yui-gen38 .fixedWorkflowBarOtherElements tr:nth-child(7) .rich-panel-header {
+#yui-gen38 .fixedWorkflowBarOtherElements tr:nth-child(7) .rich-panel-header,
+#yui-gen48 .fixedWorkflowBarOtherElements tr:nth-child(1) .rich-panel-header,
+#yui-gen48 .fixedWorkflowBarOtherElements tr:nth-child(3) .rich-panel-header,
+#yui-gen48 .fixedWorkflowBarOtherElements tr:nth-child(5) .rich-panel-header,
+#yui-gen48 .fixedWorkflowBarOtherElements tr:nth-child(7) .rich-panel-header,
+#yui-gen58 .fixedWorkflowBarOtherElements tr:nth-child(1) .rich-panel-header,
+#yui-gen58 .fixedWorkflowBarOtherElements tr:nth-child(3) .rich-panel-header,
+#yui-gen58 .fixedWorkflowBarOtherElements tr:nth-child(5) .rich-panel-header,
+#yui-gen58 .fixedWorkflowBarOtherElements tr:nth-child(7) .rich-panel-header {
   font-size: 16px !important;
   line-height: 32px;
   background-image: none !important;
@@ -1436,7 +1843,9 @@
 #yui-gen8 .rich-datascr-act,
 #yui-gen18 .rich-datascr-act,
 #yui-gen28 .rich-datascr-act,
-#yui-gen38 .rich-datascr-act {
+#yui-gen38 .rich-datascr-act,
+#yui-gen48 .rich-datascr-act,
+#yui-gen58 .rich-datascr-act {
   border-top-color: #b4d62b;
   color: #000;
   font-size: 14px !important;
@@ -1445,7 +1854,9 @@
 #yui-gen8 input[type='checkbox'],
 #yui-gen18 input[type='checkbox'],
 #yui-gen28 input[type='checkbox'],
-#yui-gen38 input[type='checkbox'] {
+#yui-gen38 input[type='checkbox'],
+#yui-gen48 input[type='checkbox'],
+#yui-gen58 input[type='checkbox'] {
   min-width: 20px !important;
   width: 20px !important;
   display: inline-table !important;
@@ -1455,28 +1866,36 @@
 #yui-gen8 .rich-datalist .rich-list-item input[type='checkbox'],
 #yui-gen18 .rich-datalist .rich-list-item input[type='checkbox'],
 #yui-gen28 .rich-datalist .rich-list-item input[type='checkbox'],
-#yui-gen38 .rich-datalist .rich-list-item input[type='checkbox'] {
+#yui-gen38 .rich-datalist .rich-list-item input[type='checkbox'],
+#yui-gen48 .rich-datalist .rich-list-item input[type='checkbox'],
+#yui-gen58 .rich-datalist .rich-list-item input[type='checkbox'] {
   margin-right: 10px !important;
 }
 
 #yui-gen8 .rich-panel-body,
 #yui-gen18 .rich-panel-body,
 #yui-gen28 .rich-panel-body,
-#yui-gen38 .rich-panel-body {
+#yui-gen38 .rich-panel-body,
+#yui-gen48 .rich-panel-body,
+#yui-gen58 .rich-panel-body {
   font-size: 14px !important;
 }
 
 #yui-gen8 .rich-tab-bottom-line,
 #yui-gen18 .rich-tab-bottom-line,
 #yui-gen28 .rich-tab-bottom-line,
-#yui-gen38 .rich-tab-bottom-line {
+#yui-gen38 .rich-tab-bottom-line,
+#yui-gen48 .rich-tab-bottom-line,
+#yui-gen58 .rich-tab-bottom-line {
   text-align: left;
 }
 
 #yui-gen8 .rich-tab-header,
 #yui-gen18 .rich-tab-header,
 #yui-gen28 .rich-tab-header,
-#yui-gen38 .rich-tab-header {
+#yui-gen38 .rich-tab-header,
+#yui-gen48 .rich-tab-header,
+#yui-gen58 .rich-tab-header {
   font-size: 15px;
   padding: 9px 14px 11px;
   background: #efefef !important;
@@ -1488,7 +1907,9 @@
 #yui-gen8 .rich-tab-active,
 #yui-gen18 .rich-tab-active,
 #yui-gen28 .rich-tab-active,
-#yui-gen38 .rich-tab-active {
+#yui-gen38 .rich-tab-active,
+#yui-gen48 .rich-tab-active,
+#yui-gen58 .rich-tab-active {
   background: #fff !important;
   padding-top: 10px !important;
   border-top: 4px solid #b4d62b !important;
@@ -1500,7 +1921,9 @@
 #yui-gen8 .rich-tabpanel-content .rich-table td,
 #yui-gen18 .rich-tabpanel-content .rich-table td,
 #yui-gen28 .rich-tabpanel-content .rich-table td,
-#yui-gen38 .rich-tabpanel-content .rich-table td {
+#yui-gen38 .rich-tabpanel-content .rich-table td,
+#yui-gen48 .rich-tabpanel-content .rich-table td,
+#yui-gen58 .rich-tabpanel-content .rich-table td {
   font-size: 12px;
   line-height: 18px;
 }
@@ -1512,7 +1935,11 @@
 #yui-gen28 .rich-tabpanel-content .rich-table-subheader span,
 #yui-gen28 .rich-tabpanel-content .rich-table-subheader div,
 #yui-gen38 .rich-tabpanel-content .rich-table-subheader span,
-#yui-gen38 .rich-tabpanel-content .rich-table-subheader div {
+#yui-gen38 .rich-tabpanel-content .rich-table-subheader div,
+#yui-gen48 .rich-tabpanel-content .rich-table-subheader span,
+#yui-gen48 .rich-tabpanel-content .rich-table-subheader div,
+#yui-gen58 .rich-tabpanel-content .rich-table-subheader span,
+#yui-gen58 .rich-tabpanel-content .rich-table-subheader div {
   text-transform: uppercase;
   font-size: 13px;
   line-height: 20px;
@@ -1521,14 +1948,18 @@
 #yui-gen8 .rich-tabpanel-content textarea#field_long,
 #yui-gen18 .rich-tabpanel-content textarea#field_long,
 #yui-gen28 .rich-tabpanel-content textarea#field_long,
-#yui-gen38 .rich-tabpanel-content textarea#field_long {
+#yui-gen38 .rich-tabpanel-content textarea#field_long,
+#yui-gen48 .rich-tabpanel-content textarea#field_long,
+#yui-gen58 .rich-tabpanel-content textarea#field_long {
   width: 100%;
 }
 
 #yui-gen8 .rich-tabpanel-content label,
 #yui-gen18 .rich-tabpanel-content label,
 #yui-gen28 .rich-tabpanel-content label,
-#yui-gen38 .rich-tabpanel-content label {
+#yui-gen38 .rich-tabpanel-content label,
+#yui-gen48 .rich-tabpanel-content label,
+#yui-gen58 .rich-tabpanel-content label {
   font-size: 14px;
   line-height: 14px;
   text-align: left;
@@ -1545,7 +1976,13 @@
 #yui-gen28 .rich-tabpanel-content textarea,
 #yui-gen38 .rich-tabpanel-content input,
 #yui-gen38 .rich-tabpanel-content select,
-#yui-gen38 .rich-tabpanel-content textarea {
+#yui-gen38 .rich-tabpanel-content textarea,
+#yui-gen48 .rich-tabpanel-content input,
+#yui-gen48 .rich-tabpanel-content select,
+#yui-gen48 .rich-tabpanel-content textarea,
+#yui-gen58 .rich-tabpanel-content input,
+#yui-gen58 .rich-tabpanel-content select,
+#yui-gen58 .rich-tabpanel-content textarea {
   height: 26px !important;
   padding-left: 5px !important;
   border-radius: 3px;
@@ -1568,7 +2005,13 @@
 #yui-gen28 .rich-tabpanel-content select:focus,
 #yui-gen38 .rich-tabpanel-content input:focus,
 #yui-gen38 .rich-tabpanel-content textarea:focus,
-#yui-gen38 .rich-tabpanel-content select:focus {
+#yui-gen38 .rich-tabpanel-content select:focus,
+#yui-gen48 .rich-tabpanel-content input:focus,
+#yui-gen48 .rich-tabpanel-content textarea:focus,
+#yui-gen48 .rich-tabpanel-content select:focus,
+#yui-gen58 .rich-tabpanel-content input:focus,
+#yui-gen58 .rich-tabpanel-content textarea:focus,
+#yui-gen58 .rich-tabpanel-content select:focus {
   outline-color: #b4d62b;
   background: rgba(0, 0, 0, 0.01);
 }
@@ -1576,21 +2019,27 @@
 #yui-gen8 .rich-tabpanel-content > table input,
 #yui-gen18 .rich-tabpanel-content > table input,
 #yui-gen28 .rich-tabpanel-content > table input,
-#yui-gen38 .rich-tabpanel-content > table input {
+#yui-gen38 .rich-tabpanel-content > table input,
+#yui-gen48 .rich-tabpanel-content > table input,
+#yui-gen58 .rich-tabpanel-content > table input {
   width: 98%;
 }
 
 #yui-gen8 .rich-tabpanel-content > table input:nth-child(1),
 #yui-gen18 .rich-tabpanel-content > table input:nth-child(1),
 #yui-gen28 .rich-tabpanel-content > table input:nth-child(1),
-#yui-gen38 .rich-tabpanel-content > table input:nth-child(1) {
+#yui-gen38 .rich-tabpanel-content > table input:nth-child(1),
+#yui-gen48 .rich-tabpanel-content > table input:nth-child(1),
+#yui-gen58 .rich-tabpanel-content > table input:nth-child(1) {
   min-width: 120px;
 }
 
 #yui-gen8 .rich-tabpanel-content > table input[value='...'],
 #yui-gen18 .rich-tabpanel-content > table input[value='...'],
 #yui-gen28 .rich-tabpanel-content > table input[value='...'],
-#yui-gen38 .rich-tabpanel-content > table input[value='...'] {
+#yui-gen38 .rich-tabpanel-content > table input[value='...'],
+#yui-gen48 .rich-tabpanel-content > table input[value='...'],
+#yui-gen58 .rich-tabpanel-content > table input[value='...'] {
   width: 40px !important;
   max-width: 40px !important;
   min-width: 40px !important;
@@ -1599,14 +2048,18 @@
 #yui-gen8 .rich-tabpanel-content > table textarea,
 #yui-gen18 .rich-tabpanel-content > table textarea,
 #yui-gen28 .rich-tabpanel-content > table textarea,
-#yui-gen38 .rich-tabpanel-content > table textarea {
+#yui-gen38 .rich-tabpanel-content > table textarea,
+#yui-gen48 .rich-tabpanel-content > table textarea,
+#yui-gen58 .rich-tabpanel-content > table textarea {
   width: 95%;
 }
 
 #yui-gen8 .rich-tabpanel-content > table select,
 #yui-gen18 .rich-tabpanel-content > table select,
 #yui-gen28 .rich-tabpanel-content > table select,
-#yui-gen38 .rich-tabpanel-content > table select {
+#yui-gen38 .rich-tabpanel-content > table select,
+#yui-gen48 .rich-tabpanel-content > table select,
+#yui-gen58 .rich-tabpanel-content > table select {
   width: 99.5%;
 }
 
@@ -1675,6 +2128,11 @@
   padding-right: 30px;
   border-top: 4px solid #b4d62b !important;
   font-weight: 600;
+}
+
+.rich-modalpanel .rich-mp-container .rich-tabpanel-content {
+  font-size: 14px !important;
+  line-height: 16px !important;
 }
 
 .rich-modalpanel .rich-mp-container .rich-tabpanel-content textarea#field_long {
@@ -1821,14 +2279,18 @@
 #yui-gen3,
 #yui-gen13,
 #yui-gen23,
-#yui-gen33 {
+#yui-gen33,
+#yui-gen43,
+#yui-gen53 {
   z-index: 1000;
 }
 
 #yui-gen3 #bottom1,
 #yui-gen13 #bottom1,
 #yui-gen23 #bottom1,
-#yui-gen33 #bottom1 {
+#yui-gen33 #bottom1,
+#yui-gen43 #bottom1,
+#yui-gen53 #bottom1 {
   background: #fff !important;
   color: #444 !important;
 }
@@ -1836,7 +2298,9 @@
 #yui-gen3 .yui-layout-bd-nohd,
 #yui-gen13 .yui-layout-bd-nohd,
 #yui-gen23 .yui-layout-bd-nohd,
-#yui-gen33 .yui-layout-bd-nohd {
+#yui-gen33 .yui-layout-bd-nohd,
+#yui-gen43 .yui-layout-bd-nohd,
+#yui-gen53 .yui-layout-bd-nohd {
   border-top: 1px solid #ddd;
   border-right: 0;
   border-bottom: 0;
