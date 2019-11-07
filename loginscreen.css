@@ -288,3 +288,23 @@ label {
 .appListLink:hover {
 	color: #000 !important;
 }
+
+input.passwordChange {
+	height: 20px;
+	margin-bottom: 5px;
+	width: 200px;
+	margin-top: 5px;
+	background: #eee;
+	border: 1px solid #ccc;
+}
+
+#forcedPWchangeForm a {
+	top: 160px;
+	right: 160px;
+	background: #bbb !important;
+}
+
+#forcedPWchangeForm a[type='submit'] {
+	right: -30px !important;
+	background: #b4d62b !important;
+}
