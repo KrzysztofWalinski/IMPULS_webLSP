@@ -359,7 +359,7 @@
 }
 
 .yui-layout-unit-center textarea,
-.yui-layout-unit-center input,
+.yui-layout-unit-center input[type="text"],
 .yui-layout-unit-center select {
   background-image: none !important;
 }
@@ -549,13 +549,13 @@
   width: 40%;
 }
 
-.yui-layout-unit-center fieldset .rich-stglpanel-body .rich-tabpanel-content #basePanel tr td table td:first-child input,
+.yui-layout-unit-center fieldset .rich-stglpanel-body .rich-tabpanel-content #basePanel tr td table td:first-child input[type="text"],
 .yui-layout-unit-center fieldset .rich-stglpanel-body .rich-tabpanel-content #basePanel tr td table td:first-child textarea {
   width: 100%;
 }
 
-.yui-layout-unit-center fieldset .rich-stglpanel-body .rich-tabpanel-content #basePanel tr td table td:nth-child(2) input,
-.yui-layout-unit-center fieldset .rich-stglpanel-body .rich-tabpanel-content #basePanel tr td table td:nth-child(3) input {
+.yui-layout-unit-center fieldset .rich-stglpanel-body .rich-tabpanel-content #basePanel tr td table td:nth-child(2) input[type="text"],
+.yui-layout-unit-center fieldset .rich-stglpanel-body .rich-tabpanel-content #basePanel tr td table td:nth-child(3) input[type="text"] {
   width: 40px;
   margin-left: 30px !important;
 }
@@ -693,9 +693,8 @@
 }
 
 .yui-layout-unit-center #WorkFlowForm .nipSearch {
-  border: 0;
   padding: 2px 8px 3px !important;
-  border: 1px solid #b4d62b;
+  border: 1px solid #b4d62b !important;
   color: #000 !important;
   background: #fff !important;
   background-image: none;
@@ -705,6 +704,7 @@
   margin-left: 203px;
   cursor: pointer;
   display: block;
+  height: inherit !important;
 }
 
 .yui-layout-unit-center #WorkFlowForm .nipSearch:hover {
@@ -742,7 +742,7 @@
   padding-left: 13px;
 }
 
-.yui-layout-unit-center #WorkFlowForm .rich-table-cell input,
+.yui-layout-unit-center #WorkFlowForm .rich-table-cell input[type="text"],
 .yui-layout-unit-center #WorkFlowForm .rich-table-cell select,
 .yui-layout-unit-center #WorkFlowForm .rich-table-cell textarea {
   font-size: 14px;
@@ -796,7 +796,7 @@
   padding: 20px 10px !important;
 }
 
-.yui-layout-unit-center .rich-panel .rich-stglpanel .rich-stglpanel-body #panelKontrahent_body input,
+.yui-layout-unit-center .rich-panel .rich-stglpanel .rich-stglpanel-body #panelKontrahent_body input[type="text"],
 .yui-layout-unit-center .rich-panel .rich-stglpanel .rich-stglpanel-body #panelKontrahent_body select {
   height: 26px !important;
   padding-left: 5px !important;
@@ -809,7 +809,7 @@
   background-image: none !important;
 }
 
-.yui-layout-unit-center .rich-panel .rich-stglpanel .rich-stglpanel-body #panelKontrahent_body input:focus,
+.yui-layout-unit-center .rich-panel .rich-stglpanel .rich-stglpanel-body #panelKontrahent_body input[type="text"]:focus,
 .yui-layout-unit-center .rich-panel .rich-stglpanel .rich-stglpanel-body #panelKontrahent_body select:focus {
   border-color: #b4d62b;
 }
@@ -1111,7 +1111,7 @@
   vertical-align: middle !important;
 }
 
-.yui-layout-unit-center .rich-tabpanel-content input,
+.yui-layout-unit-center .rich-tabpanel-content input[type="text"],
 .yui-layout-unit-center .rich-tabpanel-content select {
   height: 26px !important;
   padding-left: 5px !important;
@@ -1135,7 +1135,7 @@
   background-image: none !important;
 }
 
-.yui-layout-unit-center .rich-tabpanel-content input:focus,
+.yui-layout-unit-center .rich-tabpanel-content input[type="text"]:focus,
 .yui-layout-unit-center .rich-tabpanel-content textarea:focus,
 .yui-layout-unit-center .rich-tabpanel-content select:focus {
   outline-color: #b4d62b;
@@ -1148,12 +1148,6 @@
 
 .yui-layout-unit-center .rich-tabpanel-content > table input:nth-child(1) {
   min-width: 120px;
-}
-
-.yui-layout-unit-center .rich-tabpanel-content > table input[value='...'] {
-  width: 40px !important;
-  max-width: 40px !important;
-  min-width: 40px !important;
 }
 
 .yui-layout-unit-center .rich-tabpanel-content > table textarea {
@@ -1458,7 +1452,11 @@
   line-height: 22px;
 }
 
-input[value='Dodaj'] {
+/* //popup */
+/* BUTTONS */
+/* -- dodaj bialy */
+input[value='Dodaj'],
+input[value='Nowy wniosek'] {
   font-size: 16px !important;
   padding: 5px 30px 7px !important;
   margin: 10px !important;
@@ -1471,13 +1469,75 @@ input[value='Dodaj'] {
   cursor: pointer;
 }
 
-input[value='Dodaj']:hover {
+input[value='Dodaj']:hover,
+input[value='Nowy wniosek']:hover {
   background: #b4d62b !important;
   color: #fff !important;
 }
 
-/* //popup */
-/* bottom */
+/* -- zapisz zielony */
+input[value='Wybierz'] {
+  font-size: 17px !important;
+  padding: 6px 50px;
+  outline: 0;
+  border: 0;
+  margin: 0 10px;
+  background: #b4d62b !important;
+  color: #fff !important;
+  border-radius: 3px;
+  font-weight: 700;
+  cursor: pointer;
+  -webkit-transition: all 100ms ease-in-out;
+  transition: all 100ms ease-in-out;
+  -webkit-box-shadow: 0px 6px 7px -4px rgba(0, 0, 0, 0.6);
+          box-shadow: 0px 6px 7px -4px rgba(0, 0, 0, 0.6);
+}
+
+input[value='Wybierz']:hover {
+  background: #000 !important;
+  color: #b4d62b !important;
+  -webkit-transition: all 300ms ease-in-out;
+  transition: all 300ms ease-in-out;
+  -webkit-transform: translateY(-2px);
+          transform: translateY(-2px);
+  -webkit-box-shadow: 0 8px 10px -4px rgba(0, 0, 0, 0.6);
+          box-shadow: 0 8px 10px -4px rgba(0, 0, 0, 0.6);
+}
+
+/* -- szukaj zielony czarny */
+input[value='Znajdź PKD'],
+input[value='Znajdź EKD'],
+input[value='Szukaj'] {
+  padding: 2px 30px !important;
+  height: 30px !important;
+  background: #b4d62b;
+  color: #000;
+  border: 1px solid #000 !important;
+  margin-right: 10px !important;
+  cursor: pointer;
+  border-radius: 3px;
+}
+
+input[value='Znajdź PKD']:hover,
+input[value='Znajdź EKD']:hover,
+input[value='Szukaj']:hover {
+  -webkit-transition: 200ms;
+  transition: 200ms;
+  background: #000;
+  color: #b4d62b;
+  border-color: #b4d62b;
+}
+
+/* -- dots */
+input[value='...'] {
+  width: 30px !important;
+  max-width: 30px !important;
+  min-width: 30px !important;
+  height: 30px !important;
+}
+
+/* //buttons */
+/* BOTTOM */
 .yui-layout-unit-bottom {
   z-index: 1000 !important;
 }
@@ -1494,7 +1554,7 @@ input[value='Dodaj']:hover {
   border-left: 0 !important;
 }
 
-/* misc */
+/* MISC */
 #waitModalPanel .rich-mpnl-mask-div {
   background: #000 !important;
 }
