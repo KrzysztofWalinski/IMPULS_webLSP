@@ -1,7 +1,7 @@
 @charset "UTF-8";
 /* latin-ext */
 @font-face {
-  font-family: 'Lato';
+  font-family: "Lato";
   font-style: normal;
   font-weight: 400;
   font-display: swap;
@@ -11,7 +11,7 @@
 
 /* latin */
 @font-face {
-  font-family: 'Lato';
+  font-family: "Lato";
   font-style: normal;
   font-weight: 400;
   font-display: swap;
@@ -21,7 +21,7 @@
 
 /* latin-ext */
 @font-face {
-  font-family: 'Lato';
+  font-family: "Lato";
   font-style: normal;
   font-weight: 700;
   font-display: swap;
@@ -31,7 +31,7 @@
 
 /* latin */
 @font-face {
-  font-family: 'Lato';
+  font-family: "Lato";
   font-style: normal;
   font-weight: 700;
   font-display: swap;
@@ -40,7 +40,7 @@
 }
 
 * {
-  font-family: 'Lato' !important;
+  font-family: "Lato" !important;
 }
 
 .rich-tool-tip {
@@ -186,7 +186,7 @@
 /* side menu */
 .yui-layout-unit-left .rich-toolbar {
   background: #eee !important;
-  color: #000;
+  color: #000 !important;
   border-bottom: 2px solid #ddd;
   border-left: 0 !important;
   border-right: 0 !important;
@@ -203,7 +203,7 @@
 
 .yui-layout-unit-left .rich-tree a {
   font-size: 12px !important;
-  font-family: 'Lato';
+  font-family: "Lato";
   color: #000 !important;
   line-height: 25px !important;
 }
@@ -235,7 +235,7 @@
 
 .yui-layout-unit-left .rich-tree-node-text a:hover {
   text-decoration: none;
-  background-color: #eee;
+  background-color: #eee !important;
   color: #57626a;
   padding: 5px 10px;
   border-radius: 3px;
@@ -259,7 +259,7 @@
 }
 
 .yui-layout-unit-left .collapse::before {
-  content: '';
+  content: "";
   width: 0;
   height: 0;
   border-style: solid;
@@ -272,6 +272,7 @@
 .yui-layout-clip-left {
   background: #ddd !important;
   border-color: #ccc !important;
+  top: 130px !important;
 }
 
 .yui-layout-clip-left .collapse {
@@ -287,7 +288,7 @@
 }
 
 .yui-layout-clip-left .collapse::before {
-  content: '';
+  content: "";
   width: 0;
   height: 0;
   border-style: solid;
@@ -371,7 +372,7 @@
   background: rgba(0, 0, 0, 0.01);
 }
 
-.yui-layout-unit-center input[type='text'],
+.yui-layout-unit-center input[type="text"],
 .yui-layout-unit-center select {
   font-size: 14px;
   height: 26px;
@@ -398,7 +399,7 @@
   white-space: nowrap;
 }
 
-.yui-layout-unit-center input[value='Przygotuj kalkulację'] {
+.yui-layout-unit-center input[value="Przygotuj kalkulację"] {
   font-size: 18px;
   background: #b4d62b;
   padding: 7px 30px 9px;
@@ -414,7 +415,7 @@
   transition: 200ms;
 }
 
-.yui-layout-unit-center input[value='Przygotuj kalkulację']:hover {
+.yui-layout-unit-center input[value="Przygotuj kalkulację"]:hover {
   -webkit-transition: 200ms;
   transition: 200ms;
   -webkit-transform: translateY(-2px);
@@ -474,7 +475,7 @@
   }
 }
 
-.yui-layout-unit-center #panelWorkFlowLink input[type='text'],
+.yui-layout-unit-center #panelWorkFlowLink input[type="text"],
 .yui-layout-unit-center #panelWorkFlowLink select {
   font-size: 14px;
   height: 26px;
@@ -574,7 +575,7 @@
   padding-left: 10px;
 }
 
-.yui-layout-unit-center fieldset .rich-stglpanel-body .rich-tabpanel-content input[type='text'],
+.yui-layout-unit-center fieldset .rich-stglpanel-body .rich-tabpanel-content input[type="text"],
 .yui-layout-unit-center fieldset .rich-stglpanel-body .rich-tabpanel-content select {
   height: 30px !important;
   padding-left: 5px !important;
@@ -640,7 +641,7 @@
 
 .yui-layout-unit-center .top-zapisz-button,
 .yui-layout-unit-center #workflowToolBar2 #WorkFlowCommandButtonNext2,
-.yui-layout-unit-center input[value='Zapisz'] {
+.yui-layout-unit-center input[value="Zapisz"] {
   font-size: 17px !important;
   padding: 6px 50px;
   outline: 0;
@@ -659,7 +660,7 @@
 
 .yui-layout-unit-center .top-zapisz-button:hover,
 .yui-layout-unit-center #workflowToolBar2 #WorkFlowCommandButtonNext2:hover,
-.yui-layout-unit-center input[value='Zapisz']:hover {
+.yui-layout-unit-center input[value="Zapisz"]:hover {
   background: #000 !important;
   color: #b4d62b !important;
   -webkit-transition: all 300ms ease-in-out;
@@ -670,7 +671,7 @@
           box-shadow: 0 8px 10px -4px rgba(0, 0, 0, 0.6);
 }
 
-.yui-layout-unit-center input[type='button'][disabled='disabled'] {
+.yui-layout-unit-center input[type="button"][disabled="disabled"] {
   background: #ccc !important;
   pointer-events: none;
   -webkit-transform: scale(0.8);
@@ -693,7 +694,7 @@
 }
 
 .yui-layout-unit-center #WorkFlowForm .nipSearch {
-  padding: 2px 8px 3px !important;
+  padding: 4px 12px 5px !important;
   border: 1px solid #b4d62b !important;
   color: #000 !important;
   background: #fff !important;
@@ -705,6 +706,7 @@
   cursor: pointer;
   display: block;
   height: inherit !important;
+  font-size: 11px !important;
 }
 
 .yui-layout-unit-center #WorkFlowForm .nipSearch:hover {
@@ -724,7 +726,7 @@
   border-radius: 5px 5px 0 0;
 }
 
-.yui-layout-unit-center #WorkFlowForm a[id^='LEASING_PRODUCT_'] {
+.yui-layout-unit-center #WorkFlowForm a[id^="LEASING_PRODUCT_"] {
   line-height: 35px !important;
   font-size: 16px !important;
 }
@@ -756,7 +758,7 @@
 }
 
 .yui-layout-unit-center #WorkFlowForm #btnNewDfeContractObject,
-.yui-layout-unit-center #WorkFlowForm input[value='Dodaj'] {
+.yui-layout-unit-center #WorkFlowForm input[value="Dodaj"] {
   font-size: 16px;
   padding: 5px 30px 7px;
   margin: 10px;
@@ -770,7 +772,7 @@
 }
 
 .yui-layout-unit-center #WorkFlowForm #btnNewDfeContractObject:hover,
-.yui-layout-unit-center #WorkFlowForm input[value='Dodaj']:hover {
+.yui-layout-unit-center #WorkFlowForm input[value="Dodaj"]:hover {
   background: #b4d62b;
   color: #fff;
 }
@@ -873,7 +875,7 @@
           box-shadow: 0 8px 10px -4px rgba(0, 0, 0, 0.6);
 }
 
-.yui-layout-unit-center .rich-panel #dfecontarctButtonsForm input[value='Kopiuj wniosek'] {
+.yui-layout-unit-center .rich-panel #dfecontarctButtonsForm input[value="Kopiuj wniosek"] {
   font-size: 18px;
   background: #b4d62b;
   padding: 7px 30px 9px;
@@ -889,7 +891,7 @@
   transition: 200ms;
 }
 
-.yui-layout-unit-center .rich-panel #dfecontarctButtonsForm input[value='Kopiuj wniosek']:hover {
+.yui-layout-unit-center .rich-panel #dfecontarctButtonsForm input[value="Kopiuj wniosek"]:hover {
   -webkit-transition: 200ms;
   transition: 200ms;
   -webkit-transform: translateY(-2px);
@@ -898,7 +900,7 @@
           box-shadow: 2px 6px 7px -4px rgba(0, 0, 0, 0.6);
 }
 
-.yui-layout-unit-center .rich-panel #dfecontarctButtonsForm input[value='Anuluj'] {
+.yui-layout-unit-center .rich-panel #dfecontarctButtonsForm input[value="Anuluj"] {
   font-size: 15px !important;
   padding: 6px 20px;
   outline: 0;
@@ -910,7 +912,7 @@
   cursor: pointer;
 }
 
-.yui-layout-unit-center .rich-panel #dfecontarctButtonsForm input[value='Anuluj']:hover {
+.yui-layout-unit-center .rich-panel #dfecontarctButtonsForm input[value="Anuluj"]:hover {
   opacity: 0.8;
 }
 
@@ -918,7 +920,7 @@
   margin-top: 15px !important;
 }
 
-.yui-layout-unit-center .rich-panel #calcSTP input[type='text'],
+.yui-layout-unit-center .rich-panel #calcSTP input[type="text"],
 .yui-layout-unit-center .rich-panel #calcSTP select {
   font-size: 14px;
   height: 26px;
@@ -929,8 +931,8 @@
   padding-left: 5px;
 }
 
-.yui-layout-unit-center .rich-panel #calcSTP input[type='button'],
-.yui-layout-unit-center .rich-panel #calcSTP input[type='submit'] {
+.yui-layout-unit-center .rich-panel #calcSTP input[type="button"],
+.yui-layout-unit-center .rich-panel #calcSTP input[type="submit"] {
   font-size: 14px;
   background: #fff;
   border: 1px solid #ddd;
@@ -944,32 +946,32 @@
   margin-right: 5px;
 }
 
-.yui-layout-unit-center .rich-panel #calcSTP input[type='button']:hover,
-.yui-layout-unit-center .rich-panel #calcSTP input[type='submit']:hover {
+.yui-layout-unit-center .rich-panel #calcSTP input[type="button"]:hover,
+.yui-layout-unit-center .rich-panel #calcSTP input[type="submit"]:hover {
   border-color: #b4d62b;
   -webkit-transition: 200ms;
   transition: 200ms;
 }
 
-.yui-layout-unit-center .rich-panel #calcSTP input[value='Przelicz'] {
+.yui-layout-unit-center .rich-panel #calcSTP input[value="Przelicz"] {
   background: #b4d62b !important;
   font-weight: 700 !important;
 }
 
-.yui-layout-unit-center .rich-panel #calcSTP input[value='Przelicz']:hover {
+.yui-layout-unit-center .rich-panel #calcSTP input[value="Przelicz"]:hover {
   background: #666 !important;
   color: #fff;
   border-color: #fff;
 }
 
-.yui-layout-unit-center .rich-panel #calcSTP input[value='Podgląd harmonogramu'] {
+.yui-layout-unit-center .rich-panel #calcSTP input[value="Podgląd harmonogramu"] {
   font-weight: 700 !important;
   border: 1px solid #000 !important;
   background: #666 !important;
   color: #fff !important;
 }
 
-.yui-layout-unit-center .rich-panel #calcSTP input[value='Podgląd harmonogramu']:hover {
+.yui-layout-unit-center .rich-panel #calcSTP input[value="Podgląd harmonogramu"]:hover {
   border-color: #b4d62b !important;
   color: #b4d62b !important;
 }
@@ -1041,14 +1043,14 @@
   font-size: 14px !important;
 }
 
-.yui-layout-unit-center input[type='checkbox'] {
+.yui-layout-unit-center input[type="checkbox"] {
   min-width: 20px !important;
   width: 20px !important;
   display: inline-table !important;
   vertical-align: middle !important;
 }
 
-.yui-layout-unit-center .rich-datalist .rich-list-item input[type='checkbox'] {
+.yui-layout-unit-center .rich-datalist .rich-list-item input[type="checkbox"] {
   margin-right: 10px !important;
 }
 
@@ -1104,7 +1106,7 @@
   text-align: left;
 }
 
-.yui-layout-unit-center .rich-tabpanel-content input[type='checkbox'] {
+.yui-layout-unit-center .rich-tabpanel-content input[type="checkbox"] {
   min-width: 20px !important;
   width: 20px !important;
   display: inline-table !important;
@@ -1275,14 +1277,14 @@
   text-align: left;
 }
 
-.rich-modalpanel .rich-mp-container .rich-tabpanel-content input[type='checkbox'] {
+.rich-modalpanel .rich-mp-container .rich-tabpanel-content input[type="checkbox"] {
   min-width: 20px !important;
   width: 20px !important;
   display: inline-table !important;
   vertical-align: middle !important;
 }
 
-.rich-modalpanel .rich-mp-container .rich-tabpanel-content input[type='text'],
+.rich-modalpanel .rich-mp-container .rich-tabpanel-content input[type="text"],
 .rich-modalpanel .rich-mp-container .rich-tabpanel-content select {
   height: 26px !important;
   padding-left: 5px !important;
@@ -1313,15 +1315,15 @@
   background: rgba(0, 0, 0, 0.01);
 }
 
-.rich-modalpanel .rich-mp-container .rich-tabpanel-content > table input[type='text'] {
+.rich-modalpanel .rich-mp-container .rich-tabpanel-content > table input[type="text"] {
   width: 98%;
 }
 
-.rich-modalpanel .rich-mp-container .rich-tabpanel-content > table input[type='text']:nth-child(1) {
+.rich-modalpanel .rich-mp-container .rich-tabpanel-content > table input[type="text"]:nth-child(1) {
   min-width: 120px;
 }
 
-.rich-modalpanel .rich-mp-container .rich-tabpanel-content > table input[type='text'][value='...'] {
+.rich-modalpanel .rich-mp-container .rich-tabpanel-content > table input[type="text"][value="..."] {
   width: 40px !important;
   max-width: 40px !important;
   min-width: 40px !important;
@@ -1335,9 +1337,9 @@
   width: 99.5%;
 }
 
-.rich-modalpanel input[value='Zatwierdź'],
-.rich-modalpanel input[value='Zapisz'],
-.rich-modalpanel input[value='OK'] {
+.rich-modalpanel input[value="Zatwierdź"],
+.rich-modalpanel input[value="Zapisz"],
+.rich-modalpanel input[value="OK"] {
   font-size: 18px;
   background: #b4d62b;
   padding: 7px 30px 9px;
@@ -1353,9 +1355,9 @@
   transition: 200ms;
 }
 
-.rich-modalpanel input[value='Zatwierdź']:hover,
-.rich-modalpanel input[value='Zapisz']:hover,
-.rich-modalpanel input[value='OK']:hover {
+.rich-modalpanel input[value="Zatwierdź"]:hover,
+.rich-modalpanel input[value="Zapisz"]:hover,
+.rich-modalpanel input[value="OK"]:hover {
   -webkit-transition: 200ms;
   transition: 200ms;
   -webkit-transform: translateY(-2px);
@@ -1364,7 +1366,7 @@
           box-shadow: 2px 6px 7px -4px rgba(0, 0, 0, 0.6);
 }
 
-.rich-modalpanel input[value='Anuluj'] {
+.rich-modalpanel input[value="Anuluj"] {
   font-size: 15px !important;
   padding: 6px 20px;
   outline: 0;
@@ -1376,11 +1378,11 @@
   cursor: pointer;
 }
 
-.rich-modalpanel input[value='Anuluj']:hover {
+.rich-modalpanel input[value="Anuluj"]:hover {
   opacity: 0.8;
 }
 
-.rich-modalpanel input[value='Przelicz'] {
+.rich-modalpanel input[value="Przelicz"] {
   font-size: 14px;
   background: #fff;
   border: 1px solid #ddd;
@@ -1393,13 +1395,13 @@
   margin-right: 5px;
 }
 
-.rich-modalpanel input[value='Przelicz']:hover {
+.rich-modalpanel input[value="Przelicz"]:hover {
   border-color: #b4d62b;
   -webkit-transition: 200ms;
   transition: 200ms;
 }
 
-.rich-modalpanel input[value='Nowy kontrahent'] {
+.rich-modalpanel input[value="Nowy kontrahent"] {
   font-size: 16px;
   padding: 5px 30px 7px;
   margin: 10px;
@@ -1412,12 +1414,12 @@
   cursor: pointer;
 }
 
-.rich-modalpanel input[value='Nowy kontrahent']:hover {
+.rich-modalpanel input[value="Nowy kontrahent"]:hover {
   background: #b4d62b;
   color: #fff;
 }
 
-.rich-modalpanel input[type='text'],
+.rich-modalpanel input[type="text"],
 .rich-modalpanel select {
   height: 26px !important;
   padding-left: 5px !important;
@@ -1430,14 +1432,14 @@
   background-image: none !important;
 }
 
-.rich-modalpanel input[type='checkbox'] {
+.rich-modalpanel input[type="checkbox"] {
   min-width: 20px !important;
   width: 20px !important;
   display: inline-table !important;
   vertical-align: middle !important;
 }
 
-.rich-modalpanel .rich-datalist .rich-list-item input[type='checkbox'] {
+.rich-modalpanel .rich-datalist .rich-list-item input[type="checkbox"] {
   margin-right: 10px !important;
 }
 
@@ -1455,8 +1457,10 @@
 /* //popup */
 /* BUTTONS */
 /* -- dodaj bialy */
-input[value='Dodaj'],
-input[value='Nowy wniosek'] {
+input[value="Dodaj"],
+input[value="Kopiuj"],
+input[value="Nowy wniosek"],
+span[id*="printAllSelectedReportsButton"] a {
   font-size: 16px !important;
   padding: 5px 30px 7px !important;
   margin: 10px !important;
@@ -1469,14 +1473,35 @@ input[value='Nowy wniosek'] {
   cursor: pointer;
 }
 
-input[value='Dodaj']:hover,
-input[value='Nowy wniosek']:hover {
+input[value="Dodaj"]:hover,
+input[value="Kopiuj"]:hover,
+input[value="Nowy wniosek"]:hover,
+span[id*="printAllSelectedReportsButton"] a:hover {
   background: #b4d62b !important;
   color: #fff !important;
 }
 
+/* -- usun czarny */
+input[value="Usuń"] {
+  font-size: 14px !important;
+  padding: 5px 30px 7px !important;
+  margin: 5px 10px !important;
+  background-image: none !important;
+  background-color: #000 !important;
+  color: #fff !important;
+  border: 1px solid #000 !important;
+  border-radius: 4px !important;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+input[value="Usuń"]:hover {
+  background: #b4d62b !important;
+  color: #000 !important;
+}
+
 /* -- zapisz zielony */
-input[value='Wybierz'] {
+input[value="Wybierz"] {
   font-size: 17px !important;
   padding: 6px 50px;
   outline: 0;
@@ -1493,7 +1518,7 @@ input[value='Wybierz'] {
           box-shadow: 0px 6px 7px -4px rgba(0, 0, 0, 0.6);
 }
 
-input[value='Wybierz']:hover {
+input[value="Wybierz"]:hover {
   background: #000 !important;
   color: #b4d62b !important;
   -webkit-transition: all 300ms ease-in-out;
@@ -1505,9 +1530,10 @@ input[value='Wybierz']:hover {
 }
 
 /* -- szukaj zielony czarny */
-input[value='Znajdź PKD'],
-input[value='Znajdź EKD'],
-input[value='Szukaj'] {
+input[value="Znajdź PKD"],
+input[value="Znajdź EKD"],
+input[value="Szukaj"],
+a[id*="checkAllReports"] {
   padding: 2px 30px !important;
   height: 30px !important;
   background: #b4d62b;
@@ -1518,9 +1544,10 @@ input[value='Szukaj'] {
   border-radius: 3px;
 }
 
-input[value='Znajdź PKD']:hover,
-input[value='Znajdź EKD']:hover,
-input[value='Szukaj']:hover {
+input[value="Znajdź PKD"]:hover,
+input[value="Znajdź EKD"]:hover,
+input[value="Szukaj"]:hover,
+a[id*="checkAllReports"]:hover {
   -webkit-transition: 200ms;
   transition: 200ms;
   background: #000;
@@ -1528,12 +1555,39 @@ input[value='Szukaj']:hover {
   border-color: #b4d62b;
 }
 
+/* -- drukuj bialy z zielonym (nipsearch) */
+a[id*="printReport"] {
+  padding: 4px 12px 5px !important;
+  border: 1px solid #b4d62b !important;
+  color: #000 !important;
+  background: #fff !important;
+  background-image: none;
+  border-radius: 3px;
+  cursor: pointer;
+  height: inherit !important;
+  font-size: 11px !important;
+  line-height: 15px !important;
+  display: block;
+  max-width: 60px !important;
+  text-align: center;
+}
+
+a[id*="printReport"]:hover {
+  background: #b4d62b !important;
+}
+
 /* -- dots */
-input[value='...'] {
+input[value="..."] {
   width: 30px !important;
   max-width: 30px !important;
   min-width: 30px !important;
   height: 30px !important;
+  border: 1px solid #b4d62b !important;
+  padding: 0 !important;
+}
+
+input[value="..."]:hover {
+  border-color: #000;
 }
 
 /* //buttons */
