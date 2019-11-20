@@ -374,6 +374,14 @@
   background-image: none !important;
 }
 
+.yui-layout-unit-center option {
+  font-size: 12px;
+  height: 18px !important;
+  line-height: 14px !important;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
 .yui-layout-unit-center input:focus,
 .yui-layout-unit-center textarea:focus,
 .yui-layout-unit-center select:focus {
@@ -528,6 +536,23 @@
 .yui-layout-unit-center fieldset textarea[id^="memoField"] {
   padding: 10px;
   font-size: 15px;
+}
+
+.yui-layout-unit-center fieldset .rich-subtable-cell a.displayInlineNoMargin {
+  font-size: 12px !important;
+  display: inline-block;
+  margin-left: 5px !important;
+  padding: 0 5px 3px;
+  background: #b4d62b;
+  height: 22px;
+  border-radius: 3px;
+  color: #555;
+  border: 1px solid #b4d62b;
+}
+
+.yui-layout-unit-center fieldset .rich-subtable-cell a.displayInlineNoMargin:hover {
+  border-color: #000;
+  text-decoration: none;
 }
 
 .yui-layout-unit-center fieldset .rich-stglpanel-body .rich-tab-bottom-line {
@@ -795,7 +820,7 @@
 }
 
 .yui-layout-unit-center .rich-panel .rich-stglpanel .rich-stglpanel-body {
-  padding: 20px 10px !important;
+  padding: 5px 10px !important;
 }
 
 .yui-layout-unit-center .rich-panel .rich-stglpanel .rich-stglpanel-body #panelKontrahent_body input[type="text"],
@@ -1465,6 +1490,7 @@ input[value="Edytuj"]:hover {
 }
 
 /* -- usun czarny */
+input[value="Wyczyść"],
 input[value="Usuń"] {
   font-size: 14px !important;
   padding: 5px 30px 7px !important;
@@ -1478,6 +1504,7 @@ input[value="Usuń"] {
   cursor: pointer;
 }
 
+input[value="Wyczyść"]:hover,
 input[value="Usuń"]:hover {
   background: #b4d62b !important;
   color: #000 !important;
