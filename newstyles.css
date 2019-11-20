@@ -47,6 +47,7 @@
   border-radius: 5px;
   border: 1px solid #bbb;
   font-size: 12px !important;
+  line-height: 18px !important;
   font-weight: 300;
   padding: 4px 10px !important;
   -webkit-transform: scale(0.95);
@@ -55,10 +56,6 @@
 
 .rich-tool-tip span {
   font-size: 12px !important;
-}
-
-.rich-tool-tip span br:first-child {
-  display: none;
 }
 
 .rich-tool-tip span font {
@@ -318,10 +315,8 @@
   /* kalkulacja - ZAPIS OPERACJI */
   /* //kalkulacja - zapis operacji */
   /* rich panele - harmonijka (kalkulacje, nowa kalkulacja, kontrahent) */
-  /* -wybor produktu finansowego */
-  /* //-wybor produktu finansowego */
-  /* main content TABS */
-  /* Search form */
+  /* nowa kalkulacja - finansowanie */
+  /* // nowa kalkulacja - finansowanie */
 }
 
 .yui-layout-unit-center #reportPanel {
@@ -787,11 +782,6 @@
   color: #fff;
 }
 
-.yui-layout-unit-center .rich-panel {
-  /* nowa kalkulacja - finansowanie */
-  /* // nowa kalkulacja - finansowanie */
-}
-
 .yui-layout-unit-center .rich-panel .rich-stglpanel {
   margin-bottom: 2px;
   border-radius: 5px;
@@ -885,32 +875,7 @@
           box-shadow: 0 8px 10px -4px rgba(0, 0, 0, 0.6);
 }
 
-.yui-layout-unit-center .rich-panel #dfecontarctButtonsForm input[value="Kopiuj wniosek"] {
-  font-size: 18px;
-  background: #b4d62b;
-  padding: 7px 30px 9px;
-  border: 0;
-  color: #fff;
-  font-weight: 500;
-  margin: 0 10px 5px;
-  border-radius: 5px;
-  cursor: pointer;
-  -webkit-box-shadow: 0px 6px 7px -4px rgba(0, 0, 0, 0.6);
-          box-shadow: 0px 6px 7px -4px rgba(0, 0, 0, 0.6);
-  -webkit-transition: 200ms;
-  transition: 200ms;
-}
-
-.yui-layout-unit-center .rich-panel #dfecontarctButtonsForm input[value="Kopiuj wniosek"]:hover {
-  -webkit-transition: 200ms;
-  transition: 200ms;
-  -webkit-transform: translateY(-2px);
-          transform: translateY(-2px);
-  -webkit-box-shadow: 2px 6px 7px -4px rgba(0, 0, 0, 0.6);
-          box-shadow: 2px 6px 7px -4px rgba(0, 0, 0, 0.6);
-}
-
-.yui-layout-unit-center .rich-panel #dfecontarctButtonsForm input[value="Anuluj"] {
+.yui-layout-unit-center .rich-panel input[value="Anuluj"] {
   font-size: 15px !important;
   padding: 6px 20px;
   outline: 0;
@@ -922,16 +887,16 @@
   cursor: pointer;
 }
 
-.yui-layout-unit-center .rich-panel #dfecontarctButtonsForm input[value="Anuluj"]:hover {
+.yui-layout-unit-center .rich-panel input[value="Anuluj"]:hover {
   opacity: 0.8;
 }
 
-.yui-layout-unit-center .rich-panel #calcSTP table {
+.yui-layout-unit-center #calcSTP table {
   margin-top: 15px !important;
 }
 
-.yui-layout-unit-center .rich-panel #calcSTP input[type="text"],
-.yui-layout-unit-center .rich-panel #calcSTP select {
+.yui-layout-unit-center #calcSTP input[type="text"],
+.yui-layout-unit-center #calcSTP select {
   font-size: 14px;
   height: 26px;
   border-radius: 3px;
@@ -941,8 +906,8 @@
   padding-left: 5px;
 }
 
-.yui-layout-unit-center .rich-panel #calcSTP input[type="button"],
-.yui-layout-unit-center .rich-panel #calcSTP input[type="submit"] {
+.yui-layout-unit-center #calcSTP input[type="button"],
+.yui-layout-unit-center #calcSTP input[type="submit"] {
   font-size: 14px;
   background: #fff;
   border: 1px solid #ddd;
@@ -956,84 +921,85 @@
   margin-right: 5px;
 }
 
-.yui-layout-unit-center .rich-panel #calcSTP input[type="button"]:hover,
-.yui-layout-unit-center .rich-panel #calcSTP input[type="submit"]:hover {
+.yui-layout-unit-center #calcSTP input[type="button"]:hover,
+.yui-layout-unit-center #calcSTP input[type="submit"]:hover {
   border-color: #b4d62b;
   -webkit-transition: 200ms;
   transition: 200ms;
 }
 
-.yui-layout-unit-center .rich-panel #calcSTP input[value="Przelicz"] {
+.yui-layout-unit-center #calcSTP input[value="Przelicz"] {
   background: #b4d62b !important;
   font-weight: 700 !important;
 }
 
-.yui-layout-unit-center .rich-panel #calcSTP input[value="Przelicz"]:hover {
+.yui-layout-unit-center #calcSTP input[value="Przelicz"]:hover {
   background: #666 !important;
   color: #fff;
   border-color: #fff;
 }
 
-.yui-layout-unit-center .rich-panel #calcSTP input[value="Podgląd harmonogramu"] {
+.yui-layout-unit-center #calcSTP input[value="Podgląd harmonogramu"] {
   font-weight: 700 !important;
   border: 1px solid #000 !important;
   background: #666 !important;
   color: #fff !important;
 }
 
-.yui-layout-unit-center .rich-panel #calcSTP input[value="Podgląd harmonogramu"]:hover {
+.yui-layout-unit-center #calcSTP input[value="Podgląd harmonogramu"]:hover {
   border-color: #b4d62b !important;
   color: #b4d62b !important;
 }
 
-.yui-layout-unit-center .fixedWorkflowBarOtherElements {
+/* -wybor produktu finansowego */
+.fixedWorkflowBarOtherElements {
   min-height: 530px;
 }
 
-.yui-layout-unit-center .fixedWorkflowBarOtherElements tr:nth-child(1) .rich-panel {
+.fixedWorkflowBarOtherElements tr:nth-child(1) .rich-panel {
   position: absolute;
   left: 40px;
   top: 80px;
 }
 
-.yui-layout-unit-center .fixedWorkflowBarOtherElements tr:nth-child(3) .rich-panel {
+.fixedWorkflowBarOtherElements tr:nth-child(3) .rich-panel {
   position: absolute;
   top: 80px;
   left: 580px;
 }
 
-.yui-layout-unit-center .fixedWorkflowBarOtherElements tr:nth-child(5) .rich-panel {
+.fixedWorkflowBarOtherElements tr:nth-child(5) .rich-panel {
   position: absolute;
   top: 325px;
   left: 40px;
 }
 
-.yui-layout-unit-center .fixedWorkflowBarOtherElements tr:nth-child(7) .rich-panel {
+.fixedWorkflowBarOtherElements tr:nth-child(7) .rich-panel {
   position: absolute;
   left: 580px;
   top: 325px;
 }
 
-.yui-layout-unit-center .fixedWorkflowBarOtherElements tr:nth-child(1) .rich-panel:hover,
-.yui-layout-unit-center .fixedWorkflowBarOtherElements tr:nth-child(3) .rich-panel:hover,
-.yui-layout-unit-center .fixedWorkflowBarOtherElements tr:nth-child(5) .rich-panel:hover,
-.yui-layout-unit-center .fixedWorkflowBarOtherElements tr:nth-child(7) .rich-panel:hover {
+.fixedWorkflowBarOtherElements tr:nth-child(1) .rich-panel:hover,
+.fixedWorkflowBarOtherElements tr:nth-child(3) .rich-panel:hover,
+.fixedWorkflowBarOtherElements tr:nth-child(5) .rich-panel:hover,
+.fixedWorkflowBarOtherElements tr:nth-child(7) .rich-panel:hover {
   border-color: #b4d62b;
 }
 
-.yui-layout-unit-center .fixedWorkflowBarOtherElements tr:nth-child(1) .rich-panel:hover .rich-panel-header,
-.yui-layout-unit-center .fixedWorkflowBarOtherElements tr:nth-child(3) .rich-panel:hover .rich-panel-header,
-.yui-layout-unit-center .fixedWorkflowBarOtherElements tr:nth-child(5) .rich-panel:hover .rich-panel-header,
-.yui-layout-unit-center .fixedWorkflowBarOtherElements tr:nth-child(7) .rich-panel:hover .rich-panel-header {
+.fixedWorkflowBarOtherElements tr:nth-child(1) .rich-panel:hover .rich-panel-header,
+.fixedWorkflowBarOtherElements tr:nth-child(3) .rich-panel:hover .rich-panel-header,
+.fixedWorkflowBarOtherElements tr:nth-child(5) .rich-panel:hover .rich-panel-header,
+.fixedWorkflowBarOtherElements tr:nth-child(7) .rich-panel:hover .rich-panel-header {
   background-color: #b4d62d !important;
   -webkit-transition: 300ms;
   transition: 300ms;
 }
 
-.yui-layout-unit-center .fixedWorkflowBarOtherElements tr:nth-child(1) .rich-panel-header,
-.yui-layout-unit-center .fixedWorkflowBarOtherElements tr:nth-child(3) .rich-panel-header,
-.yui-layout-unit-center .fixedWorkflowBarOtherElements tr:nth-child(5) .rich-panel-header,
-.yui-layout-unit-center .fixedWorkflowBarOtherElements tr:nth-child(7) .rich-panel-header {
+.fixedWorkflowBarOtherElements tr:nth-child(1) .rich-panel-header,
+.fixedWorkflowBarOtherElements tr:nth-child(3) .rich-panel-header,
+.fixedWorkflowBarOtherElements tr:nth-child(5) .rich-panel-header,
+.fixedWorkflowBarOtherElements tr:nth-child(7) .rich-panel-header {
   font-size: 16px !important;
   line-height: 32px;
   background-image: none !important;
@@ -1047,32 +1013,34 @@
   transition: 300ms;
 }
 
-.yui-layout-unit-center .rich-datascr-act {
+/* //-wybor produktu finansowego */
+/* main content TABS */
+.rich-datascr-act {
   border-top-color: #b4d62b;
   color: #000;
   font-size: 14px !important;
 }
 
-.yui-layout-unit-center input[type="checkbox"] {
+input[type="checkbox"] {
   min-width: 20px !important;
   width: 20px !important;
   display: inline-table !important;
   vertical-align: middle !important;
 }
 
-.yui-layout-unit-center .rich-datalist .rich-list-item input[type="checkbox"] {
+.rich-datalist .rich-list-item input[type="checkbox"] {
   margin-right: 10px !important;
 }
 
-.yui-layout-unit-center .rich-panel-body {
+.rich-panel-body {
   font-size: 14px !important;
 }
 
-.yui-layout-unit-center .rich-tab-bottom-line {
+.rich-tab-bottom-line {
   text-align: left;
 }
 
-.yui-layout-unit-center .rich-tab-header {
+.rich-tab-header {
   font-size: 12px;
   padding: 6px 9px 9px;
   background: #efefef !important;
@@ -1081,7 +1049,7 @@
   height: 30px;
 }
 
-.yui-layout-unit-center .rich-tab-active {
+.rich-tab-active {
   background: #fff !important;
   padding-top: 6px !important;
   padding-left: 20px;
@@ -1091,41 +1059,41 @@
   font-size: 14px;
 }
 
-.yui-layout-unit-center .rich-tabhdr-cell-disabled,
-.yui-layout-unit-center .rich-tabhdr-cell-inactive {
+.rich-tabhdr-cell-disabled,
+.rich-tabhdr-cell-inactive {
   padding-top: 6px !important;
 }
 
-.yui-layout-unit-center .rich-tabpanel-content .rich-table td {
+.rich-tabpanel-content .rich-table td {
   font-size: 12px;
   line-height: 14px;
 }
 
-.yui-layout-unit-center .rich-tabpanel-content .rich-table-subheader span,
-.yui-layout-unit-center .rich-tabpanel-content .rich-table-subheader div {
+.rich-tabpanel-content .rich-table-subheader span,
+.rich-tabpanel-content .rich-table-subheader div {
   font-size: 13px;
   line-height: 20px;
 }
 
-.yui-layout-unit-center .rich-tabpanel-content textarea#field_long {
+.rich-tabpanel-content textarea#field_long {
   width: 100%;
 }
 
-.yui-layout-unit-center .rich-tabpanel-content label {
+.rich-tabpanel-content label {
   font-size: 14px;
   line-height: 14px;
   text-align: left;
 }
 
-.yui-layout-unit-center .rich-tabpanel-content input[type="checkbox"] {
+.rich-tabpanel-content input[type="checkbox"] {
   min-width: 20px !important;
   width: 20px !important;
   display: inline-table !important;
   vertical-align: middle !important;
 }
 
-.yui-layout-unit-center .rich-tabpanel-content input[type="text"],
-.yui-layout-unit-center .rich-tabpanel-content select {
+.rich-tabpanel-content input[type="text"],
+.rich-tabpanel-content select {
   height: 26px !important;
   padding-left: 5px !important;
   border-radius: 3px;
@@ -1137,7 +1105,7 @@
   background-image: none !important;
 }
 
-.yui-layout-unit-center .rich-tabpanel-content textarea {
+.rich-tabpanel-content textarea {
   padding-left: 5px !important;
   border-radius: 3px;
   -webkit-box-shadow: none !important;
@@ -1148,33 +1116,34 @@
   background-image: none !important;
 }
 
-.yui-layout-unit-center .rich-tabpanel-content input[type="text"]:focus,
-.yui-layout-unit-center .rich-tabpanel-content textarea:focus,
-.yui-layout-unit-center .rich-tabpanel-content select:focus {
+.rich-tabpanel-content input[type="text"]:focus,
+.rich-tabpanel-content textarea:focus,
+.rich-tabpanel-content select:focus {
   outline-color: #b4d62b;
   background: rgba(0, 0, 0, 0.01);
 }
 
-.yui-layout-unit-center .rich-tabpanel-content > table input {
+.rich-tabpanel-content > table input {
   width: 98%;
 }
 
-.yui-layout-unit-center .rich-tabpanel-content > table input:nth-child(1) {
+.rich-tabpanel-content > table input:nth-child(1) {
   min-width: 120px;
 }
 
-.yui-layout-unit-center .rich-tabpanel-content > table textarea {
+.rich-tabpanel-content > table textarea {
   width: 95%;
 }
 
-.yui-layout-unit-center .rich-tabpanel-content > table select {
+.rich-tabpanel-content > table select {
   width: 99.5%;
 }
 
-.yui-layout-unit-center #searchPanel #btnSearch,
-.yui-layout-unit-center #searchPanel .btnHarm,
-.yui-layout-unit-center #customerSearchForm #btnSearch,
-.yui-layout-unit-center #customerSearchForm .btnHarm {
+/* Search form */
+#searchPanel #btnSearch,
+#searchPanel .btnHarm,
+#customerSearchForm #btnSearch,
+#customerSearchForm .btnHarm {
   padding: 2px 30px !important;
   height: 30px !important;
   background: #b4d62b;
@@ -1184,10 +1153,10 @@
   cursor: pointer;
 }
 
-.yui-layout-unit-center #searchPanel #btnSearch:hover,
-.yui-layout-unit-center #searchPanel .btnHarm:hover,
-.yui-layout-unit-center #customerSearchForm #btnSearch:hover,
-.yui-layout-unit-center #customerSearchForm .btnHarm:hover {
+#searchPanel #btnSearch:hover,
+#searchPanel .btnHarm:hover,
+#customerSearchForm #btnSearch:hover,
+#customerSearchForm .btnHarm:hover {
   -webkit-transition: 200ms;
   transition: 200ms;
   background: #000;
@@ -1195,13 +1164,13 @@
   border-color: #b4d62b;
 }
 
-.yui-layout-unit-center #searchPanel #btnClean,
-.yui-layout-unit-center #customerSearchForm #btnClean {
+#searchPanel #btnClean,
+#customerSearchForm #btnClean {
   cursor: pointer;
 }
 
-.yui-layout-unit-center #searchPanel #btnClean:hover,
-.yui-layout-unit-center #customerSearchForm #btnClean:hover {
+#searchPanel #btnClean:hover,
+#customerSearchForm #btnClean:hover {
   background: #fff;
 }
 
@@ -1472,7 +1441,8 @@
 input[value="Dodaj"],
 input[value="Kopiuj"],
 input[value="Nowy wniosek"],
-span[id*="printAllSelectedReportsButton"] a {
+span[id*="printAllSelectedReportsButton"] a,
+input[value="Edytuj"] {
   font-size: 16px !important;
   padding: 5px 30px 7px !important;
   margin: 10px !important;
@@ -1488,7 +1458,8 @@ span[id*="printAllSelectedReportsButton"] a {
 input[value="Dodaj"]:hover,
 input[value="Kopiuj"]:hover,
 input[value="Nowy wniosek"]:hover,
-span[id*="printAllSelectedReportsButton"] a:hover {
+span[id*="printAllSelectedReportsButton"] a:hover,
+input[value="Edytuj"]:hover {
   background: #b4d62b !important;
   color: #fff !important;
 }
@@ -1513,7 +1484,8 @@ input[value="Usuń"]:hover {
 }
 
 /* -- zapisz zielony */
-input[value="Wybierz"] {
+input[value="Wybierz"],
+input[value="Kopiuj wniosek"] {
   font-size: 17px !important;
   padding: 6px 50px;
   outline: 0;
@@ -1530,7 +1502,8 @@ input[value="Wybierz"] {
           box-shadow: 0px 6px 7px -4px rgba(0, 0, 0, 0.6);
 }
 
-input[value="Wybierz"]:hover {
+input[value="Wybierz"]:hover,
+input[value="Kopiuj wniosek"]:hover {
   background: #000 !important;
   color: #b4d62b !important;
   -webkit-transition: all 300ms ease-in-out;
