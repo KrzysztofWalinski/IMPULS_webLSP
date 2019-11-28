@@ -916,12 +916,12 @@
   opacity: 0.8;
 }
 
-.yui-layout-unit-center #calcSTP table {
+.yui-layout-unit-center #WorkFlowForm table {
   margin-top: 15px !important;
 }
 
-.yui-layout-unit-center #calcSTP input[type="text"],
-.yui-layout-unit-center #calcSTP select {
+.yui-layout-unit-center #WorkFlowForm input[type="text"],
+.yui-layout-unit-center #WorkFlowForm select {
   font-size: 14px;
   height: 26px;
   border-radius: 3px;
@@ -929,51 +929,6 @@
   margin-bottom: 3px;
   min-width: 250px;
   padding-left: 5px;
-}
-
-.yui-layout-unit-center #calcSTP input[type="button"],
-.yui-layout-unit-center #calcSTP input[type="submit"] {
-  font-size: 14px;
-  background: #fff;
-  border: 1px solid #ddd;
-  border-radius: 3px;
-  font-weight: 500;
-  padding: 8px 30px;
-  cursor: pointer;
-  -webkit-transition: 200ms;
-  transition: 200ms;
-  margin-left: 5px;
-  margin-right: 5px;
-}
-
-.yui-layout-unit-center #calcSTP input[type="button"]:hover,
-.yui-layout-unit-center #calcSTP input[type="submit"]:hover {
-  border-color: #b4d62b;
-  -webkit-transition: 200ms;
-  transition: 200ms;
-}
-
-.yui-layout-unit-center #calcSTP input[value="Przelicz"] {
-  background: #b4d62b !important;
-  font-weight: 700 !important;
-}
-
-.yui-layout-unit-center #calcSTP input[value="Przelicz"]:hover {
-  background: #666 !important;
-  color: #fff;
-  border-color: #fff;
-}
-
-.yui-layout-unit-center #calcSTP input[value="Podgląd harmonogramu"] {
-  font-weight: 700 !important;
-  border: 1px solid #000 !important;
-  background: #666 !important;
-  color: #fff !important;
-}
-
-.yui-layout-unit-center #calcSTP input[value="Podgląd harmonogramu"]:hover {
-  border-color: #b4d62b !important;
-  color: #b4d62b !important;
 }
 
 /* -wybor produktu finansowego */
@@ -1425,6 +1380,24 @@ input[type="checkbox"] {
   color: #fff;
 }
 
+.rich-modalpanel input[value="Edytuj"] {
+  font-size: 16px;
+  padding: 5px 30px 7px;
+  margin: 10px;
+  background-image: none;
+  background-color: #b4d62b !important;
+  color: #000 !important;
+  border: 2px solid #b4d62b !important;
+  border-radius: 4px !important;
+  font-weight: 700 !important;
+  cursor: pointer;
+}
+
+.rich-modalpanel input[value="Edytuj"]:hover {
+  background: #b4d62b !important;
+  color: #fff !important;
+}
+
 .rich-modalpanel input[type="text"],
 .rich-modalpanel select {
   height: 26px !important;
@@ -1460,9 +1433,98 @@ input[type="checkbox"] {
   line-height: 22px;
 }
 
+.rich-modalpanel .rich-mp-container input[type="text"],
+.rich-modalpanel .rich-mp-container select {
+  font-size: 14px;
+  height: 26px;
+  border-radius: 3px;
+  border: 1px solid #ddd;
+  margin-bottom: 3px;
+  min-width: 250px;
+  padding-left: 5px;
+}
+
+.rich-modalpanel .rich-mp-container input[type="button"],
+.rich-modalpanel .rich-mp-container input[type="submit"] {
+  font-size: 14px;
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 3px;
+  font-weight: 500;
+  padding: 8px 30px;
+  cursor: pointer;
+  -webkit-transition: 200ms;
+  transition: 200ms;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.rich-modalpanel .rich-mp-container input[type="button"]:hover,
+.rich-modalpanel .rich-mp-container input[type="submit"]:hover {
+  border-color: #b4d62b;
+  -webkit-transition: 200ms;
+  transition: 200ms;
+}
+
+.rich-modalpanel .rich-mp-container input[value="Przelicz"] {
+  background: #b4d62b !important;
+  font-weight: 700 !important;
+}
+
+.rich-modalpanel .rich-mp-container input[value="Przelicz"]:hover {
+  background: #666 !important;
+  color: #fff;
+  border-color: #fff;
+}
+
+.rich-modalpanel .rich-mp-container input[value="Podgląd harmonogramu"] {
+  font-weight: 700 !important;
+  border: 1px solid #000 !important;
+  background: #666 !important;
+  color: #fff !important;
+}
+
+.rich-modalpanel .rich-mp-container input[value="Podgląd harmonogramu"]:hover {
+  border-color: #b4d62b !important;
+  color: #b4d62b !important;
+}
+
+.rich-modalpanel .rich-mp-container input[value="Zatwierdź"],
+.rich-modalpanel .rich-mp-container input[value="Zapisz"],
+.rich-modalpanel .rich-mp-container input[value="OK"] {
+  font-size: 17px !important;
+  padding: 6px 50px;
+  outline: 0;
+  border: 0;
+  margin: 0 10px;
+  background: #b4d62b !important;
+  color: #fff !important;
+  border-radius: 3px;
+  font-weight: 700;
+  cursor: pointer;
+  -webkit-transition: all 100ms ease-in-out;
+  transition: all 100ms ease-in-out;
+  -webkit-box-shadow: 0px 6px 7px -4px rgba(0, 0, 0, 0.6);
+          box-shadow: 0px 6px 7px -4px rgba(0, 0, 0, 0.6);
+}
+
+.rich-modalpanel .rich-mp-container input[value="Zatwierdź"]:hover,
+.rich-modalpanel .rich-mp-container input[value="Zapisz"]:hover,
+.rich-modalpanel .rich-mp-container input[value="OK"]:hover {
+  background: #000 !important;
+  color: #b4d62b !important;
+  -webkit-transition: all 300ms ease-in-out;
+  transition: all 300ms ease-in-out;
+  -webkit-transform: translateY(-2px);
+          transform: translateY(-2px);
+  -webkit-box-shadow: 0 8px 10px -4px rgba(0, 0, 0, 0.6);
+          box-shadow: 0 8px 10px -4px rgba(0, 0, 0, 0.6);
+}
+
 /* //popup */
 /* BUTTONS */
 /* -- dodaj bialy */
+input[value="Nowa"],
 input[value="Dodaj"],
 input[value="Kopiuj"],
 input[value="Nowy wniosek"],
@@ -1480,6 +1542,7 @@ input[value="Edytuj"] {
   cursor: pointer;
 }
 
+input[value="Nowa"]:hover,
 input[value="Dodaj"]:hover,
 input[value="Kopiuj"]:hover,
 input[value="Nowy wniosek"]:hover,
@@ -1593,6 +1656,24 @@ a[id*="printReport"]:hover {
   transition: 300ms;
 }
 
+input[value="Anuluj"],
+input[value="Zamknij"] {
+  font-size: 15px !important;
+  padding: 6px 20px;
+  outline: 0;
+  border: 0;
+  margin: 0 10px;
+  background: #bbb !important;
+  color: #fff !important;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+input[value="Anuluj"]:hover,
+input[value="Zamknij"]:hover {
+  opacity: 0.8;
+}
+
 /* -- dots */
 input[value="..."] {
   width: 30px !important;
@@ -1618,6 +1699,74 @@ input[type="button"][disabled="disabled"] {
   color: #eee !important;
 }
 
+/* *NOWA KALKULACJA* */
+input[value="Przelicz ubezpieczenie"],
+input[value="Ustaw częstotliwości spłat"],
+input[value="Kalkulacja nieliniowa"],
+input[value="Sprawdź zaznaczone w KRD"] {
+  font-size: 14px;
+  border: 1px solid #ddd;
+  border-radius: 3px;
+  padding: 8px 30px;
+  cursor: pointer;
+  -webkit-transition: 200ms;
+  transition: 200ms;
+  margin-left: 5px;
+  margin-right: 5px;
+  background: #fff;
+  font-weight: 500;
+}
+
+input[value="Przelicz ubezpieczenie"]:hover,
+input[value="Ustaw częstotliwości spłat"]:hover,
+input[value="Kalkulacja nieliniowa"]:hover,
+input[value="Sprawdź zaznaczone w KRD"]:hover {
+  border-color: #b4d62b;
+  -webkit-transition: 200ms;
+  transition: 200ms;
+}
+
+input[value="Przelicz"] {
+  background: #b4d62b !important;
+  font-weight: 700 !important;
+  font-size: 14px;
+  border: 1px solid #ddd;
+  border-radius: 3px;
+  padding: 8px 30px;
+  cursor: pointer;
+  -webkit-transition: 200ms;
+  transition: 200ms;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+input[value="Przelicz"]:hover {
+  background: #666 !important;
+  color: #fff;
+  border-color: #fff;
+}
+
+input[value="Podgląd harmonogramu"] {
+  font-weight: 700 !important;
+  border: 1px solid #000 !important;
+  background: #666 !important;
+  color: #fff !important;
+  font-size: 14px;
+  border-radius: 3px;
+  padding: 8px 30px;
+  cursor: pointer;
+  -webkit-transition: 200ms;
+  transition: 200ms;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+input[value="Podgląd harmonogramu"]:hover {
+  border-color: #b4d62b !important;
+  color: #b4d62b !important;
+}
+
+/* --*nowa kalkulacja* */
 /* //buttons */
 /* BOTTOM */
 .yui-layout-unit-bottom {
@@ -1669,5 +1818,11 @@ input[type="button"][disabled="disabled"] {
 #waitModalPanel #waitModalForm img {
   margin-bottom: 30px !important;
   max-width: 80px !important;
+}
+
+.fixedWorkflowBarOtherElements .rich-pmenu-item-label tr:nth-child(1) .rich-panel {
+  position: inherit !important;
+  overflow: auto;
+  margin-top: 13px;
 }
 /*# sourceMappingURL=newstyles.css.map */
