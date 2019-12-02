@@ -916,10 +916,6 @@
   opacity: 0.8;
 }
 
-.yui-layout-unit-center #WorkFlowForm table {
-  margin-top: 15px !important;
-}
-
 .yui-layout-unit-center #WorkFlowForm input[type="text"],
 .yui-layout-unit-center #WorkFlowForm select {
   font-size: 14px;
@@ -1554,7 +1550,8 @@ input[value="Edytuj"]:hover {
 
 /* -- usun czarny */
 input[value="Wyczyść"],
-input[value="Usuń"] {
+input[value="Usuń"],
+input[value="Anuluj filtrowanie"] {
   font-size: 14px !important;
   padding: 5px 30px 7px !important;
   margin: 5px 10px !important;
@@ -1568,13 +1565,15 @@ input[value="Usuń"] {
 }
 
 input[value="Wyczyść"]:hover,
-input[value="Usuń"]:hover {
+input[value="Usuń"]:hover,
+input[value="Anuluj filtrowanie"]:hover {
   background: #b4d62b !important;
   color: #000 !important;
 }
 
 /* -- zapisz zielony */
 input[value="Wybierz"],
+input[value="Dodaj nowy wariant"],
 input[value="Kopiuj wniosek"] {
   font-size: 17px !important;
   padding: 6px 50px;
@@ -1593,6 +1592,7 @@ input[value="Kopiuj wniosek"] {
 }
 
 input[value="Wybierz"]:hover,
+input[value="Dodaj nowy wariant"]:hover,
 input[value="Kopiuj wniosek"]:hover {
   background: #000 !important;
   color: #b4d62b !important;
@@ -1608,7 +1608,8 @@ input[value="Kopiuj wniosek"]:hover {
 input[value="Znajdź PKD"],
 input[value="Znajdź EKD"],
 input[value="Szukaj"],
-a[id*="checkAllReports"] {
+a[id*="checkAllReports"],
+input[value="Filtruj"] {
   padding: 2px 30px !important;
   height: 30px !important;
   background: #b4d62b;
@@ -1623,7 +1624,8 @@ a[id*="checkAllReports"] {
 input[value="Znajdź PKD"]:hover,
 input[value="Znajdź EKD"]:hover,
 input[value="Szukaj"]:hover,
-a[id*="checkAllReports"]:hover {
+a[id*="checkAllReports"]:hover,
+input[value="Filtruj"]:hover {
   -webkit-transition: 200ms;
   transition: 200ms;
   background: #000;
@@ -1820,9 +1822,20 @@ input[value="Podgląd harmonogramu"]:hover {
   max-width: 80px !important;
 }
 
+/* postprod fix */
 .fixedWorkflowBarOtherElements .rich-pmenu-item-label tr:nth-child(1) .rich-panel {
   position: inherit !important;
   overflow: auto;
   margin-top: 13px;
+}
+
+.variantPanel .rich-panel {
+  position: relative !important;
+  top: inherit !important;
+  left: inherit !important;
+}
+
+#workflowToolBar {
+  margin-top: 0 !important;
 }
 /*# sourceMappingURL=newstyles.css.map */
